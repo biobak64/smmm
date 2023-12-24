@@ -17,316 +17,311 @@
 #endif
 
 DEFINE_DIALOG(DIALOG_000, 1, 7, 30, 200, _("\
-Ah, well if it isn't the world\n\
-famous Mario! You can call me\n\
-Professor T. I'm the owner of\n\
-this manor. I wish I had time\n\
-to sit and chat, but as you can\n\
-see things here are not well.\n\
+Ah ! Ne serait-ce pas le très\n\
+célèbre Mario ? Je suis le \n\
+Professeur T, propriétaire et \n\
+autrefois unique résident de ce\n\
+manoir. Tu dois bien te douter\n\
+que je ne suis pas responsable\n\
+de tout ce bazar...\n\
+Mon manoir a été assiégé par \n\
+des fantômes, des esprits\n\
+d'un autre monde.\n\
+Je travaillais au sous-sol\n\
+quand mon labo a été assailli,\n\
+et en une fraction de seconde,\n\
+j'en ai été chassé par ces\n\
+rats volants, ces revenuls, ces\n\
+zigotômes, ces appourritions...\n\
+J'ai dû interrompre mes\n\
+recherches, mais ça m'a laissé\n\
+le temps de développer de\n\
+toutes nouvelles insultes.\n\
 \n\
-My manor has been sieged by \n\
-ghosts - monsters of another\n\
-realm. I was in the basement\n\
-working on my research, when\n\
-suddenly before I knew it,\n\
-my lab had been taken over -\n\
-by these otherworldly creatures,\n\
-these spectermites, these \n\
-polter-mice, spooksquitoes\n\
-(I've had a lot of time to \n\
-come up with fitting insults\n\
-for them).\n\
+Ils ont infesté toutes les\n\
+pièces du manoir ! Ils volent,\n\
+ils blessent, ils corrompent,\n\
+ils déchirent les fils qui\n\
+tissent notre univers et\n\
+le salissent avec leur\n\
+immonde bouillie spectrale.\n\
+Je pense que tu avais déjà\n\
+remarqué ce dernier point.\n\
+Si j'avais accès à mon labo,\n\
+je pourrais sûrement clore le\n\
+vortex par lequel ils\n\
+s'infiltrent mais, bien sûr,\n\
+c'aurait été trop simple...\n\
+La porte du Sous-sol semble\n\
+être bloquée par un genre de\n\
+barrière spectrale.\n\
+Tout ce que je sais, c'est que\n\
+mes radars détectent une\n\
+forte activité paranormale\n\
+au troisième étage.\n\
+Tu pourrais aller vérifier pour\n\
+moi? Il te faudra d'abord\n\
+trouver la clé de la porte\n\
+derrière nous, que je crois\n\
+avoir laissée dans la\n\
+Bibliothèque.\n\
 \n\
-\n\
-They infested every part of the\n\
-manor. Stealing, distorting \n\
-rooms, creating holes in the\n\
-very fabric of this world and\n\
-filling them with their own\n\
-disgusting, toxic spectral goop.\n\
-\n\
-Though, I suppose you've noticed\n\
-that one already. If I could\n\
-just get into my lab I might\n\
-be able to shut the portal\n\
-letting them in - but there's\n\
-just 1 small problem with that.\n\
-\n\
-The entrance to the basement\n\
-seems to be blocked by some\n\
-sort of spectral barrier.\n\
-The only lead I have is an\n\
-especially high level of\n\
-paranormal activity detected\n\
-on the third floor.\n\
-Do you think you could check\n\
-it out for me? You'll first\n\
-need to find the key to the\n\
-door right behind us, which\n\
-I believe I left in the \n\
-Library.\n\
-\n\
-Here, I'll give you this,\n\
-I call it the Room Manager.\n\
-It's really just a \n\
-souped-up piece of C Sharp \n\
-software, but it'll allow me\n\
-to contact you anywhere, \n\
-in addition to functioning -\n\
-as a map of the entire manor.\n\
-Press [L]   from the Pause Menu\n\
-to open it. \n\
-\n\
-\n\
-\n\
-\n\
-I'm counting on you Mario, my\n\
-fate is in your hands, and\n\
-depending on how fast these\n\
-Phantom-Fireflies can spread, \n\
-the fate of our entire world\n\
-may be in your hands too."))
+Au fait, prends ça. C'est un\n\
+Manoiradar. C'est un vieux\n\
+grille-pain que j'ai trafiqué\n\
+pour servir de talkie-walkie,\n\
+mais c'est aussi une carte\n\
+du manoir. Appuie sur [L]  dans\n\
+le menu de pause pour l'ouvrir.\n\
+Je compte sur toi, Mario, mon\n\
+destin repose sur tes épaules.\n\
+Et en fonction de la vitesse à\n\
+laquelle se propagent ces trucs,\n\
+peut-être aussi celui du monde.\n\
+Alors j'espère que tu as les \n\
+épaules solides."))
 
 DEFINE_DIALOG(DIALOG_001, 1, 5, 95, 200, _("\
-Hello Mario! It's me, \n\
-Professor T. If the GPS on\n\
-your Room Manager is accurate,\n\
-you've just entered the garage.\n\
+Allô, Mario ! C'est moi, \n\
+Professeur T. Si le GPS de ton\n\
+Manoiradar me dit vrai, tu\n\
+viens d'arriver dans le Garage.\n\
 \n\
-To your left is that spectral \n\
-barrier I was talking about. \n\
-I wouldn't even go near it if\n\
-I were you. \n\
+À ta gauche, tu trouveras \n\
+la fameuse barrière dont je te \n\
+parlais. Si j'étais toi, je ne\n\
+m'en approcherais pas.\n\
 \n\
-But anyway, I'm just calling\n\
-you to give a warning. Be\n\
-careful out there, virtually\n\
-every room of this place is\n\
-crawling with creatures - \n\
-but more importantly, money.\n\
-These ghostly little gremlins\n\
-broke into my treasury and \n\
-spread its contents far and\n\
-wide. \n\
-I'm asking you to be on the\n\
-lookout for anything and\n\
-everything that looks valuable.\n\
-Alright, that's all - \n\
-take care! ☆CLICK☆"))
+Enfin bref, je t'appelle\n\
+pour te conseiller de\n\
+garder les yeux ouverts.\n\
+Toutes ces salles sont\n\
+infestées de créatures,\n\
+mais aussi de pognon.\n\
+Ces petites saletés sont\n\
+allées fouiller mon coffre-\n\
+fort et ont éparpillé mes\n\
+économies partout.\n\
+Si tu vois des trucs qui\n\
+brillent, prends-les et\n\
+fourre-les dans tes poches.\n\
+Voilà, c'est tout.\n\
+Bon courage ! ☆CLIC☆"))
 
 DEFINE_DIALOG(DIALOG_002, 1, 4, 95, 200, _("\
-Hello again, Mario! I \n\
-believe you've just found\n\
-your way into the dining \n\
-room. \n\
-Now would be as good a \n\
-time as any to mention \n\
-that certain rooms, like\n\
-this one, have been -\n\
-especially 『infected』 by\n\
-one ghost in particular. \n\
+Rebonjour, Mario !\n\
+Il semblerait que tu aies\n\
+atteint la salle à manger.\n\
+\n\
+C'est l'occasion parfaite \n\
+pour te prévenir que certaines\n\
+salles, y compris celle-ci,\n\
+ont été tout particulièrement\n\
+『infectées』par un fantôme\n\
+plus puissant que les autres. \n\
 \n\
 \n\
-To restore these rooms to\n\
-their former state, first\n\
-destroy all of the ghost's\n\
-minions, and then you can -\n\
-take on the ghost itself. \n\
-Good luck! ☆CLICK☆"))
+Pour exorciser ces pièces,\n\
+il te faudra tout d'abord\n\
+éliminer tous les sbires,\n\
+le boo sera alors affaibli\n\
+et tu pourras l'attaquer. \n\
+Bonne chance ! ☆CLIC☆"))
 
-DEFINE_DIALOG(DIALOG_003, 1, 5, 95, 200, _("\
-Good work, Mario. It seems\n\
-that the money you acquired\n\
-in this room was actually \n\
-under the effect of a \n\
-multiplier, that you could -\n\
-see in the top right of \n\
-your screen.\n\
-\n\
-\n\
-\n\
-The more damage you sustain\n\
-in these rooms, the lower\n\
-this multiplier will go.\n\
-It can go below 1.0x, \n\
-so be careful! ☆CLICK☆"))
+DEFINE_DIALOG(DIALOG_003, 1, 6, 95, 200, _("\
+Bien joué, Mario. L'argent\n\
+que tu as trouvé dans cette\n\
+pièce a été accru par un\n\
+multiplicateur, que tu pourras\n\
+voir dans le coin supérieur\n\
+droit de ton écran.\n\
+Plus tu subis de dégâts dans\n\
+une salle, plus le multiplicateur\n\
+diminue. Il peut même passer\n\
+en-dessous de x1 et te faire\n\
+gagner moins de pièces que tu \n\
+n'en ramasses, alors prudence !"))
 
 DEFINE_DIALOG(DIALOG_004, 1, 6, 95, 200, _("\
-Aha, Mario you did it! This\n\
-staircase leads to the 2nd\n\
-floor, and from there it's a\n\
-straight shot to floor 3,\n\
-where you can investigate\n\
-that strange activity.\n\
-By the way, about those\n\
-ghosts you've been taking\n\
-out. They would actually be\n\
-incredibly valuable for my \n\
-research, so if you can try\n\
-to capture as many as - \n\
-possible and bring them\n\
-back to me, I would greatly\n\
-appreciate it. I'll give you\n\
-some rewards too, if you can\n\
-bring back enough."))
+Aha Mario, tu as réussi !\n\
+Cet escalier va au deuxième\n\
+étage, qui mène tout droit\n\
+au troisième, où tu pourras\n\
+enquêter sur cette mystérieuse\n\
+activité paranormale.\n\
+Au fait, tous ces fantômes\n\
+que tu as vaincu me seront\n\
+très utiles dans mes\n\
+recherches, alors attrapes-\n\
+en un maximum et ramène-les\n\
+moi, s'il te plaît.\n\
+Si tu m'en trouves assez,\n\
+j'aurai même des récompenses\n\
+à te donner. ☆CLIC☆"))
 
 DEFINE_DIALOG(DIALOG_005, 1, 4, 30, 200, _("\
-The Room Manager will allow\n\
-me to contact you anywhere,\n\
-in addition to functioning\n\
-as a map of the entire manor.\n\
-I'm counting on you Mario,\n\
-the fate of our world is\n\
-in your hands."))
+Le Manoiradar me permettra\n\
+de te contacter peu importe\n\
+où tu te trouves, et te\n\
+servira de carte du manoir.\n\
+Je compte sur toi, Mario,\n\
+le destin de notre monde\n\
+est entre tes mains."))
 
 DEFINE_DIALOG(DIALOG_006, 1, 3, 30, 200, _("\
-(Welcome to the city! A land\n\
-filled with wonder and\n\
-excitement at every turn!)\n\
-(Would you like to go shopping?\n\
-Or maybe check out the\n\
-garden?)\n\
-(You can even take a ride\n\
-through the air on a giant\n\
-rubberband, if you talk to\n\
-the toad at the east\n\
-end of town!)\n\
+(Bienvenue dans la ville !\n\
+Un endroit magique rempli\n\
+de surprises !)\n\
+(Envie de faire du shopping ?\n\
+D'aller visiter le superbe \n\
+jardin de ville ?)\n\
+(Vous pouvez même vous\n\
+faire propulser dans les airs\n\
+sur un élastique géant en\n\
+demandant au Toad du côté\n\
+est de la ville !)\n\
 \n\
 ..."))
 
 DEFINE_DIALOG(DIALOG_007, 1, 2, 30, 200, _("\
-(Something tells me this \n\
-place doesn't serve real food.)\n\
+(Je crois pas qu'ils vendent \n\
+de la vraie nourriture, ici.)\n\
 ..."))
 
 DEFINE_DIALOG(DIALOG_008, 1, 4, 30, 200, _("\
-(Mario! I'm so glad you're\n\
-here! The bridge to the other\n\
-side of the city is out!)\n\
-\n\
-(We'll need to construct a\n\
-new one, but the construction\n\
-worker seems to have gotten\n\
-lost on his way over here!)\n\
-(Plus, he said it would cost 8\n\
-star coins, BUT I DON'T HAVE\n\
-THAT KIND OF MONEY!!!!)\n\
-\n\
-(The construction worker was\n\
-last seen at the snowglobe.\n\
-You can get there by using\n\
-the rubber band!)\n\
+(Mario ! Quel soulagement de\n\
+te voir ici ! Le pont qui mène\n\
+de l'autre côté de la ville\n\
+a été détruit !)\n\
+(Il va falloir en bâtir un\n\
+nouveau, mais l'ouvrier qui\n\
+devait venir semble s'être\n\
+perdu en chemin !)\n\
+(Et il nous a fait un devis à\n\
+8 pièces étoile, mais C'EST\n\
+CLAIREMENT PAS DANS NOTRE\n\
+BUDGET !!!)\n\
+(L'ouvrier a été aperçu pour\n\
+la dernière fois près de la\n\
+boule à neige. Tu peux t'y\n\
+rendre avec l'élastique géant !)\n\
 ..."))
 
 DEFINE_DIALOG(DIALOG_009, 1, 3, 30, 200, _("\
-(Now that the bridge is \n\
-built, we can visit the\n\
-other side of town!)\n\
+(Avec ce nouveau pont, on peut\n\
+enfin aller visiter l'autre\n\
+côté de la ville !)\n\
 ..."))
 
 DEFINE_DIALOG(DIALOG_010, 1, 4, 30, 200, _("\
-(I'd like to sell you access\n\
-to this here rubber band!)\n\
-(Take a ride on it and you'll\n\
-be launched out of this world!)\n\
-(It's just 2 star coins, what\n\
-do you say?)\n\
+(Bonjour monsieur ! Je vous \n\
+devine amateur d'élastiques !\n\
+Grimpez dans celui-ci et vous\n\
+serez propulsé dans les airs !)\n\
+(Et pour 2 pièces étoile, c'est\n\
+une aubaine ! Alors, tenté ?)\n\
 \n\
-//Yes////No"))
+//Oui////Non"))
 
 DEFINE_DIALOG(DIALOG_011, 1, 2, 30, 200, _("\
-(I'm sorry, you don't have\n\
-enough star coins for this.)\n\
+(Toutes mes excuses, mais mes\n\
+prix ne sont pas négociables.)\n\
 ..."))
 
-DEFINE_DIALOG(DIALOG_012, 1, 2, 30, 200, _("\
-(Pleasure doing business\n\
-with you.)\n\
+DEFINE_DIALOG(DIALOG_012, 1, 3, 30, 200, _("\
+(Voilà quelqu'un qui sait\n\
+repérer une bonne affaire !\n\
+Merci bien !)\n\
 ..."))
 
-DEFINE_DIALOG(DIALOG_013, 1, 5, 30, 200, _("\
-You've collected a\n\
-Star Piece! Collect all 5 in\n\
-this chapter to get a prize.\n\
-Do you want to Save?\n\
-//Yes////No"))
+DEFINE_DIALOG(DIALOG_013, 1, 6, 30, 200, _("\
+Tu viens d'obtenir une\n\
+Branche d'Étoile ! Trouves-en\n\
+5 dans ce chapitre pour\n\
+obtenir une récompense.\n\
+Sauvegarder ?\n\
+//Oui////Non"))
 
 DEFINE_DIALOG(DIALOG_014, 1, 4, 30, 200, _("\
-You've collected a Key!\n\
-Check your Room Manager\n\
-to see what lock the key\n\
-belongs to.\n\
-Do you want to Save?\n\
+Tu viens d'obtenir une clé !\n\
+Regarde ton Manoiradar pour\n\
+trouver la serrure qu'elle\n\
+permet de déverrouiller.\n\
 \n\
-//Yes////No"))
+Sauvegarder ?\n\
+\n\
+//Oui////Non"))
 
 DEFINE_DIALOG(DIALOG_015, 1, 3, 30, 200, _("\
-You've collected a Star Coin!\n\
-Exchange them for goods and\n\
-services from other civilians.\n\
-Do you want to Save?\n\
+Tu viens d'obtenir une\n\
+Pièce Étoile ! Sers-toi en\n\
+pour commercer avec les Toad.\n\
+Sauvegarder ?\n\
 \n\
-//Yes////No"))
+//Oui////Non"))
 
 DEFINE_DIALOG(DIALOG_016, 1, 2, 30, 200, _("\
-(Would you like a buy a piece\n\
-of the Emerald Power Star?)\n\
-(There's only [%] left, so\n\
-you gotta act fast!)\n\
-(It's just 2 star coins, what\n\
-do you say?)\n\
+(Une véritable branche\n\
+de l'Étoile d'Émeraude ?)\n\
+(Vous ne rêvez pas, elle\n\
+pourrait être à VOUS !)\n\
+(Il n'en reste que [%],\n\
+alors faites vite !)\n\
+(Seulement 2 pièces étoile.\n\
+Qu'en dites-vous ?)\n\
 \n\
-//Yes////No"))
+//Oui////Non"))
 
 DEFINE_DIALOG(DIALOG_017, 1, 3, 30, 200, _("\
-(Can you believe the traffic!\n\
-I'm trying to get to work on\n\
-time!)\n\
+(Ah, ces bouchons, c'est\n\
+n'importe quoi ! Je serai\n\
+jamais au boulot à l'heure !)\n\
 ..."))
 
 DEFINE_DIALOG(DIALOG_018, 1, 3, 30, 200, _("\
-(I'm so sorry, we're all out\n\
-of the Emerald Star Pieces!)\n\
-\n\
-(But you may be able to get\n\
-your hands on some of the\n\
-Golden Power Star, somewhere.)\n\
+(Toutes mes excuses, notre\n\
+stock de branches d'étoile\n\
+d'émeraude est épuisé !)\n\
+(Mais vous pourrez sûrement\n\
+trouver les branches de l'étoile\n\
+d'or, si vous cherchez bien.)\n\
 ..."))
 
 DEFINE_DIALOG(DIALOG_019, 1, 3, 30, 200, _("\
-(I'm so sorry, we're all out\n\
-of the Emerald Star Pieces!)\n\
-\n\
-(But you may be able to get\n\
-your hands on some of the\n\
-Ruby Power Star, somewhere.)\n\
+(Toutes mes excuses, notre\n\
+stock de branches d'étoile\n\
+d'émeraude est épuisé !)\n\
+(Mais vous pourrez sûrement\n\
+trouver les branches de l'étoile\n\
+de rubis, quelque part.)\n\
 ..."))
 
 DEFINE_DIALOG(DIALOG_020, 1, 7, 95, 150, _("\
-Dear Mario:\n\
-Come to 61 Troopa Road.\n\
-If you care about this\n\
-world, then it's in\n\
-your best interest.\n\
-Yours truly--\n\
-Your New Friend"))
+Cher Mario:\n\
+Viens au 61, Rue Troopa.\n\
+Si tu tiens à ce monde,\n\
+tu n'attendras pas.\n\
+C'est pour ton bien.\n\
+Signé --\n\
+Ton nouvel ami"))
 
 DEFINE_DIALOG(DIALOG_021, 1, 3, 95, 200, _("\
-(I'm so sorry, we're all out\n\
-of the Emerald Star Pieces!)\n\
-\n\
-(But you may be able to get\n\
-your hands on some of the\n\
-Topaz Power Star, somewhere.)\n\
+(Toutes mes excuses, notre\n\
+stock de branches d'étoile\n\
+d'émeraude est épuisé !)\n\
+(Mais vous pourrez sûrement\n\
+trouver les branches de l'étoile\n\
+de topaze, quelque part.)\n\
 ..."))
 
 DEFINE_DIALOG(DIALOG_022, 1, 2, 95, 200, _("\
-You don't have the key to\n\
-open this door."))
+Tu n'as pas la clé qui\n\
+permet d'ouvrir cette porte."))
 
-DEFINE_DIALOG(DIALOG_023, 1, 2, 95, 200, _("\
-This door is blocked! Try to\n\
-find an alternative entrance."))
+DEFINE_DIALOG(DIALOG_023, 1, 3, 95, 200, _("\
+Cette porte est bloquée !\n\
+Il va falloir trouver un\n\
+autre moyen d'entrer."))
 
 DEFINE_DIALOG(DIALOG_024, 1, 5, 95, 200, _("\
 You need Star power to\n\
@@ -336,38 +331,40 @@ inside one of the castle's\n\
 paintings."))
 
 DEFINE_DIALOG(DIALOG_025, 1, 3, 95, 200, _("\
-(I'm so sorry, we're all out\n\
-of the Emerald Star Pieces!)\n\
-\n\
-(But you may be able to get\n\
-your hands on some of the\n\
-Amethyst Power Star, somewhere.)\n\
+(Toutes mes excuses, notre\n\
+stock de branches d'étoile\n\
+d'émeraude est épuisé !)\n\
+(Mais vous pourrez sûrement\n\
+trouver les branches de l'étoile\n\
+d'améthyste quelque part.)\n\
 ..."))
 
-DEFINE_DIALOG(DIALOG_026, 1, 2, 95, 200, _("\
-(I'm so sorry, we're all out\n\
-of the Emerald Star Pieces!)\n\
+DEFINE_DIALOG(DIALOG_026, 1, 3, 95, 200, _("\
+(Toutes mes excuses, notre\n\
+stock de branches d'étoile\n\
+d'émeraude est épuisé !)\n\
 ..."))
 
 DEFINE_DIALOG(DIALOG_027, 1, 4, 95, 200, _("\
-(The legend of the Five\n\
-Power Stars is a great one!)\n\
-(They say that no one has ever\n\
-held all Five at the same time.)\n\
-(The holder would have far too\n\
-much power, so much that they\n\
-had to be divided into pieces,\n\
-and spread across the land.)\n\
-(Many have tried to replicate\n\
-their power, but to no avail.\n\
-These stars are simply one of\n\
-a kind.)\n\
+(La légende des cinq étoiles\n\
+traverse les générations !)\n\
+(On raconte que personne n'a\n\
+jamais eu les cinq à la fois.)\n\
+(Leur propriétaire serait bien\n\
+trop puissant, alors elles ont\n\
+été brisées en morceaux, et\n\
+répandues un peu partout.)\n\
+(Nombreux sont ceux qui ont\n\
+tenté de recréer leur énergie,\n\
+en vain. Ces étoiles sont bel\n\
+et bien des artéfacts uniques.)\n\
 ..."))
 
-DEFINE_DIALOG(DIALOG_028, 1, 3, 95, 200, _("\
-(You think your daily commute\n\
-is bad? My driveway is just\n\
-a bunch of floating blocks!)\n\
+DEFINE_DIALOG(DIALOG_028, 1, 4, 95, 200, _("\
+(Tu te plains des transports\n\
+en commun ? Moi, pour aller\n\
+au boulot, je dois sauter sur\n\
+des blocs qui volent !)\n\
 ..."))
 
 DEFINE_DIALOG(DIALOG_029, 1, 5, 95, 200, _("\
@@ -378,491 +375,485 @@ Stars.\n\
 Bwa ha ha!"))
 
 DEFINE_DIALOG(DIALOG_030, 1, 3, 30, 200, _("\
-(The Evil Giant Shyguy Is\n\
-Attacking The City!)\n\
-\n\
-(Only Mario Can Help Us!\n\
-Dodge Bullet Bills, Knock Down\n\
-The Towers, Save The Day!)\n\
+(Un Maskass Géant Détruit\n\
+la Ville ! Tout Espoir\n\
+Semble Perdu !)\n\
+(À l'Aide, Mario ! Cours,\n\
+Saute, Glisse, Fais Tomber les\n\
+Tours et Sauve le Monde !)\n\
 ..."))
 
 DEFINE_DIALOG(DIALOG_031, 1, 3, 30, 200, _("\
-(Now's your chance! Push\n\
-the block to knock down\n\
-the tower!)\n\
+(Regarde ! C'est le moment !\n\
+Pousse le bloc pour faire\n\
+chuter la tour !)\n\
 ..."))
 
 DEFINE_DIALOG(DIALOG_032, 1, 2, 30, 200, _("\
-(You're almost there!)\n\
-(You can do it!)\n\
+(Tu y es presque !)\n\
+(Tu peux le faire !)\n\
 ..."))
 
 DEFINE_DIALOG(DIALOG_033, 1, 4, 30, 200, _("\
-(Once I construct this bridge,\n\
-you'll be able to visit the\n\
-other part of the city.)\n\
+(Une fois le pont construit,\n\
+tu pourras aller visiter\n\
+l'autre partie de la ville.)\n\
 \n\
-(To build it, I'll need you to\n\
-give me 8 star coins. Deal?)\n\
-\n\
-//Yes////No"))
+(La main d'oeuvre, c'est pas\n\
+gratuit. Ce sera 8 pièces\n\
+étoile. Ça marche ?)\n\
+//Oui////Non"))
 
 DEFINE_DIALOG(DIALOG_034, 1, 3, 30, 200, _("\
-(Mario! You must be here to\n\
-save me!)\n\
+(Mario ! Tu es venu me sortir\n\
+de là ? Quelle joie !)\n\
 \n\
-(I was supposed to go construct\n\
-a new bridge for the city, but\n\
-I got trapped up here.)\n\
-(Now I can get to work.)\n\
-(Thank you so much!)\n\
+(J'étais censé construire un\n\
+pont dans la ville, mais je\n\
+me suis retrouvé coincé ici.)\n\
+(Merci beaucoup !)\n\
+(Et maintenant, au travail !)\n\
 \n\
 ..."))
 
 DEFINE_DIALOG(DIALOG_035, 1, 4, 30, 200, _("\
-Mario! I've marked on your map\n\
-where the paranormal activity\n\
-is coming from.\n\
-Please take a look. ☆CLICK☆"))
+Mario ! J'ai noté sur ta carte\n\
+l'épicentre de l'activité\n\
+paranormale que j'ai détectée.\n\
+Vas y faire un tour. ☆CLIC☆"))
 
 DEFINE_DIALOG(DIALOG_036, 1, 1, 30, 200, _("\
-Psst. Hey there. \n\
-Need a little help?"))
+Psst ! Toi là-bas. \n\
+Besoin d'un coup de main ?"))
 
-DEFINE_DIALOG(DIALOG_037, 1, 4, 30, 200, _("\
-This place is a little bit\n\
-messed up, but so is the mind\n\
-of it's owner.\n\
-So what do you expect..."))
+DEFINE_DIALOG(DIALOG_037, 1, 5, 30, 200, _("\
+C'est le bazar complet dans\n\
+ce manoir, mais c'est la même\n\
+chose dans l'esprit de son\n\
+propriétaire.\n\
+Alors, pas étonnant..."))
 
 DEFINE_DIALOG(DIALOG_038, 1, 3, 95, 200, _("\
-Darn, it was a false reading.\n\
-Alright, I've found the next\n\
-closest activity reading.\n\
-I'll mark it on your map.\n\
-☆CLICK☆"))
+Mince, fausse alerte.\n\
+J'ai tracé le signal à\n\
+une salle pas loin d'ici.\n\
+Je la note sur ta carte.\n\
+☆CLIC☆"))
 
 DEFINE_DIALOG(DIALOG_039, 1, 3, 30, 200, _("\
-No luck eh? \n\
-Maybe you'll find what you're\n\
-looking for over here?"))
+Alors, c'est pas de chance ? \n\
+Peut-être que tu trouveras\n\
+ce que tu cherches par ici ?"))
 
 DEFINE_DIALOG(DIALOG_040, 1, 3, 30, 200, _("\
-You know you're really doing\n\
-Mr. Sunglasses in here a big\n\
-favor by helping him out.\n\
-I mean who would seriously\n\
-wanna live in a place like this?\n\
+Tu sais, tu lui donnes un\n\
+sacré coup de main en\n\
+faisant le ménage chez lui.\n\
+Qui voudrait vivre dans un\n\
+endroit comme celui-ci ?\n\
 \n\
-These ghosts have treated this\n\
-room in such a monstrous\n\
-manner."))
+Les fantômes ont traîté\n\
+cette pièce d'une manière\n\
+monstrueuse."))
 
 DEFINE_DIALOG(DIALOG_041, 1, 3, 30, 200, _("\
-Drats, that one wasn't it\n\
-either. The only other place\n\
-to check is the attic.\n\
-If that paranormal activity\n\
-is anywhere in this cursed\n\
-chateau, it's gotta be there!\n\
-☆CLICK☆"))
+Argh, c'était pas là non\n\
+plus. Tout ce qu'il reste\n\
+à vérifier, c'est le grenier.\n\
+Si ces émanations viennent\n\
+de quelque part dans ce \n\
+manoir, ce sera là-haut !\n\
+☆CLIC☆"))
 
 DEFINE_DIALOG(DIALOG_042, 1, 3, 30, 200, _("\
-Through here is the only way\n\
-to the attic. \n\
+La seule manière d'atteindre\n\
+le grenier, c'est par ici. \n\
 \n\
-Don't worry though, I can\n\
-lend a hand - or, more like\n\
-some feathers.\n\
-Hop on."))
+T'inquiètes pas, je peux te\n\
+donner un coup de main. Ou\n\
+plutôt un coup de plume.\n\
+Allez, en voiture !"))
 
-DEFINE_DIALOG(DIALOG_043, 1, 4, 30, 200, _("\
-This elevator will take you\n\
-to the attic. I'm sure you'll\n\
-find the paranormal activity\n\
-here. 'Rule of 3s' and all."))
+DEFINE_DIALOG(DIALOG_043, 1, 5, 30, 200, _("\
+Cet ascenseur t'emmènera tout\n\
+droit au grenier. Je suis sûr\n\
+que tu y trouveras la source\n\
+de l'activité paranormale.\n\
+La troisième, c'est la bonne."))
 
 DEFINE_DIALOG(DIALOG_044, 1, 2, 95, 200, _("\
-'Hypothetical Arguments I've\n\
-Won in the Shower: Volume Two'"))
+'Débats Imaginaires Que J'ai\n\
+Gagné Sous la Douche: Volume 2'"))
 
 DEFINE_DIALOG(DIALOG_045, 1, 5, 95, 200, _("\
------- FRAME FRENZY ------\n\
-'If you see a painting with a\n\
-red frame, you may want to\n\
-take a closer look. Something\n\
-might not quite match...'"))
+----- TRAQUE-TABLEAU -----\n\
+'Si vous tombez sur une\n\
+peinture dans un cadre rouge,\n\
+regardez-la de plus près.\n\
+Quelque chose y cloche...'"))
 
-DEFINE_DIALOG(DIALOG_046, 1, 4, 30, 200, _("\
-'How To Be Your Own Boss And\n\
-Get Rich Doing It'\n\
-(There's a bookmark placed in\n\
-page 3.)"))
+DEFINE_DIALOG(DIALOG_046, 1, 2, 30, 200, _("\
+'5 Méthodes Efficaces Pour\n\
+Arrêter de Procrastiner'\n\
+(Il y a un marque-page à\n\
+la page 3.)"))
 
 DEFINE_DIALOG(DIALOG_047, 1, 2, 95, 200, _("\
-Hi! I'll prepare the\n\
-cannon for you!"))
+Salut ! Je te\n\
+prépare le canon !"))
 
 DEFINE_DIALOG(DIALOG_048, 1, 6, 30, 200, _("\
-Journal Entry 01\n\
-June 7th, 2033.\n\
-Today I start work on my most\n\
-ambitious invention to date.\n\
-In only a few months time,\n\
-there will be no more Bowser.\n\
-No more Kamek, no more \n\
-Koopalings, no more Broodals,\n\
-no more Cackletta, or Fawful,\n\
-or Shroobs or any of the\n\
-glorified insects that have\n\
-plagued this kingdom. \n\
-No more princess kidnapping,\n\
-and no more treacherous\n\
-journeys for Mario to risk his\n\
-life on. \n\
-There will be... peace."))
+Rapport 01\n\
+7 Juin 2033.\n\
+Aujourd'hui, je commence mon\n\
+projet le plus ambitieux.\n\
+D'ici quelques mois, il n'y\n\
+aura plus de Bowser.\n\
+Plus de Kamek, plus de \n\
+Koopalings, plus de Broodals,\n\
+de Graguémona, de Gracowitz,\n\
+de Xhampis, aucun de ces\n\
+misérables insectes qui\n\
+infectent ce royaume. \n\
+Plus de princesse enlevée,\n\
+plus de voyages périlleux\n\
+où Mario risque sa vie.\n\
+\n\
+Du silence, et de la paix."))
 
-DEFINE_DIALOG(DIALOG_049, 1, 5, 30, 200, _("\
-Journal Entry 02\n\
-June 13th, 2033.\n\
-It's always the same. The\n\
-princess gets captured, Mario\n\
-travels through 8 different\n\
-worlds, he takes down Bowser\n\
-- peace at last! \n\
-All is right in the world...\n\
-until next season when it\n\
-happens all over again.\n\
-I can hardly stand to think\n\
-about it these days, let alone\n\
-watch it happen.\n\
-It's maddening to watch the\n\
-status quo perpetuate itself\n\
-like this while everyone just\n\
-sits back and... accepts it.\n\
-Well I don't, something has to\n\
-change."))
+DEFINE_DIALOG(DIALOG_049, 1, 3, 30, 200, _("\
+Rapport 02\n\
+13 Juin 2033.\n\
+C'est toujours la même chose.\n\
+La princesse est kidnappée,\n\
+Mario parcourt 8 mondes et\n\
+triomphe du vilain Bowser.\n\
+Enfin, un peu de calme ! \n\
+Tout va bien dans le\n\
+meilleur des mondes...\n\
+Jusqu'à la saison suivante\n\
+où tout reprend du début.\n\
+\n\
+J'en ai plus que marre de\n\
+voir ce cycle se répéter,\n\
+encore et encore et encore.\n\
+C'est rageant de regarder\n\
+cette médiocrité se perpétuer\n\
+ainsi, sans que personne ne\n\
+dise ou ne fasse rien.\n\
+Moi, je vais faire quelque\n\
+chose. Tout doit changer."))
 
-DEFINE_DIALOG(DIALOG_050, 1, 5, 30, 200, _("\
-Journal Entry 03\n\
-June 15th, 2033.\n\
-I've had my first big\n\
-breakthrough - who would've\n\
-thought just adding a couple of\n\
-neutrons and protons would've\n\
-been so easy! \n\
-Now that I have these elements,\n\
-I can begin to move forward\n\
-with my first big experiment."))
+DEFINE_DIALOG(DIALOG_050, 1, 4, 30, 200, _("\
+Rapport 03\n\
+15 Juin 2033.\n\
+Je viens de faire une grande\n\
+découverte ! Qui aurait cru\n\
+qu'il fallait simplement\n\
+ajouter quelques protons\n\
+et quelques neutrons ! \n\
+\n\
+Maintenant que j'ai ces\n\
+éléments, je peux passer\n\
+à la phase de test."))
 
 DEFINE_DIALOG(DIALOG_051, 1, 6, 30, 200, _("\
-Journal Entry 04\n\
-June 18th, 2033.\n\
-My experiment was a success!\n\
-I simply thought of an image,\n\
-and out came a painting of it,\n\
-framed and everything!\n\
-I almost feel a sense of guilt\n\
-from how powerful this \n\
-technology truly is. In a matter\n\
-of seconds I was able create\n\
-what would've taken an ordinary\n\
-person days.\n\
-With this tool in the wrong\n\
-hands, serious irreparable\n\
-damage could be caused. But in\n\
-my hands? Bowser doesn't stand\n\
-a ghost of a chance.\n\
+Rapport 04\n\
+18 Juin 2033.\n\
+Mon test a été un succès !\n\
+J'ai simplement pensé à une\n\
+image, et ma machine lui \n\
+a donné forme réelle !\n\
+Je me sens presque coupable\n\
+en voyant ce dont est capable\n\
+cette technologie. En quelques\n\
+secondes, j'ai pu créer une\n\
+oeuvre qui aurait pris des\n\
+jours à une personne ordinaire.\n\
+Entre de mauvaises mains, cet\n\
+outil pourrait causer de\n\
+sérieux dégâts. Mais entre\n\
+mes mains? Bowser n'a pas\n\
+la moindre chance.\n\
 \n\
-Now comes the fun part - \n\
-testing the limitations of\n\
-this invention."))
+À présent, c'est l'heure de\n\
+s'amuser. Je vais tester les\n\
+limites de cette invention."))
 
 DEFINE_DIALOG(DIALOG_052, 1, 6, 30, 200, _("\
-Journal Entry 05\n\
-July 2nd, 2033. \n\
-Today I made a new friend.\n\
-Well, he's technically just\n\
-a clone of me. But it still\n\
-counts!\n\
-He's so much fun to hang \n\
-around. He wrote that part,\n\
-not me. Well, it was written\n\
-by ME but not ME ME. \n\
+Rapport 05\n\
+2 Juillet 2033. \n\
+Aujourd'hui, je me suis fait\n\
+un nouvel ami. Techniquement,\n\
+c'est un clone de moi-même,\n\
+mais ça compte comme un ami !\n\
+On s'amuse beaucoup tous les\n\
+deux. C'est lui qui a écrit\n\
+ça, pas moi. Enfin, si, c'est\n\
+moi, mais c'est pas MOI, quoi. \n\
 \n\
 \n\
-Oh there I go explaining myself\n\
-again, as if anyone else is\n\
-gonna read this. I'm just\n\
-writing this for me.\n\
-And also me I suppose."))
+Oh, et voilà, je recommence\n\
+à déblatérer, comme si ce\n\
+journal allait finir dans\n\
+les mains d'un autre. Je\n\
+n'écris que pour moi.\n\
+Et pour moi aussi, j'imagine."))
 
-DEFINE_DIALOG(DIALOG_053, 1, 5, 30, 200, _("\
-Journal Entry 06\n\
-July 6th, 2033.\n\
-I ran into a bit of a setback.\n\
-I got a bit too bold with my\n\
-experiments and, well, let's\n\
-just say that 40,000 coins\n\
-worth of ectoplasm is now\n\
-contaminated by some comically\n\
-large lemon slices. Oops!\n\
-\n\
-Well, it's times like these\n\
-that I keep myself focused on\n\
-the goal at hand. The road to\n\
-success is filled with failure\n\
-- but you must trudge on!\n\
-Keep your eye on the prize."))
+DEFINE_DIALOG(DIALOG_053, 1, 3, 30, 200, _("\
+Rapport 06\n\
+6 Juillet 2033.\n\
+J'ai rencontré un problème.\n\
+Je me suis laissé emporter par\n\
+la science et, pour la faire\n\
+courte, tout mon ectoplasme\n\
+est désormais souillé par\n\
+de gigantesques tranches\n\
+de citron. Oups !\n\
+C'est dans ces périodes que\n\
+je me rappelle mon objectif.\n\
+Le chemin du succès est pavé\n\
+d'échec, mais il faut garder\n\
+la tête haute ! Le prix en\n\
+vaut toujours la chandelle."))
 
-DEFINE_DIALOG(DIALOG_054, 1, 5, 30, 200, _("\
-Journal Entry 07\n\
-July 13th, 2033.\n\
-In just a matter of days,\n\
-the greatest and most\n\
-revolutionary invention I have\n\
-ever made (and will ever make)\n\
-will be completed, and it's \n\
-getting almost impossible to\n\
-contain my excitement.\n\
-\n\
-This must have been what \n\
-Leonartoad da Vinci felt when\n\
-he was putting the finishing\n\
-touches onto the Goomba Lisa."))
+DEFINE_DIALOG(DIALOG_054, 1, 4, 30, 200, _("\
+Rapport 07\n\
+13 Juillet 2033.\n\
+En seulement quelques jours,\n\
+ma plus révolutionnaire\n\
+invention, ma plus grande\n\
+création passée et future\n\
+sera terminée, et j'ai du \n\
+mal à retenir mon excitation.\n\
+C'est sûrement ce qu'a\n\
+ressenti Luiginard de Vinci\n\
+en vernissant la Goomba Lisa."))
 
 DEFINE_DIALOG(DIALOG_055, 1, 5, 30, 200, _("\
-Journal Entry 08\n\
-July 15th, 2033.\n\
-It's finally complete. My\n\
-portal to the Thought Realm.\n\
+Rapport 08\n\
+15 Juillet 2033.\n\
+Il est enfin terminé.\n\
+Mon point d'entrée vers\n\
+l'univers des pensées.\n\
+Une fois activé, je pourrai\n\
+transformer mon imagination\n\
+en matière tangible.\n\
+Ce clone est loin d'être\n\
+tout ce que je peux faire.\n\
+À présent, chaque idée,\n\
+chaque invention, possible\n\
+ou impossible, ne sera qu'à\n\
+une pensée de la réalité.\n\
 \n\
-Once I turn it on, I will be\n\
-able to seamlessly transform\n\
-my thoughts into matter.\n\
-Cloning myself was just\n\
-the start.\n\
-Now any idea, any plan, any\n\
-invention hypothetically\n\
-possible or impossible will\n\
-be at my fingertips.\n\
-\n\
-There is simply no goal that\n\
-will be out of my reach - \n\
-and it is then that I will\n\
-be able to take down\n\
-Bowser once and for all.\n\
-There won't be any continues,\n\
-and there wont be a sequel,\n\
-he will be DEAD and neither\n\
-him nor any of his minions\n\
-will be able to wreak havoc\n\
-over the Mushroom Kingdom\n\
-ever again!"))
+Plus rien ne me sera hors\n\
+de portée, et ce sera à ce\n\
+moment que je pourrai mettre\n\
+fin à Bowser et à ses plans\n\
+une bonne fois pour toutes.\n\
+Il n'y aura pas de 1 UP,\n\
+il sera MORT, et ni lui ni\n\
+ses sbires ne pourront\n\
+plus jamais semer le chaos\n\
+au Royaume Champignon !"))
 
 DEFINE_DIALOG(DIALOG_056, 1, 4, 30, 200, _("\
-Journal Entry 09\n\
-Date: ???. \n\
+Rapport 09\n\
+Date : ???.\n\
 \n\
-I don't know where I am.\n\
-The last thing I remember\n\
-is putting the finishing\n\
-touches on the portal, and \n\
-I am frightened at the idea\n\
-that this place could be the\n\
-Thought Realm I've spent so\n\
-much time trying to access.\n\
+Je ne sais pas où je suis.\n\
+La dernière chose dont je\n\
+me rappelle, c'est que je\n\
+fignolais mon invention. \n\
+Je suis terrifié à l'idée\n\
+d'être arrivé dans l'univers\n\
+des pensées que j'ai tant\n\
+essayé d'atteindre.\n\
 \n\
-Or, it could just as easily\n\
-be what the real world has\n\
-turned into after opening\n\
-the portal.\n\
-Maybe I was just born today,\n\
-merely spoken into existence\n\
-by a thought inside the head\n\
-of the real me.\n\
-I don't know. All I know is\n\
-that it's cold, and I don't\n\
-see any sign of my clone\n\
-being around here.\n\
-Despite all of this, I feel\n\
-a strange presence urging me\n\
-to keep moving forward."))
+Ou alors, ouvrir ce vortex\n\
+aurait détruit le monde, et\n\
+j'en parcourrais les vestiges.\n\
+\n\
+Peut-être suis-je même né\n\
+aujourd'hui, d'une simple\n\
+pensée dans l'esprit du\n\
+véritable moi.\n\
+Je ne sais pas. Tout ce que\n\
+je sais, c'est qu'il fait\n\
+froid, et que je ne vois\n\
+plus mon clone.\n\
+Malgré tout, je ressens une\n\
+étrange présence qui me\n\
+pousse à aller de l'avant."))
 
 DEFINE_DIALOG(DIALOG_057, 1, 5, 30, 200, _("\
-Journal Entry 10\n\
-Date: ???. \n\
+Rapport 10\n\
+Date : ???. \n\
 \n\
 \n\
 \n\
-After surveying my \n\
-surroundings, I now believe\n\
-myself to be trapped inside\n\
-my own mind - rather, a\n\
-portion of it.\n\
-A portion that was taken\n\
-from me and claimed by the\n\
-thought realm. \n\
+Après examination des \n\
+alentours, je pense être\n\
+piégé à l'intérieur de mon\n\
+propre esprit. Ou du moins,\n\
+une partie de celui-ci.\n\
+Une partie qui m'a été\n\
+arrachée par l'univers \n\
+des pensées. \n\
 \n\
 \n\
-If this place contains the\n\
-materialization of some of\n\
-my thoughts, it stands to\n\
-reason that it could contain\n\
-the portal itself.\n\
-The odds may be slim, but at\n\
-this point, it's my only hope\n\
-of ever finding my way home.\n\
+Si cet endroit renferme la\n\
+forme matérielle de mes\n\
+pensées, il me semblerait\n\
+logique qu'il contienne\n\
+le vortex lui-même.\n\
+Les chances sont maigres,\n\
+mais au point où j'en suis,\n\
+c'est mon seul espoir d'un\n\
+jour rentrer chez moi.\n\
 \n\
+Je ressens toujours la même\n\
+présence, et je commence à\n\
+avoir peur de ne pas être\n\
+seul à errer ici.\n\
 \n\
-I still feel the presence\n\
-though, and am beginning to\n\
-fear that I might not be\n\
-alone down here.\n\
-\n\
-Perhaps something is in here\n\
-with me, and perhaps whatever\n\
-it is doesn't want me to leave."))
+Peut-être qu'il y a quelque\n\
+chose ici avec moi, et\n\
+peut-être que ça ne veut\n\
+pas que je parte."))
 
 DEFINE_DIALOG(DIALOG_058, 1, 4, 30, 200, _("\
-Drats! Another roadblock.\n\
-Look around Mario, there's\n\
-gotta be a cage somewhere\n\
-around here..."))
+Argh ! Encore bloqué.\n\
+Explore les alentours, Mario.\n\
+Il doit bien y avoir une\n\
+cage pas loin d'ici..."))
 
 DEFINE_DIALOG(DIALOG_059, 1, 5, 30, 200, _("\
-This is it Mario.\n\
-This portal should bring us\n\
-back to the real world!\n\
+Nous y voilà, Mario.\n\
+Ce vortex devrait nous ramener\n\
+dans notre monde à nous !\n\
 \n\
 \n\
-On the other hand, it could also\n\
-be one of my hundreds of failed\n\
-portal ideas, which will rip\n\
-our bodies to shreds gruesomely\n\
-as soon as we enter - \n\
-but at this point I'll take it!\n\
+Ça pourrait aussi être une\n\
+tentative de vortex ratée,\n\
+qui déchirerait nos corps en\n\
+lambeaux sanglants. Au point\n\
+où on en est, peu m'importe !\n\
+Peu importe ce qui se passe,\n\
+Mario, merci pour tout ce\n\
+que tu as fait pour moi. \n\
 \n\
 \n\
+Tu m'as inspiré moi et des\n\
+millions d'autres partout au\n\
+Royaume Champignon, et je me\n\
+sens coupable de t'avoir traîné\n\
+dans toutes ces histoires.\n\
+Alors, si on s'en sort vivants,\n\
+je tiens à ce que tu gardes\n\
+toute ma fortune. Ou du moins,\n\
+tout ce qui en reste. \n\
 \n\
+De toutes façons, je ne l'ai\n\
+jamais méritée, toutes mes\n\
+recherches relèvent de la\n\
+folie...\n\
 \n\
-No matter what happens,\n\
-Mario, thank you for everything\n\
-you've done. \n\
+Ok, le discours, c'est fait.\n\
+Y'a plus qu'à sauter !\n\
 \n\
-\n\
-You're an inspiration to myself\n\
-and millions all around the\n\
-Mushroom Kingdom, and I can't\n\
-help but feel guilty for getting\n\
-you involved in all of this.\n\
-So, if we somehow make it out\n\
-of here alive, I want you to\n\
-keep my fortune. Or, at least\n\
-what's left of it. \n\
-\n\
-I never really deserved it\n\
-anyway, this was all a foolish\n\
-endeavor...\n\
-\n\
-\n\
-Alright, I've given my spiel.\n\
-There's nothing left to do but\n\
-jump in the portal!\n\
-Are you ready, Mario?"))
+Tu est prêt, Mario ?"))
 
 DEFINE_DIALOG(DIALOG_060, 1, 4, 30, 200, _("\
-You defeated a boo!\n\
-Do you want to save?\n\
+Tu as vaincu un boo !\n\
+Sauvegarder ?\n\
 \n\
-//Yes////No"))
+//Oui////Non"))
 
 DEFINE_DIALOG(DIALOG_061, 1, 4, 30, 200, _("\
-You've completed this chapter!\n\
-The challenge for this chapter\n\
-is now available in the file\n\
-select menu."))
+Tu as terminé ce chapitre !\n\
+Le défi du chapitre est à\n\
+présent disponible sur\n\
+l'écran du choix de fichier."))
 
-DEFINE_DIALOG(DIALOG_062, 1, 5, 30, 200, _("\
-Mario! Is that really you?\n\
-How on earth did you find me?\n\
-You plumbers are so crafty,\n\
-shame on me for discounting\n\
-the trades yet again... \n\
-OK, SO. You're probably\n\
-wondering what this place is.\n\
-Basically, I invented a way to\n\
-transform thoughts into- \n\
-wait, you already know?\n\
-How did you find out?\n\
+DEFINE_DIALOG(DIALOG_062, 1, 6, 30, 200, _("\
+Mario ! C'est vraiment toi ?\n\
+Comment tu m'as trouvé ?\n\
+Un plombier, c'est super\n\
+intelligent. On sous-estime\n\
+trop la force ouvrière...\n\
 \n\
+Ok, DONC. Tu te demandes\n\
+sûrement où on est. En gros,\n\
+j'ai inventé un moyen de\n\
+convertir les pensées en- \n\
+Attends, tu sais déjà ?\n\
+Comment tu as deviné ?\n\
+T'AS LU MON JOURNAL ???? \n\
+QUI T'A DONNÉ LE DROIT DE...\n\
 \n\
+Bon, c'est peut-être pas notre\n\
+plus gros souci en ce moment.\n\
 \n\
+Toutes mes excuses, mais après\n\
+avoir été coincé ici pendant\n\
+si longtemps, j'ai les pensées\n\
+troubles. Mais je me rappelle\n\
+que tout est de ma faute.\n\
 \n\
-YOU READ MY JOURNAL???? \n\
-WHAT GIVES YOU THE RIGHT TO-\n\
-ahem, perhaps we have bigger\n\
-fish to fry.\n\
+Je voulais sauver le monde,\n\
+mais j'ai ignoré mes propres\n\
+imperfections. Et quand elles\n\
+ont pris le dessus, j'ai\n\
+réalisé que j'avais créé\n\
+ce que je voulais détruire.\n\
+J'ai laissé mon orgueil me\n\
+dominer, mais toi Mario, tu\n\
+aides vraiment les gens.\n\
+Tu ne prends pas de raccourcis\n\
+comme moi, tu fais de vrais\n\
+efforts pour être bienveillant.\n\
+Même si c'est juste pour sauver\n\
+cette princesse, dont tout le\n\
+monde se fiche si ce n'est\n\
+pour maintenir un semblant\n\
+de cohésion sociale.\n\
 \n\
-I really must apologize, after\n\
-being stuck in here for so long\n\
-my brain is such a mess. Where\n\
-was I? Ah right - this mess.\n\
-I messed up.\n\
-I wanted to save the world,\n\
-but I failed to consider my\n\
-own imperfections. When the\n\
-imperfections took over, I\n\
-realized I had created what\n\
-I sought to destroy - but it\n\
-was too late. I let my pride\n\
-get the better of me, but you\n\
-Mario - you really help people.\n\
-\n\
-You don't take shortcuts like I\n\
-did, you really put in the work\n\
-to make a difference and help\n\
-people. \n\
-\n\
-Even if it's just to save that\n\
-princess, who we only pretend\n\
-to care about for the sake of\n\
-strengthening our broader\n\
-social cohesion.\n\
-So, I'll ask for your help\n\
-just this once: \n\
-Mario, please help me escape\n\
-this place."))
+Alors, je te supplie de\n\
+m'aider cette fois-ci :\n\
+Mario, sors-nous de là.\n\
+S'il te plaît."))
 
-DEFINE_DIALOG(DIALOG_063, 1, 6, 30, 200, _("\
+DEFINE_DIALOG(DIALOG_063, 1, 8, 30, 200, _("\
 --------------------------\n\
-           WARNING\n\
+         ATTENTION\n\
 \n\
-Once you enter the portal,\n\
-you will not be able to return.\n\
+Une fois le vortex passé,\n\
+tout retour sera impossible.\n\
+Assure-toi de ne plus avoir\n\
+de choses à terminer.\n\
 --------------------------"))
 
 DEFINE_DIALOG(DIALOG_064, 1, 4, 30, 200, _("\
-You destroyed a cage!\n\
-Do you want to save?\n\
+Tu as détruit une cage !\n\
+Sauvegarder ?\n\
 \n\
-//Yes////No"))
+//Oui////Non"))
 
-DEFINE_DIALOG(DIALOG_065, 1, 3, 30, 200, _("\
-(One of my favorite things to\n\
-do here is go visit the shop on\n\
-the other side of town.)\n\
-(They have the coolest looking\n\
-triangle shaped jewels!)\n\
-\n\
-(I wouldn't dream of buying\n\
-them though. I don't have that\n\
-kind of money.)\n\
+DEFINE_DIALOG(DIALOG_065, 1, 4, 30, 200, _("\
+(Mon passe-temps préféré, c'est\n\
+d'aller faire du lèche-vitrine\n\
+au magasin de l'autre côté de\n\
+la ville.)\n\
+(Ils ont de superbes joyaux en\n\
+forme de triangle !)\n\
+(Je ne peux que les regarder.\n\
+J'ai vraiment pas les moyens.)\n\
 ..."))
 
 DEFINE_DIALOG(DIALOG_066, 1, 2, 30, 200, _("\
-(You did it! I knew we could\n\
-count on you Mario!)\n\
+(Tu as réussi ! Je savais qu'on\n\
+pouvait compter sur toi !)\n\
 ..."))
 
 DEFINE_DIALOG(DIALOG_067, 1, 5, 30, 200, _("\
@@ -876,85 +867,83 @@ swing ME around! A wimp\n\
 like you won't throw me\n\
 out of here! Never! Ha!"))
 
-DEFINE_DIALOG(DIALOG_068, 1, 5, 30, 200, _("\
-Mario! I've developed a new\n\
-tool for your Room Manager.\n\
-It's called the Star Piece\n\
-Tracker.\n\
+DEFINE_DIALOG(DIALOG_068, 1, 4, 30, 200, _("\
+Mario ! J'ai développé un\n\
+nouvel outil pour le manoiradar.\n\
+C'est un détecteur de\n\
+branches d'étoile !\n\
+Il t'indiquera quand tu es\n\
+dans la même pièce que l'une\n\
+d'entre elles.\n\
 \n\
-It helps you locate star pieces\n\
-when you're in the same room\n\
-as one.\n\
-\n\
-\n\
-Red means it's far away, yellow\n\
-means you're getting closer,\n\
-and green means it's right\n\
-under your nose!\n\
-\n\
-This should help you find all the\n\
-fragmented star pieces. But \n\
-if you'd rather not use it,\n\
-you can turn it off in the\n\
-Options menu.\n\
-That's all for now. Keep up the\n\
-good work! ☆CLICK☆"))
+Rouge, tu en es loin, jaune,\n\
+tu t'en rapproches, et vert,\n\
+ça veut dire qu'elle est\n\
+juste sous ton nez !\n\
+Ça devrait être un sacré\n\
+coup de pouce, mais si tu\n\
+préfères explorer, tu peux le\n\
+désactiver dans les options.\n\
+C'est tout pour le moment.\n\
+Continue comme ça !\n\
+☆CLIC☆"))
 
-DEFINE_DIALOG(DIALOG_069, 1, 5, 30, 200, _("\
-Mario! Great work taking care\n\
-of those pesky Boos. \n\
-For your trouble, here's a\n\
-little present: some coins!\n\
-500, to be exact.\n\
-Keep it up! I'm counting on you.\n\
-☆CLICK☆"))
+DEFINE_DIALOG(DIALOG_069, 1, 4, 30, 200, _("\
+Joli coup d'aspirateur\n\
+sur ces vilains boos.\n\
+Pour te récompenser, voilà\n\
+un petit cadeau : des pièces !\n\
+500, pour être précis.\n\
+Et encore bravo ! Je compte\n\
+sur toi. ☆CLIC☆"))
 
-DEFINE_DIALOG(DIALOG_070, 1, 5, 30, 200, _("\
-Mario! Now that you've\n\
-captured so many Boos, I\n\
-finally figured out how to\n\
-modify the coin multiplier!\n\
+DEFINE_DIALOG(DIALOG_070, 1, 4, 30, 200, _("\
+Mario ! Ça m'a pris du temps,\n\
+mais j'ai réussi à modifier\n\
+le multiplicateur de pièces !\n\
 \n\
-From now on, instead of\n\
-starting at 5.0, it'll start\n\
-at 8.0! I'll accept my thank\n\
-you note in pen... Haha, just\n\
-kidding of course! ☆CLICK☆"))
+Maintenant, plutôt que de\n\
+commencer à 5, il commencera\n\
+à 8 ! Tu m'offriras une boîte\n\
+de chocolats, hein...\n\
+Haha, je rigole !\n\
+☆CLIC☆"))
 
 DEFINE_DIALOG(DIALOG_071, 1, 3, 30, 200, _("\
-Mario! You've done it!\n\
-You've captured every Boo in\n\
-this place!\n\
-As a token of my gratitude,\n\
-here's the key to my Treasury.\n\
-\n\
-The room is on the first floor,\n\
-to the left of the staircase\n\
-leading to floor two.\n\
-Everything in there is yours,\n\
-Mario. ☆CLICK☆"))
+Mario! Tu as réussi !\n\
+Tu as capturé TOUS les Boo\n\
+qui hantaient le manoir !\n\
+Pour te remercier de tes\n\
+services, je t'accorde la\n\
+clé de mon coffre-fort.\n\
+Il est situé au premier étage,\n\
+à gauche de l'escalier qui\n\
+mène au deuxième étage.\n\
+Tout ce qui s'y trouve est\n\
+à toi, Mario. ☆CLIC☆"))
 
 DEFINE_DIALOG(DIALOG_072, 1, 3, 30, 200, _("\
-ERROR: Gates must be fully\n\
-on or fully off to activate\n\
-the maze."))
+ERREUR : Les portes doivent\n\
+être entièrement ouvertes\n\
+ou fermées pour activer\n\
+le labyrinthe."))
 
 DEFINE_DIALOG(DIALOG_073, 1, 3, 95, 200, _("\
-Mario! Try to get near him\n\
-while holding one of these\n\
-cages I've constructed!\n\
-It may be the only way to\n\
-remove his powers!"))
+Mario ! Essaie de t'approcher\n\
+de lui en tenant une de ces\n\
+cages que j'ai fabriquées !\n\
+C'est peut-être le seul moyen\n\
+de lui ôter ses pouvoirs !"))
 
-DEFINE_DIALOG(DIALOG_074, 1, 2, 30, 200, _("\
-Another cage, comin' right\n\
-up!"))
+DEFINE_DIALOG(DIALOG_074, 1, 1, 30, 200, _("\
+Une autre cage, c'est parti !"))
 
-DEFINE_DIALOG(DIALOG_075, 1, 3, 30, 200, _("\
-YOU WILL FEEL MY HATRED.\n\
-YOU WILL NEVER ESCAPE FROM\n\
-MY GRASP.\n\
-I. WILL. BREAK. YOU."))
+DEFINE_DIALOG(DIALOG_075, 1, 2, 30, 200, _("\
+RESSENS MA HAINE.\n\
+\n\
+JE NE TE LAISSERAI\n\
+JAMAIS PARTIR.\n\
+JE. TE. BRISERAI."))
 
 DEFINE_DIALOG(DIALOG_076, 1, 6, 30, 200, _("\
 Thanks to the power of\n\
@@ -976,251 +965,240 @@ the painting. Oh, by the\n\
 way, look what I found!"))
 
 DEFINE_DIALOG(DIALOG_077, 1, 3, 150, 200, _("\
-You've collected a Star!\n\
-Go talk to Prospector T\n\
-to claim your reward!"))
+Tu as trouvé une étoile !\n\
+Parle au Prospecteur T\n\
+pour recevoir ton prix!"))
 
-DEFINE_DIALOG(DIALOG_078, 1, 6, 30, 200, _("\
-Hello there Mario, my name\n\
-is Prospector T. I try to\n\
-keep a low profile around\n\
-here but I see you've found\n\
-me. \n\
-\n\
-Well, if you're gonna so rudely\n\
-impose upon my space, you might\n\
-as well make yourself useful.\n\
-My red coins are all scattered\n\
-across this manor. There are 8\n\
-on this floor.\n\
-How about you collect them,\n\
-then come back here and speak\n\
-to me. I'll reward you \n\
-handsomely for your trouble.\n\
-\n\
-\n\
-Your Room Manager should mark\n\
-the rooms that have red coins\n\
-in them.\n\
-\n\
-\n\
-\n\
-Good luck, Mario..."))
+DEFINE_DIALOG(DIALOG_078, 1, 4, 30, 200, _("\
+Bonjour Mario, je suis le\n\
+Prospecteur T. J'essaie de\n\
+rester discret, mais je\n\
+vois que tu m'as trouvé.\n\
+Bon, eh bien, si tu tiens \n\
+tant à enfreindre mon\n\
+espace personnel, autant\n\
+te rendre utile.\n\
+Mes pièces rouges ont été\n\
+éparpillées dans tout le \n\
+manoir. 8 d'entre elles\n\
+se trouvent à cet étage.\n\
+Récupère-les, puis reviens\n\
+ici pour me prévenir. Je te\n\
+récompenserai grâcieusement\n\
+pour tes services.\n\
+Ton Manoiradar devrait\n\
+t'indiquer les salles où se\n\
+trouvent les pièces rouges.\n\
+Bonne chance, Mario..."))
 
 DEFINE_DIALOG(DIALOG_079, 1, 4, 30, 200, _("\
-So, we meet again...\n\
+Comme on se retrouve...\n\
 \n\
 \n\
 \n\
-There are 8 more red coins\n\
-on this floor. Collect all\n\
-of them and then come back\n\
-here to speak with me."))
+Il y a 8 pièces rouges de\n\
+plus à cet étage. Récupère-\n\
+les et reviens me voir pour\n\
+me prévenir."))
 
 DEFINE_DIALOG(DIALOG_080, 1, 3, 30, 200, _("\
-Hello again, Mario. \n\
-You know the drill. \n\
+Rebonjour, Mario. \n\
+Tu connais la chanson. \n\
 \n\
-The last of my red coins are\n\
-on this floor. Collect all 8\n\
-then return here."))
+Mes dernières pièces rouges\n\
+se cachent à cet étage.\n\
+Trouve-les puis reviens ici."))
 
-DEFINE_DIALOG(DIALOG_081, 1, 3, 30, 200, _("\
-The red coins might not be\n\
-so easy to find. \n\
-\n\
-You may have to keep your\n\
-eyes and your ears open\n\
-to subtle details..."))
+DEFINE_DIALOG(DIALOG_081, 1, 2, 30, 200, _("\
+Les pièces rouges sont\n\
+parfois bien cachées. \n\
+Il va falloir ouvrir grand\n\
+les yeux et les oreilles..."))
 
 DEFINE_DIALOG(DIALOG_082, 1, 2, 30, 200, _("\
-Well, that's all 8 of 'em.\n\
+Et voilà, ça fait 8.\n\
 \n\
-As promised, heres 1000 coins\n\
-for your trouble.\n\
-Till we meet again..."))
+Comme promis, voilà 1000\n\
+pièces pour te remercier.\n\
+À la revoyure..."))
 
-DEFINE_DIALOG(DIALOG_083, 1, 4, 30, 200, _("\
-Excellent! I now have all\n\
-24 of my red coins back.\n\
+DEFINE_DIALOG(DIALOG_083, 1, 3, 30, 200, _("\
+Excellent ! J'ai retrouvé\n\
+mes 24 pièces rouges.\n\
 \n\
-\n\
-You've been indispensable to\n\
-me Mario, so since I'm\n\
-feeling generous your final\n\
-reward will be 2000 coins.\n\
-Goodbye, Mario..."))
+Tu m'as été indispensable,\n\
+et je sens la générosité\n\
+m'envahir, Mario.\n\
+Pour ultime récompense,\n\
+voici 2000 pièces.\n\
+Adieu, Mario..."))
 
 DEFINE_DIALOG(DIALOG_084, 1, 4, 30, 200, _("\
-Yeeoww! Unhand me, please!\n\
+Wouuah! Lâche-moi, pitié!\n\
 \n\
-Just take this and leave me\n\
-alone, it's all I have!"))
+Prends ça et laisse-moi partir,\n\
+c'est tout ce que j'ai !"))
 
 DEFINE_DIALOG(DIALOG_085, 1, 5, 30, 200, _("\
 jukebox dialog id"))
 
 DEFINE_DIALOG(DIALOG_086, 1, 6, 30, 200, _("\
-Mario! Welcome to your new\n\
-home! I'm a toad of my\n\
-word, so I really did\n\
-everything I could to\n\
-make this manor as big\n\
-and beautiful as possible!\n\
-With all the coins you collected,\n\
-I was able to pull out all the\n\
-stops!\n\
-I really can't do enough to\n\
-thank you Mario. So please,\n\
-accept this."))
+Mario ! Bienvenue dans ta\n\
+nouvelle maison ! Je suis\n\
+un toad de parole, alors j'ai\n\
+fait de mon mieux pour rendre\n\
+ce manoir aussi somptueux\n\
+et accueillant que possible !\n\
+Avec toutes les pièces que\n\
+tu as récupérées, je n'ai\n\
+pas lésiné sur le luxe !\n\
+Je ne pourrai jamais assez\n\
+te remercier, Mario. Alors\n\
+fais-moi l'honneur d'accepter."))
 
-DEFINE_DIALOG(DIALOG_087, 1, 3, 30, 200, _("\
-I hope your new manor\n\
-is everything you dreamed\n\
-it would be!\n\
-Might I suggest  giving\n\
-it a name? How does\n\
-'Mario's Manor' sound?"))
+DEFINE_DIALOG(DIALOG_087, 1, 4, 30, 200, _("\
+J'espère que ce manoir\n\
+est à la hauteur de tes\n\
+espérances !\n\
+\n\
+Puis-je te suggérer de\n\
+lui donner un nom?\n\
+Pourquoi pas le Manoir\n\
+de Mario ?"))
 
 DEFINE_DIALOG(DIALOG_088, 1, 6, 30, 200, _("\
-Mario! Welcome to your new\n\
-home! I'm a toad of my\n\
-word, so I really did\n\
-everything I could to\n\
-make this manor as big\n\
-and beautiful as possible!\n\
-Although, maybe if you were\n\
-able to collect more coins\n\
-I would've been able to make\n\
-it bigger... Ah, what am I\n\
-saying. I'm sure you'll\n\
-find it to your satisfaction."))
+Mario ! Bienvenue dans ta\n\
+nouvelle maison ! Je suis\n\
+un toad de parole, alors j'ai\n\
+fait de mon mieux pour rendre\n\
+ce manoir aussi somptueux\n\
+et accueillant que possible !\n\
+Cependant, si tu avais\n\
+trouvé un peu plus de pièces,\n\
+J'aurais pu le faire construire\n\
+plus grand... Ah, qu'est-ce\n\
+que je raconte. Je suis sûr\n\
+que tu en sera satisfait."))
 
 DEFINE_DIALOG(DIALOG_089, 1, 5, 95, 200, _("\
-Mario! Welcome to your new\n\
-home! I'm sorry I wasn't\n\
-able to make it quite as big\n\
-as I would've wanted to, but\n\
-I'm a toad of my word.\n\
-I did the best I could with\n\
-the coins you collected. \n\
-I hope it's enough."))
+Mario ! Bienvenue dans ta\n\
+nouvelle maison ! Je suis\n\
+désolé, il n'est pas aussi\n\
+majestueux que j'aurais\n\
+voulu, mais j'ai tenu parole.\n\
+J'ai fait de mon mieux avec\n\
+les pièces que tu as trouvé. \n\
+J'espère que ça te convient."))
 
 DEFINE_DIALOG(DIALOG_090, 1, 6, 30, 200, _("\
-Mario! Did you seriously not\n\
-collect a single coin?\n\
-You must've explored my entire\n\
-manor! You had to have been\n\
-TRYING to miss the money at\n\
-that point.\n\
-I was originally gonna use\n\
-that money to buy you a manor\n\
-as thanks for all you've done,\n\
-but I can't even do that now!\n\
-I hope you're happy with\n\
-yourself, Mario."))
+Mario! SÉRIEUSEMENT ??\n\
+Pas UNE SEULE pièce ??\n\
+T'as exploré tout le manoir !\n\
+On dirait que tu as fait\n\
+EXPRÈS d'éviter l'argent.\n\
+\n\
+Je voulais utiliser ces pièces\n\
+pour te faire construire un\n\
+manoir en remerciement, mais\n\
+c'est fichu avec ce budget !\n\
+J'espère que tu es fier\n\
+de toi, Mario."))
 
-DEFINE_DIALOG(DIALOG_091, 2, 4, 30, 200, _("\
-Mario's Journal\n\
-Write something down\n\
-in it?\n\
-//Yes////No"))
+DEFINE_DIALOG(DIALOG_091, 2, 2, 30, 200, _("\
+Journal de Mario\n\
+\n\
+Écrire dedans ?\n\
+//Oui////Non"))
 
 DEFINE_DIALOG(DIALOG_092, 1, 1, 30, 200, _("\
-Mario wrote in his journal."))
+Mario a écrit dans son journal."))
 
 DEFINE_DIALOG(DIALOG_093, 1, 2, 30, 200, _("\
-I hope you're happy with\n\
-yourself, Mario."))
+J'espère que tu es fier\n\
+de toi, Mario."))
 
 DEFINE_DIALOG(DIALOG_094, 1, 3, 30, 200, _("\
-'How To Be A Good Friend And\n\
-Get Respect Doing It'\n\
-(The spine is well-worn.)"))
+'Comment Être un Bon Ami\n\
+Et Aider ses Proches'\n\
+(La reliure est bien usée.)"))
 
 DEFINE_DIALOG(DIALOG_095, 1, 2, 30, 200, _("\
-Save your progress?\n\
-//Yes////No"))
+Sauvegarder la progression ?\n\
+//Oui////Non"))
 
-DEFINE_DIALOG(DIALOG_096, 1, 5, 30, 200, _("\
-Save your progress?\n\
-(Red coin progress will not\n\
-be saved if you quit before\n\
-collecting all 8)\n\
-//Yes////No"))
+DEFINE_DIALOG(DIALOG_096, 1, 7, 30, 200, _("\
+Sauvegarder la progression ?\n\
+Les pièces rouges ne seront\n\
+pas sauvegardées si tu quittes\n\
+le jeu avant de les avoir\n\
+toutes ramassées.\n\
+\n\
+//Oui////Non"))
 
 DEFINE_DIALOG(DIALOG_097, 1, 2, 30, 200, _("\
-Oh, you've already collected\n\
-them? Excellent!\n\
-As promised, heres 1000 coins\n\
-for your trouble.\n\
-Till we meet again..."))
+Oh, tu les as déjà ramassées ?\n\
+Excellent !\n\
+Comme promis, voilà 1000\n\
+pièces pour te remercier.\n\
+À la revoyure..."))
 
-DEFINE_DIALOG(DIALOG_098, 1, 5, 95, 200, _("\
-Oh, you've already collected\n\
-them? Excellent! Now I have\n\
-all 24 of my red coins back.\n\
-\n\
-\n\
-You've been indispensable to\n\
-me Mario, so since I'm\n\
-feeling generous your final\n\
-reward will be 2000 coins.\n\
-Goodbye, Mario..."))
+DEFINE_DIALOG(DIALOG_098, 1, 3, 95, 200, _("\
+Oh, tu les as déjà ramassées ?\n\
+Excellent ! J'ai retrouvé\n\
+mes 24 pièces rouges.\n\
+Tu m'as été indispensable,\n\
+et je sens la générosité\n\
+m'envahir, Mario.\n\
+Pour ultime récompense,\n\
+voici 2000 pièces.\n\
+Adieu, Mario..."))
 
 
-DEFINE_DIALOG(DIALOG_099, 1, 3, 30, 200, _("\
-Well, that's all 8 of 'em.\n\
+DEFINE_DIALOG(DIALOG_099, 1, 4, 30, 200, _("\
+Et voilà, ça fait 8.\n\
 \n\
-\n\
-As promised, heres 1000 coins\n\
-for your trouble.\n\
-\n\
-You can return to that little\n\
-playset you came from by\n\
-jumping back into the fridge.\n\
-Till we meet again..."))
+Comme promis, voilà 1000\n\
+pièces pour te remercier.\n\
+Tu peux retourner dans ce\n\
+petit jouet dont tu viens\n\
+en sautant dans le frigo.\n\
+À la revoyure..."))
 
-DEFINE_DIALOG(DIALOG_100, 1, 3, 30, 200, _("\
-Oh, you've already collected\n\
-them? Excellent!\n\
-\n\
-As promised, heres 1000 coins\n\
-for your trouble.\n\
-\n\
-You can return to that little\n\
-playset you came from by\n\
-jumping back into the fridge.\n\
-Till we meet again..."))
+DEFINE_DIALOG(DIALOG_100, 1, 4, 30, 200, _("\
+Oh, tu les as déjà ramassées ?\n\
+Excellent!\n\
+Comme promis, voilà 1000\n\
+pièces pour te remercier.\n\
+Tu peux retourner dans ce\n\
+petit jouet dont tu viens\n\
+en sautant dans le frigo.\n\
+À la revoyure..."))
 
 DEFINE_DIALOG(DIALOG_101, 1, 3, 30, 200, _("\
-You've collected a piece of\n\
-the Broken Key!\n\
+Tu as trouvé un fragment\n\
+de la clé brisée !\n\
 \n\
-Collect all 3 to put the key\n\
-back together and unlock\n\
-the door to the third floor!\n\
-Do you want to Save?\n\
+Trouve les 3 et reconstitue\n\
+la clé pour déverrouiller la\n\
+porte du troisième étage !\n\
+Sauvegarder ?\n\
 \n\
-//Yes////No"))
+//Oui////Non"))
 
-DEFINE_DIALOG(DIALOG_102, 1, 4, 30, 200, _("\
-Although my tricks may not\n\
-seem nice,\n\
-This hint I give will sure\n\
-suffice\n\
-Find me through the castle\n\
-of the king who rules the\n\
-land of Ice."))
+DEFINE_DIALOG(DIALOG_102, 1, 1, 30, 200, _("\
+Cette porte cadenassée\n\
+Ne te laissera pas passer\n\
+Je suis dans le château du roi\n\
+Qui règne sur le froid."))
 
 DEFINE_DIALOG(DIALOG_103, 1, 2, 95, 200, _("\
-Need another lift?\n\
-Hop on."))
+Envie de refaire un tour ?\n\
+Allez, grimpe."))
 
 DEFINE_DIALOG(DIALOG_104, 1, 3, 30, 200, _("\
-(Open the Pause Menu to see\n\
-how many star coins there are\n\
-in this area!)\n\
+(Ouvre le menu de pause pour\n\
+savoir combien de pièces étoile\n\
+se trouvent dans cette zone !)\n\
 ..."))
 
 DEFINE_DIALOG(DIALOG_105, 1, 3, 95, 200, _("\

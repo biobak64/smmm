@@ -126,7 +126,7 @@ void print_intro_text(void) {
 #else
             // print_text_centered(60, 38, "PRESS", 0);
             // print_text_centered(60, 20, "START", 0);
-            print_text_centered(90, 15, "PRESS START", 0);
+            print_text_centered(110, 15, "APPUIE SUR START", 0);
 #endif
         }
     // }

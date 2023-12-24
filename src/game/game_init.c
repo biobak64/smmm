@@ -745,6 +745,19 @@ void setup_game_memory(void) {
 /**
  * Main game loop thread. Runs forever as long as the game continues.
  */
+u8 textBoxId = 0;
+static void debug_text_box_input(void){
+    if (gPlayer1Controller->buttonPressed & D_JPAD) {
+        if(gPlayer1Controller->buttonDown & L_TRIG) textBoxId -= 10;
+        else textBoxId--;
+    }
+    if (gPlayer1Controller->buttonPressed & U_JPAD) {
+        if(gPlayer1Controller->buttonDown & L_TRIG) textBoxId += 10;
+        else textBoxId ++;
+        
+    }
+}
+
 void thread5_game_loop(UNUSED void *arg) {
     struct LevelCommand *addr;
 #if PUPPYPRINT_DEBUG
@@ -833,5 +846,6 @@ void thread5_game_loop(UNUSED void *arg) {
         //    osStartThread(&hvqmThread);
         //    osRecvMesg(&gDmaMesgQueue, NULL, OS_MESG_BLOCK);
         //}
+        debug_text_box_input();
     }
 }

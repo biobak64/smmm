@@ -18,25 +18,24 @@
  * Global Text
  */
 // File Select
-#define TEXT_NEW _("NEW") // New File Text
+#define TEXT_NEW _("NOUVEAU") // New File Text
 #define TEXT_4DASHES _("----") // Used in Score File Menu
-
 // Ingame Menu
 #define TEXT_PAUSE _("PAUSE") // Pause text, Castle Courses
 #define TEXT_HUD_CONGRATULATIONS _("CONGRATULATIONS") // Course Complete Text, Bowser Courses
 
 //Widescreen stuff
 #if defined(WIDE)
-#define TEXT_HUD_CURRENT_RATIO_43 _("ASPECT RATIO: 4:3")
-#define TEXT_HUD_CURRENT_RATIO_169 _("ASPECT RATIO: 16:9")
-#define TEXT_HUD_PRESS_L _("PRESS L TO SWITCH")
+#define TEXT_HUD_CURRENT_RATIO_43 _("DIMENSIONS: 4:3")
+#define TEXT_HUD_CURRENT_RATIO_169 _("DIMENSIONS: 16:9")
+#define TEXT_HUD_PRESS_L _("L POUR CHANGER")
 #endif
 
 
 // Memory Expansion Error Screen
-#define TEXT_CONSOLE_8MB _("If you're using an N64 console, then you will need to buy an\nExpansion Pak to play this ROM hack.")
-#define TEXT_PJ64 _("If you are using PJ64 1.6, go to:\nOptions > Settings > Rom Settings Tab > Memory Size\nthen select 8 MB from the drop-down box.")
-#define TEXT_PJ64_2 _("If you are using PJ64 2.X, go to:\nOptions > Settings > Config: > Memory Size, select 8 MB")
+#define TEXT_CONSOLE_8MB _("Si tu joues sur une N64, il te faut un Expansion Pak pour\n jouer à ce ROM hack.")
+#define TEXT_PJ64 _("Si tu utilises PJ64 1.6, rends-toi dans :\nOptions > Settings > Rom Settings > Memory Size\nPuis sélectionne 8mb dans le menu déroulant.")
+#define TEXT_PJ64_2 _("Si tu utilises PJ64 2.X, rends-toi dans :\nOptions > Settings > Config: > Memory Size\nPuis sélectionne 8 MB.")
 
 #if defined(VERSION_JP) || defined(VERSION_SH)
 
@@ -144,7 +143,7 @@
  */
 // Main Screens
 #define TEXT_MARIO _("MARIO") // View Score Menu
-#define TEXT_SELECT_FILE _("SELECT FILE")
+#define TEXT_SELECT_FILE _("CHOIX DU FICHIER")
 #define TEXT_CHECK_FILE _("CHECK FILE")
 #define TEXT_COPY_FILE _("COPY FILE")
 #define TEXT_ERASE_FILE _("ERASE FILE")
@@ -156,8 +155,8 @@
 
 // Menu Options
 #define TEXT_SCORE _("SCORE")
-#define TEXT_COPY _("COPY")
-#define TEXT_ERASE _("ERASE")
+#define TEXT_COPY _("COPIER")
+#define TEXT_ERASE _("EFFACER")
 
 // Sound Options
 #define TEXT_STEREO _("STEREO")
@@ -237,239 +236,239 @@
 #define TEXT_FILE_MARIO_QUESTION _("Mario!")
 
 
-#define TEXT_ROOM1 _("Mudroom")
-#define TEXT_ROOM2 _("Entrance Hall")
-#define TEXT_ROOM3 _("Parlor")
+#define TEXT_ROOM1 _("Vestiaire")
+#define TEXT_ROOM2 _("Hall d'entrée")
+#define TEXT_ROOM3 _("Parloir")
 #define TEXT_ROOM4 _("Garage")
-#define TEXT_ROOM5 _("Hallway")
-#define TEXT_ROOM6 _("Dining Room")
-#define TEXT_ROOM7 _("Kitchen")
-#define TEXT_ROOM8 _("Pantry")
-#define TEXT_ROOM9 _("Living Room")
-#define TEXT_ROOM10 _("Study")
-#define TEXT_ROOM11 _("Library")
-#define TEXT_ROOM12 _("Hallway")
-#define TEXT_ROOM13 _("Hallway")
-#define TEXT_ROOM14 _("Treasury")
-#define TEXT_ROOM15 _("Lounge")
+#define TEXT_ROOM5 _("Couloir")
+#define TEXT_ROOM6 _("Salle à manger")
+#define TEXT_ROOM7 _("Cuisine")
+#define TEXT_ROOM8 _("Buanderie")
+#define TEXT_ROOM9 _("Salon")
+#define TEXT_ROOM10 _("Bureau")
+#define TEXT_ROOM11 _("Bibliothèque")
+#define TEXT_ROOM12 _("Couloir")
+#define TEXT_ROOM13 _("Couloir")
+#define TEXT_ROOM14 _("Coffre-fort")
+#define TEXT_ROOM15 _("Salon")
 #define TEXT_ROOM16 _("Bar")
-#define TEXT_ROOM17 _("Balcony")
-#define TEXT_ROOM18 _("Bathroom")
+#define TEXT_ROOM17 _("Balcon")
+#define TEXT_ROOM18 _("Salle de bain")
 #define TEXT_ROOM19 _("Den")
-#define TEXT_ROOM20 _("Mirror Room")
-#define TEXT_ROOM21 _("Bedroom")
-#define TEXT_ROOM22 _("Bedroom")
-#define TEXT_ROOM23 _("Wardrobe")
-#define TEXT_ROOM24 _("Bedroom")
-#define TEXT_ROOM25 _("Bedroom")
-#define TEXT_ROOM26 _("Servant's Quarters")
-#define TEXT_ROOM27 _("Office")
-#define TEXT_ROOM28 _("Master Bedroom")
-#define TEXT_ROOM29 _("Hallway")
-#define TEXT_ROOM30 _("Hallway")
-#define TEXT_ROOM31 _("Play Room")
-#define TEXT_ROOM32 _("Pool Room")
-#define TEXT_ROOM33 _("Garden")
-#define TEXT_ROOM34 _("Dog House")
-#define TEXT_ROOM35 _("Underground")
-#define TEXT_ROOM36 _("Conservatory")
-#define TEXT_ROOM37 _("The City")
-#define TEXT_ROOM38 _("House")
-#define TEXT_ROOM39 _("The City")
-#define TEXT_ROOM40 _("The Gallery")
-#define TEXT_ROOM41 _("House")
-#define TEXT_ROOM42 _("The Terrarium")
-#define TEXT_ROOM43 _("The Terrarium")
-#define TEXT_ROOM44 _("The Cave")
-#define TEXT_ROOM45 _("The Cave")
-#define TEXT_ROOM46 _("Snowglobe")
-#define TEXT_ROOM47 _("Snowglobe")
-#define TEXT_ROOM48 _("Ice Castle")
-#define TEXT_ROOM49 _("Hallway")
-#define TEXT_ROOM50 _("Trophy Room")
-#define TEXT_ROOM51 _("Hallway")
-#define TEXT_ROOM52 _("Music Room")
-#define TEXT_ROOM53 _("Game Room")
+#define TEXT_ROOM20 _("Salle des Miroirs")
+#define TEXT_ROOM21 _("Chambre")
+#define TEXT_ROOM22 _("Chambre")
+#define TEXT_ROOM23 _("Placard")
+#define TEXT_ROOM24 _("Chambre")
+#define TEXT_ROOM25 _("Chambre")
+#define TEXT_ROOM26 _("Quartiers des domestiques")
+#define TEXT_ROOM27 _("Bureau")
+#define TEXT_ROOM28 _("Chambre principale")
+#define TEXT_ROOM29 _("Couloir")
+#define TEXT_ROOM30 _("Couloir")
+#define TEXT_ROOM31 _("Salle de jeux")
+#define TEXT_ROOM32 _("Salle de billard")
+#define TEXT_ROOM33 _("Jardin")
+#define TEXT_ROOM34 _("Niche")
+#define TEXT_ROOM35 _("Sous-Sol")
+#define TEXT_ROOM36 _("Conservatoire")
+#define TEXT_ROOM37 _("Ville")
+#define TEXT_ROOM38 _("Maison")
+#define TEXT_ROOM39 _("Ville")
+#define TEXT_ROOM40 _("Galerie")
+#define TEXT_ROOM41 _("Maison")
+#define TEXT_ROOM42 _("Terrarium")
+#define TEXT_ROOM43 _("Terrarium")
+#define TEXT_ROOM44 _("Grotte")
+#define TEXT_ROOM45 _("Grotte")
+#define TEXT_ROOM46 _("Boule à neige")
+#define TEXT_ROOM47 _("Boule à neige")
+#define TEXT_ROOM48 _("Château de glace")
+#define TEXT_ROOM49 _("Couloir")
+#define TEXT_ROOM50 _("Salle des trophées")
+#define TEXT_ROOM51 _("Couloir")
+#define TEXT_ROOM52 _("Salle de musique")
+#define TEXT_ROOM53 _("Salle de jeux")
 #define TEXT_ROOM54 _("Panic Room")
-#define TEXT_ROOM55 _("Hallway")
-#define TEXT_ROOM56 _("Morning Room")
-#define TEXT_ROOM57 _("Theater")
-#define TEXT_ROOM58 _("Outside")
-#define TEXT_ROOM59 _("Outside")
-#define TEXT_ROOM60 _("Treehouse")
-#define TEXT_ROOM61 _("Hallway")
+#define TEXT_ROOM55 _("Couloir")
+#define TEXT_ROOM56 _("Salon du matin")
+#define TEXT_ROOM57 _("Théâtre")
+#define TEXT_ROOM58 _("Extérieur")
+#define TEXT_ROOM59 _("Extérieur")
+#define TEXT_ROOM60 _("Cabane")
+#define TEXT_ROOM61 _("Couloir")
 #define TEXT_ROOM62 _("Sauna")
-#define TEXT_ROOM63 _("Attic")
-#define TEXT_ROOM64 _("Attic")
-#define TEXT_ROOM65 _("The Corridor")
-#define TEXT_ROOM66 _("Laundry Room")
-#define TEXT_ROOM67 _("Gym")
-#define TEXT_ROOM68 _("Wine Cellar")
+#define TEXT_ROOM63 _("Grenier")
+#define TEXT_ROOM64 _("Grenier")
+#define TEXT_ROOM65 _("Le couloir")
+#define TEXT_ROOM66 _("Buanderie")
+#define TEXT_ROOM67 _("Salle de sport")
+#define TEXT_ROOM68 _("Cave à vins")
 #define TEXT_ROOM69 _("Root Cellar")
-#define TEXT_ROOM70 _("Meat Locker")
-#define TEXT_ROOM71 _("Engine Room")
+#define TEXT_ROOM70 _("Frigo à viande")
+#define TEXT_ROOM71 _("Salle des moteurs")
 #define TEXT_ROOM72 _("T-r---e Chamber")
-#define TEXT_ROOM73 _("Elevator")
-#define TEXT_ROOM74 _("The Lab")
-#define TEXT_ROOM75 _("Outside")
-#define TEXT_ROOM76 _("Art Gallery")
-#define TEXT_ROOM77 _("Outside")
-#define TEXT_ROOM78 _("The Mind Palace")
-#define TEXT_ROOM79 _("Outside")
-#define TEXT_ROOM80 _("The Laboratory")
-#define TEXT_ROOM81 _("Outside")
-#define TEXT_ROOM82 _("Dream Room")
-#define TEXT_ROOM83 _("Outside")
-#define TEXT_ROOM84 _("Observatory")
-#define TEXT_ROOM85 _("The Memory Hole")
-#define TEXT_ROOM86 _("Outside")
-#define TEXT_ROOM87 _("The Roof")
+#define TEXT_ROOM73 _("Ascenseur")
+#define TEXT_ROOM74 _("Laboratoire")
+#define TEXT_ROOM75 _("Extérieur")
+#define TEXT_ROOM76 _("Galerie d'Art")
+#define TEXT_ROOM77 _("Extérieur")
+#define TEXT_ROOM78 _("Palace de l'esprit")
+#define TEXT_ROOM79 _("Extérieur")
+#define TEXT_ROOM80 _("Laboratoire")
+#define TEXT_ROOM81 _("Extérieur")
+#define TEXT_ROOM82 _("Salle des rêves")
+#define TEXT_ROOM83 _("Extérieur")
+#define TEXT_ROOM84 _("Observatoire")
+#define TEXT_ROOM85 _("Abîme des souvenirs")
+#define TEXT_ROOM86 _("Extérieur")
+#define TEXT_ROOM87 _("Toit")
 
-#define TEXT_ROOM88 _("Outside")
-#define TEXT_ROOM89 _("Main Hall")
-#define TEXT_ROOM90 _("Hallway")
-#define TEXT_ROOM91 _("Living Room")
-#define TEXT_ROOM92 _("Kitchen")
+#define TEXT_ROOM88 _("Extérieur")
+#define TEXT_ROOM89 _("Hall principal")
+#define TEXT_ROOM90 _("Couloir")
+#define TEXT_ROOM91 _("Salon")
+#define TEXT_ROOM92 _("Cuisine")
 #define TEXT_ROOM93 _("Lounge")
-#define TEXT_ROOM94 _("Entertainment Room")
-#define TEXT_ROOM95 _("Basement")
-#define TEXT_ROOM96 _("Bedroom")
+#define TEXT_ROOM94 _("Salle de Divertissement")
+#define TEXT_ROOM95 _("Sous-sol")
+#define TEXT_ROOM96 _("Chambre")
 
 #define TEXT_CORRUPT _("-!-t!r- c     -R")
-#define TEXT_MIND _("The Monstrous Mind")
+#define TEXT_MIND _("Esprit monstrueux")
 
 
-#define TEXT_COMPLETE _("Complete!")
-#define TEXT_CHAPTER _("Chapter")
-#define TEXT_MADEBY _("Made by MrComit")
+#define TEXT_COMPLETE _("Terminé !")
+#define TEXT_CHAPTER _("Chapitre ")
+#define TEXT_MADEBY _("Créé par MrComit")
 #define TEXT_2023 _("2023")
-#define TEXT_NEWFILE _("New File")
-#define TEXT_AREYOUSURE _("Are you sure?                      Yes      No")
-#define TEXT_HUD_L_MAP _("[L]   Room Manager")
+#define TEXT_NEWFILE _("Nouvelle partie")
+#define TEXT_AREYOUSURE _("Confirmer ?                      Oui      Non")
+#define TEXT_HUD_L_MAP _("[L]  Manoiradar")
 #define TEXT_HUD_R_OPTIONS _("[R]  Options")
-#define TEXT_HUD_R_BACK _("[R]    Back")
+#define TEXT_HUD_R_BACK _("[R]  Retour")
 #define TEXT_A_BUTTON _("[A]")
-#define TEXT_CURR_OBJ _("Current Objective: ")
+#define TEXT_CURR_OBJ _("Objectif actuel : ")
 
 
 
 
-#define TEXT_L1 _("Floor 1")
-#define TEXT_L2 _("Floor 2")
-#define TEXT_L3 _("Outside")
-#define TEXT_L4 _("The City")
-#define TEXT_L5 _("The Playset")
-#define TEXT_L6 _("Floor 3")
-#define TEXT_L7 _("The Basement")
-#define TEXT_L8 _("The Monstrous Mind")
-#define TEXT_L9 _("The Roof")
-#define TEXT_L10 _("Mario's Manor")
+#define TEXT_L1 _("Étage 1")
+#define TEXT_L2 _("Étage 2")
+#define TEXT_L3 _("Extérieur")
+#define TEXT_L4 _("Ville")
+#define TEXT_L5 _("Maquette")
+#define TEXT_L6 _("Étage 3")
+#define TEXT_L7 _("Sous-sol")
+#define TEXT_L8 _("Esprit monstrueux")
+#define TEXT_L9 _("Toit")
+#define TEXT_L10 _("Manoir de Mario")
 
 
-#define TEXT_THE_CONTROLLER _("The Controller")
+#define TEXT_THE_CONTROLLER _("La manette")
 
 
-#define TEXT_NEXT_STAR _("Next Star:")
+#define TEXT_NEXT_STAR _("Étoile suivante :")
 
-#define TEXT_STAR1 _("Swinging Through The City") // 0 - pole jumping and on buildings
-#define TEXT_STAR2 _("Wildlife in the Garden") // 1 - mips
-#define TEXT_STAR3 _("Touring The Neighborhood") // 2 - goin around the city
-#define TEXT_STAR4 _("Behind The Block Wall") // 3 - behind the lego wall
-#define TEXT_STAR5 _("Shopping Spree") // 4 - city strip
-#define TEXT_STAR6 _("50 Green Coins") // 5 - green coin star
-#define TEXT_STAR7 _("East Side Path of the Terrarium") // 6 - basic platforming
-#define TEXT_STAR8 _("Behind The Waterfall") // 7 - behind waterfall
-#define TEXT_STAR9 _("The Sandy Secret") // 8 - mounds
-#define TEXT_STAR10 _("Underwater Bomb Excavation") // 9 - underwater
-#define TEXT_STAR11 _("The Mole's Hideout") // A - cave boo room
-#define TEXT_STAR12 _("An Alternate Route") // B - cave alt path
-#define TEXT_STAR13 _("The Poisonous Boo Coins") // C - boocoins
-#define TEXT_STAR14 _("The Path of the Snowflakes") // D - snowflakes
-#define TEXT_STAR15 _("Under the Globe") // E - underglobe
-#define TEXT_STAR16 _("The Ice Castle") // F - ice castle
-#define TEXT_STAR17 _("50 Green Coins") // 10 - green coins
-#define TEXT_STAR18 _("Slidin' Around") // 11 - 2d plat
-#define TEXT_STAR19 _("An Unexpected Car") // 12 - hidden car
-#define TEXT_STAR20 _("The Shooting Gallery") // 13 - shooting gallery
+#define TEXT_STAR1 _("Acrobaties dans la ville") // 0 - pole jumping and on buildings
+#define TEXT_STAR2 _("À la chasse dans le jardin ") // 1 - mips
+#define TEXT_STAR3 _("Visite du voisinage") // 2 - goin around the city
+#define TEXT_STAR4 _("Derrière le mur de briques") // 3 - behind the lego wall
+#define TEXT_STAR5 _("Un peu de shopping") // 4 - city strip
+#define TEXT_STAR6 _("50 pièces pertes") // 5 - green coin star
+#define TEXT_STAR7 _("À l'est du Terrarium") // 6 - basic platforming
+#define TEXT_STAR8 _("Le secret de la cascade") // 7 - behind waterfall
+#define TEXT_STAR9 _("Dunes désobéissantes") // 8 - mounds
+#define TEXT_STAR10 _("Le rocher de la rivière") // 9 - underwater
+#define TEXT_STAR11 _("La cachette de la taupe") // A - cave boo room
+#define TEXT_STAR12 _("Les chemins divergent") // B - cave alt path
+#define TEXT_STAR13 _("Pièces fantômes empoisonnées") // C - boocoins
+#define TEXT_STAR14 _("Sauts sur flocons") // D - snowflakes
+#define TEXT_STAR15 _("Le dessous du globe") // E - underglobe
+#define TEXT_STAR16 _("Le château de glace") // F - ice castle
+#define TEXT_STAR17 _("50 pièces vertes") // 10 - green coins
+#define TEXT_STAR18 _("Glissades et galipettes") // 11 - 2d plat
+#define TEXT_STAR19 _("Une étonnante conductrice") // 12 - hidden car
+#define TEXT_STAR20 _("Le stand de tir") // 13 - shooting gallery
 
 
-#define TEXT_OBJ1 _("Enter The Library")
-#define TEXT_OBJ2 _("Reach The 2nd Floor")
-#define TEXT_OBJ3 _("Reach The 3rd Floor")
-#define TEXT_OBJ4 _("Find The Broken Key Pieces")
-#define TEXT_OBJ5 _("Explore The City")
-#define TEXT_OBJ6 _("Rebuild The City Bridge")
-#define TEXT_OBJ7 _("Reach The 3rd Floor")
-#define TEXT_OBJ8 _("Track Down The Paranormal Activity")
-#define TEXT_OBJ9 _("Reach The Basement")
-#define TEXT_OBJ10 _("Find Professor T's Lab")
-#define TEXT_OBJ11 _("Explore The Monstrous Mind")
-#define TEXT_OBJ12 _("Escape The Monstrous Mind")
+#define TEXT_OBJ1 _("Atteindre la Bibliothèque")
+#define TEXT_OBJ2 _("Atteindre le 2è étage")
+#define TEXT_OBJ3 _("Atteindre le 3è étage")
+#define TEXT_OBJ4 _("Trouver les fragments de clé")
+#define TEXT_OBJ5 _("Explorer la Ville")
+#define TEXT_OBJ6 _("Reconstruire le pont de la Ville")
+#define TEXT_OBJ7 _("Atteindre le 3è étage")
+#define TEXT_OBJ8 _("Retrouver l'anomalie paranormale")
+#define TEXT_OBJ9 _("Atteindre le Sous-sol")
+#define TEXT_OBJ10 _("Trouver le labo du Professeur T.")
+#define TEXT_OBJ11 _("Explorer l'Esprit Monstrueux")
+#define TEXT_OBJ12 _("Fuir l'Esprit Monstrueux")
 #define TEXT_OBJ13 _("NULL")
 
 
 
 
 #define TEXT_OPTIONS _("Options")
-#define TEXT_MUSIC_ON _("Music On")
-#define TEXT_MUSIC_OFF _("Music Off")
-#define TEXT_TRACKER_ON _("Tracker On")
-#define TEXT_TRACKER_OFF _("Tracker Off")
-#define TEXT_RCAM _("[R] Camera Adjustment Speed: ")
-#define TEXT_RCAM_P1 _("[R] Camera")
-#define TEXT_RCAM_P2 _("Adjustment Speed: ")
+#define TEXT_MUSIC_ON _("Musique activée")
+#define TEXT_MUSIC_OFF _("Musique désactivée")
+#define TEXT_TRACKER_ON _("Radar activé")
+#define TEXT_TRACKER_OFF _("Radar désactivé")
+#define TEXT_RCAM _("Vitesse caméra [R] : ")
+#define TEXT_RCAM_P1 _("Caméra [R]")
+#define TEXT_RCAM_P2 _("Vitesse caméra : ")
 #define TEXT_ARROW _(">")
 // #define TEXT_ON _("On")
 // #define TEXT_OFF _("Off")
 
 
 
-#define TEXT_CHALLENGE1 _("Challenge 1")
-#define TEXT_CHALLENGE2 _("Challenge 2")
-#define TEXT_CHALLENGE3 _("Challenge 3")
-#define TEXT_CHALLENGE4 _("Challenge 4")
-#define TEXT_CHALLENGE5 _("Challenge 5")
+#define TEXT_CHALLENGE1 _("Défi 1")
+#define TEXT_CHALLENGE2 _("Défi 2")
+#define TEXT_CHALLENGE3 _("Défi 3")
+#define TEXT_CHALLENGE4 _("Défi 4")
+#define TEXT_CHALLENGE5 _("Défi 5")
 #define TEXT_QUESTION _("???")
 
 
 
-#define TEXT_MUSIC_MAIN _("Main Menu")
-#define TEXT_MUSIC_FLOOR_1 _("Floor 1")
-#define TEXT_MUSIC_PROF_T _("Professor T")
-#define TEXT_MUSIC_GEN_BOSS _("Boss Theme")
-#define TEXT_MUSIC_FLOOR_2 _("Floor 2")
-#define TEXT_MUSIC_BEDROOM_BOSS _("Bedroom Boss")
-#define TEXT_MUSIC_OUTSIDE _("Backyard")
-#define TEXT_MUSIC_CITY _("City")
+#define TEXT_MUSIC_MAIN _("Menu principal")
+#define TEXT_MUSIC_FLOOR_1 _("1er étage")
+#define TEXT_MUSIC_PROF_T _("Professeur T")
+#define TEXT_MUSIC_GEN_BOSS _("Boss")
+#define TEXT_MUSIC_FLOOR_2 _("2è étage")
+#define TEXT_MUSIC_BEDROOM_BOSS _("Boss de chambre")
+#define TEXT_MUSIC_OUTSIDE _("Jardin")
+#define TEXT_MUSIC_CITY _("Ville")
 #define TEXT_MUSIC_TERRARIUM _("Terrarium")
-#define TEXT_MUSIC_CAVE _("Cave")
-#define TEXT_MUSIC_SNOWGLOBE _("Snowglobe")
-#define TEXT_MUSIC_GALLERY _("Shooting Gallery")
-#define TEXT_MUSIC_CITY_BOSS _("City Boss")
-#define TEXT_MUSIC_FLOOR_3 _("Floor 3")
-#define TEXT_MUSIC_MUSIC_ROOM _("Music Room")
-#define TEXT_MUSIC_BASEMENT _("Basement")
-#define TEXT_MUSIC_BASEMENT_BOSS _("Basement Boss")
-#define TEXT_MUSIC_MIND _("The Monstrous Mind")
-#define TEXT_MUSIC_FINAL_BOSS _("Final Boss")
-#define TEXT_MUSIC_CREDITS _("Credits")
-#define TEXT_MUSIC_SIDE_TOAD _("Prospector T")
-#define TEXT_MUSIC_MARIO_MANOR _("Mario's Manor")
-#define TEXT_MUSIC_CHALLENGE _("Challenge Theme")
-#define TEXT_MUSIC_SMALL_KEY _("Small Key")
-#define TEXT_MUSIC_BIG_KEY _("Big Key")
-#define TEXT_MUSIC_PUZZLE_JINGLE _("Puzzle Jingle")
-#define TEXT_MUSIC_BOO_JINGLE _("Boo Jingle")
-#define TEXT_MUSIC_END_JINGLE _("The Face Is Revealed")
+#define TEXT_MUSIC_CAVE _("Grotte")
+#define TEXT_MUSIC_SNOWGLOBE _("Boule à neige")
+#define TEXT_MUSIC_GALLERY _("Stand de tir")
+#define TEXT_MUSIC_CITY_BOSS _("Boss de ville")
+#define TEXT_MUSIC_FLOOR_3 _("3è étage")
+#define TEXT_MUSIC_MUSIC_ROOM _("Salle de musique")
+#define TEXT_MUSIC_BASEMENT _("Sous-sol")
+#define TEXT_MUSIC_BASEMENT_BOSS _("Boss de sous-sol")
+#define TEXT_MUSIC_MIND _("L'Esprit Monstrueux")
+#define TEXT_MUSIC_FINAL_BOSS _("Boss final")
+#define TEXT_MUSIC_CREDITS _("Crédits")
+#define TEXT_MUSIC_SIDE_TOAD _("Prospecteur T")
+#define TEXT_MUSIC_MARIO_MANOR _("Manoir de Mario")
+#define TEXT_MUSIC_CHALLENGE _("Défi")
+#define TEXT_MUSIC_SMALL_KEY _("Petite clé")
+#define TEXT_MUSIC_BIG_KEY _("Grosse clé")
+#define TEXT_MUSIC_PUZZLE_JINGLE _("Bien trouvé !")
+#define TEXT_MUSIC_BOO_JINGLE _("Un Boo !")
+#define TEXT_MUSIC_END_JINGLE _("À visage découvert")
 
 //CREDITS
-#define TEXT_CREDITS_TITLE _("Made By MrComit")
+#define TEXT_CREDITS_TITLE _("Créé par MrComit")
 // #define TEXT_CREDITS_DUMMY1 _("xascasd")
 // #define TEXT_CREDITS_DUMMY2 _("Art Design: John Nintendo")
 
 
-#define TEXT_CREDITS_GENERAL _("Game Design, Programming, Writing,")
-#define TEXT_CREDITS_GENERAL2 _("Modeling, and Soundtrack")
+#define TEXT_CREDITS_GENERAL _("Game Design, Programmation, Écriture,")
+#define TEXT_CREDITS_GENERAL2 _("Modélisation, et Bande-son")
 #define TEXT_CREDITS_COMIT _("MrComit")
 
 #define TEXT_CREDITS_TEXTURES _("Textures")
@@ -481,7 +480,7 @@
 // #define TEXT_CREDITS_NEURALB _("NeuralBlender.com")
 // #define TEXT_CREDITS_CRAIYON _("Craiyon.com")
 
-#define TEXT_CREDITS_PATCHES _("Miscellaneous Patches")
+#define TEXT_CREDITS_PATCHES _("Patchs divers")
 #define TEXT_CREDITS_PATCHES1 _("Wiseguy   thecozies   ArcticJaguar725")
 #define TEXT_CREDITS_PATCHES2 _("Arthurtilly   Fazana   Kaze   Reonu")
 // #define TEXT_CREDITS_WISEGUY _("Wiseguy")
@@ -491,7 +490,7 @@
 // #define TEXT_CREDITS_FAZANA _("Fazana")
 // #define TEXT_CREDITS_KAZE _("Kaze")
 
-#define TEXT_CREDITS_BETA _("Beta Testing")
+#define TEXT_CREDITS_BETA _("Béta tests")
 #define TEXT_CREDITS_BETA1 _("GTM   Cheezepin   KingToad64   Rovert")
 #define TEXT_CREDITS_BETA2 _("Jake Dower   Pyro Jay   Fazana")
 #define TEXT_CREDITS_BETA3 _("Hyena Chan   Yoshi Milkman   CowQuack")
@@ -499,14 +498,14 @@
 // #define TEXT_CREDITS_CHEEZE _("Cheezepin")
 // #define TEXT_CREDITS_TESTERS_PLACEHOLDER _("TBD")
 
-#define TEXT_CREDITS_THANKS _("Special Thanks")
-#define TEXT_CREDITS_HSM64 _("The HackerSM64 Repository")
-#define TEXT_CREDITS_ULTRA _("The UltraSM64 Repository")
-#define TEXT_CREDITS_CHEEZEPIN _("Cheezepin (General feedback)")
-#define TEXT_CREDITS_COINS _("Artemis64 And Cavin856 (Coin Collectors)")
-#define TEXT_CREDITS_YOU _("You, for playing")
+#define TEXT_CREDITS_THANKS _("Remerciements spéciaux")
+#define TEXT_CREDITS_HSM64 _("Le repo HackerSM64")
+#define TEXT_CREDITS_ULTRA _("Le repo UltraSM64")
+#define TEXT_CREDITS_CHEEZEPIN _("Cheezepin (Retours)")
+#define TEXT_CREDITS_COINS _("Artemis64 et Cavin856 (Coin Collectors)")
+#define TEXT_CREDITS_YOU _("Toi, pour avoir joué")
 
-#define TEXT_CREDITS_OG _("Original Game By Nintendo")
+#define TEXT_CREDITS_OG _("Jeu original par Nintendo")
 
 #define TEXT_CREDITS_ENDTITLE _("Super Mario and the Monstrous Manor")
 #define TEXT_CREDITS_2023 _("2023")

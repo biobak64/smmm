@@ -532,11 +532,11 @@ void bhv_cs_button_manager_init(void) {
     obj->header.gfx.scale[0] = 0.8f;
     obj->oBehParams2ndByte = 2;
 
-    obj = spawn_object_abs_with_rot(o, 0, MODEL_FILE_BUTTON, bhvCSSideButton, 560, 190, 0, 0, 0, 0);
+    obj = spawn_object_abs_with_rot(o, 0, MODEL_FILE_BUTTON, bhvCSSideButton, 495, 190, 0, 0, 0, 0);
     obj->header.gfx.scale[1] = 0.8f;
     obj->oFloatF8 = obj->header.gfx.scale[1];
     obj->oFloatFC = ((obj->oFloatF8 * 1.15f) - obj->oFloatF8) / 8.0f;
-    obj = spawn_object_abs_with_rot(o, 0, MODEL_FILE_BUTTON, bhvCSSideButton, 560, 25, 0, 0, 0, 0);
+    obj = spawn_object_abs_with_rot(o, 0, MODEL_FILE_BUTTON, bhvCSSideButton, 450, 25, 0, 0, 0, 0);
     obj->oBehParams2ndByte = 1;
     obj->header.gfx.scale[1] = 0.8f;
     obj->oFloatF8 = obj->header.gfx.scale[1];
@@ -842,22 +842,22 @@ void print_erase_prompt(void) {
 void print_top_text(s32 mode) {
     switch (mode) {
         case CF_NORMAL:
-            print_text(90, 225 - 15, "SELECT FILE", 7);
+            print_text(65, 225 - 15, "CHOIX DU FICHIER", 7);
             break;
         case CF_ERASE:
-            print_text(40, 225 - 15, "SELECT FILE TO ERASE", 7);
+            print_text(28, 225 - 15, "QUEL FICHIER EFFACER ?", 7);
             break;
         case CF_COPY1:
-            print_text(45, 225 - 15, "SELECT FILE TO COPY", 7);
+            print_text(24, 225 - 15, "QUEL FICHIER COPIER ?", 7);
             break;
         case CF_COPY2:
-            print_text(16, 225 - 15, "SELECT FILE TO OVERWRITE", 7);
+            print_text(16, 225 - 15, "QUEL FICHIER REMPLACER ?", 7);
             break;
         case CF_OPTIONS:
             print_text(104, 225 - 15, "OPTIONS", 7);
             break;
         case CF_CHALLENGES:
-            print_text(98, 225 - 15, "CHALLENGES", 7);
+            print_text(98, 225 - 15, "DEFIS", 7);
             break;
     }
 }
@@ -921,9 +921,9 @@ void print_challenge_times(s32 challenge, s32 y) {
 	if (highScore == 0 || highScore >= 3600) {
 		highScore = 3600;
         palette = 6;
-    	print_text(CHALLENGE_TIME_START_X, y, "GOAL", palette);
+    	print_text(CHALLENGE_TIME_START_X, y, "OBJECTIF", palette);
 	} else {
-    	print_text(CHALLENGE_TIME_START_X, y, "BEST", palette);
+    	print_text(CHALLENGE_TIME_START_X, y, "RECORD", palette);
 	}
 
     highMins = highScore / (30 * 60);
@@ -1021,7 +1021,7 @@ void print_CF_strings(void) {
         } else {
             // create_dl_scale_matrix(MENU_MTX_NOPUSH, 2.0f, 2.0f, 1.0f);
             // print_generic_string(80, 175 - 6, textNewFile);
-            print_text(37, 175 - 6, "NEW FILE", 0);
+            print_text(42, 175 - 6, "NOUVEAU", 0);
         }
 
         if (cur_obj_nearest_object_with_behavior(bhvCSErasePrompt) == NULL && !cur_obj_has_behavior(bhvCSErasePrompt)) {
@@ -1030,7 +1030,7 @@ void print_CF_strings(void) {
             } else {
                 // create_dl_scale_matrix(MENU_MTX_NOPUSH, 2.0f, 2.0f, 1.0f);
                 // print_generic_string(80, 175 - 6, textNewFile);
-                print_text(37, 127 - 6, "NEW FILE", 3);
+                print_text(42, 127 - 6, "NOUVEAU", 3);
             }
         }
 
@@ -1039,22 +1039,22 @@ void print_CF_strings(void) {
         } else {
             // create_dl_scale_matrix(MENU_MTX_NOPUSH, 2.0f, 2.0f, 1.0f);
             // print_generic_string(80, 175 - 6, textNewFile);
-            print_text(37, 79 - 6, "NEW FILE", 2);
+            print_text(42, 79 - 6, "NOUVEAU", 2);
         }
         
 
 
         if (sCFMode != CF_COPY1 && sCFMode != CF_COPY2) {
-            print_text(253, 175 - 6 - 1, "COPY", 6);
+            print_text(235, 175 - 6 - 1, "COPIER", 6);
         } else {
-            print_text(253, 175 - 6 - 1, "BACK", 7);
+            print_text(235, 175 - 6 - 1, "RETOUR", 7);
         }
 
         if (sCFMode != CF_ERASE) {
-            print_text(252, 127 - 6 - 1, "ERASE", 1);
+            print_text(223, 127 - 6 - 1, "EFFACER", 1);
         } else {
             if (cur_obj_nearest_object_with_behavior(bhvCSErasePrompt) == NULL && !cur_obj_has_behavior(bhvCSErasePrompt)) {
-                print_text(252, 127 - 6 - 1, "BACK", 7);
+                print_text(235, 127 - 6 - 1, "RETOUR", 7);
             }
         }
 
@@ -1065,7 +1065,7 @@ void print_CF_strings(void) {
         }
 
         if (save_file_get_menu_challenges()) {
-            print_text(25, 13, "CHALLENGES", 4);
+            print_text(25, 13, "DEFIS", 4);
         }
 
 
@@ -1078,7 +1078,7 @@ void print_CF_strings(void) {
         print_generic_string(294 + 6, 79 - 6 - 1, textArrow);
         gDPSetEnvColor(gDisplayListHead++, 255, 255, 255, sCTextBaseAlpha);
     } else {
-        print_text(25, 13, "BACK", 7);
+        print_text(25, 13, "RETOUR", 7);
         print_challenge_text();    
     }
 

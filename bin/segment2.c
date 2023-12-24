@@ -1817,7 +1817,6 @@ ALIGNED8 static const Texture texture_hud_char_double_quote[] = {
 //#include "textures/segment2/segment2.umlaut.rgba16.inc.c"// EU ¨
 //};
 
-
 ALIGNED8 static const Texture texture_hud_char_exclamation[] = {
 #include "textures/segment2/CUSTOM_segment2.04C00.rgba16.inc.c"// JP !
 };
@@ -1830,13 +1829,13 @@ ALIGNED8 static const Texture texture_hud_char_question[] = {
 #include "textures/segment2/CUSTOM_segment2.05000.rgba16.inc.c"// JP ?
 };
 
-ALIGNED8 static const Texture texture_hud_char_ampersand[] = {
-#include "textures/segment2/segment2.05200.rgba16.inc.c"// JP &
-};
+// ALIGNED8 static const Texture texture_hud_char_ampersand[] = {
+// #include "textures/segment2/segment2.05200.rgba16.inc.c"// JP &
+// };
 
-ALIGNED8 static const Texture texture_hud_char_percent[] = {
-#include "textures/segment2/segment2.05400.rgba16.inc.c"// JP %
-};
+// ALIGNED8 static const Texture texture_hud_char_percent[] = {
+// #include "textures/segment2/segment2.05400.rgba16.inc.c"// JP %
+// };
 
 
 ALIGNED8 static const Texture texture_hud_char_gear[] = {
@@ -3394,7 +3393,7 @@ ALIGNED8 static const Texture texture_font_char_us_ellipsis[] = {
 #include "textures/segment2/font_graphics.06D00.ia4.inc.c"
 };
 
-ALIGNED8 static const Texture texture_font_char_us_slash[] = {
+ALIGNED8 static const Texture texture_font_char_us_dash[] = {
 #include "textures/segment2/font_graphics.06D40.ia4.inc.c"
 };
 
@@ -3464,6 +3463,154 @@ ALIGNED8 static const Texture texture_hud_char_arrow_down[] = {
 #include "textures/segment2/segment2.081D0.rgba16.inc.c"
 };
 
+ALIGNED8 static const Texture texture_font_char_e_aigue_maj[] = {
+#include "textures/segment2/e_aigue_maj.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_c_cedile_maj[] = {
+#include "textures/segment2/c_cedile_maj.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_c_cedile_min[] = {
+#include "textures/segment2/c_cedile_min.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_i_circonflexe_min[] = {
+#include "textures/segment2/i_circonflexe_min.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_i_umlaut_min[] = {
+#include "textures/segment2/i_umlaut_min.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_u_circonflexe_min[] = {
+#include "textures/segment2/u_circonflexe_min.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_u_circonflexe_maj[] = {
+#include "textures/segment2/u_circonflexe_maj.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_u_grave_min[] = {
+#include "textures/segment2/u_grave_min.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_u_grave_maj[] = {
+#include "textures/segment2/u_grave_maj.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_u_aigue_maj[] = {
+#include "textures/segment2/u_aigue_maj.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_u_umlaut_min[] = {
+#include "textures/segment2/u_umlaut_min.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_u_umlaut_maj[] = {
+#include "textures/segment2/u_umlaut_maj.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_e_umlaut_min[] = {
+#include "textures/segment2/e_umlaut_min.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_e_umlaut_maj[] = {
+#include "textures/segment2/e_umlaut_maj.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_e_circonflexe_min[] = {
+#include "textures/segment2/e_circonflexe_min.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_e_circonflexe_maj[] = {
+#include "textures/segment2/e_circonflexe_maj.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_e_grave_min[] = {
+#include "textures/segment2/e_grave_min.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_e_grave_maj[] = {
+#include "textures/segment2/e_grave_maj.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_e_aigue_min[] = {
+#include "textures/segment2/e_aigue_min.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_a_circonflexe_min[] = {
+#include "textures/segment2/a_circonflexe_min.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_a_circonflexe_maj[] = {
+#include "textures/segment2/a_circonflexe_maj.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_a_grave_min[] = {
+#include "textures/segment2/a_grave_min.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_a_grave_maj[] = {
+#include "textures/segment2/a_grave_maj.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_a_umlaut_min[] = {
+#include "textures/segment2/a_umlaut_min.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_a_umlaut_maj[] = {
+#include "textures/segment2/a_umlaut_maj.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_o_circonflexe_min[] = {
+#include "textures/segment2/o_circonflexe_min.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_o_circonflexe_maj[] = {
+#include "textures/segment2/o_circonflexe_maj.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_o_umlaut_min[] = {
+#include "textures/segment2/o_umlaut_min.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_o_umlaut_maj[] = {
+#include "textures/segment2/o_umlaut_maj.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_eszett[] = {
+#include "textures/segment2/eszett.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_double_low_quote[] = {
+#include "textures/segment2/double_low_quote.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_triple_period[] = {
+#include "textures/segment2/triple_period.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_degree[] = {
+#include "textures/segment2/degree.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_slash[] = {
+#include "textures/segment2/slash.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_backslash[] = {
+#include "textures/segment2/backslash.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_at[] = {
+#include "textures/segment2/at.ia4.inc.c"
+};
+
+ALIGNED8 static const Texture texture_font_char_hashtag[] = {
+#include "textures/segment2/hashtag.ia4.inc.c"
+};
+
 // Main HUD print table 0x02008250-0x02008337
 const Texture *const main_hud_lut[] = {
 /*#ifdef VERSION_EU
@@ -3508,8 +3655,8 @@ const Texture *const main_hud_lut[] = {
     texture_hud_char_O, texture_hud_char_P, texture_hud_char_Q, texture_hud_char_R,
     texture_hud_char_S, texture_hud_char_T, texture_hud_char_U, texture_hud_char_V,
     texture_hud_char_W, texture_hud_char_X, texture_hud_char_Y, texture_hud_char_Z,
-    texture_hud_char_exclamation, texture_hud_char_double_exclamation, texture_hud_char_question, texture_hud_char_ampersand,
-    texture_hud_char_percent,  texture_hud_char_gear,  texture_hud_char_normal_boo, texture_hud_char_white_star,
+    /*texture_hud_char_exclamation*/0x0, texture_hud_char_double_exclamation, /*texture_hud_char_question*/0x0, /*texture_hud_char_ampersand*/0x0,
+    /*texture_hud_char_percent*/0x0,  texture_hud_char_gear,  texture_hud_char_normal_boo, texture_hud_char_white_star,
 	texture_hud_char_plus_sign,                   0x0,                      0x0,                  0x0,
                       0x0,                   0x0, texture_hud_char_multiply, texture_hud_char_coin,
     texture_hud_char_mario_head, texture_hud_char_star, texture_hud_char_decimal_point, texture_hud_char_beta_key,
@@ -3607,14 +3754,79 @@ const Texture *const main_font_lut[] = {
                   0x0,               0x0,               0x0,               0x0,
                   0x0,               0x0,               0x0,               0x0,
                   0x0,               0x0,               0x0,               0x0,
-    texture_font_char_us_button_C_up, texture_font_char_us_button_C_down, texture_font_char_us_button_C_left, texture_font_char_us_button_C_right,
-    texture_font_char_us_button_A, texture_font_char_us_button_B, texture_font_char_us_button_C, texture_font_char_us_button_Z,
-    texture_font_char_us_button_R, texture_font_char_us_button_L,          0x0,               0x0,
+    texture_font_char_us_button_C_up,
+    texture_font_char_us_button_C_down,
+    texture_font_char_us_button_C_left,
+    texture_font_char_us_button_C_right,
+    texture_font_char_us_button_A,
+    texture_font_char_us_button_B,
+    texture_font_char_us_button_C,
+    texture_font_char_us_button_Z,
+    texture_font_char_us_button_R,   
+    texture_font_char_us_button_L,   0x0,               0x0,
+                  0x0,               0x0,               0x0,               0x0,
+    // à â ä á À Â Ä Á
+    texture_font_char_a_grave_min, 
+    texture_font_char_a_circonflexe_min,
+    texture_font_char_a_umlaut_min,
+    0x0,
+    texture_font_char_a_grave_maj,
+    texture_font_char_a_circonflexe_maj,
+    texture_font_char_a_umlaut_maj,
+    0x0,               
+    // ??
+                  0x0,              0x0,               0x0,                0x0,
+                  0x0,              0x0,               0x0,    texture_font_char_us_comma,
+    // è ê ë é È Ê Ë É
+    texture_font_char_e_grave_min,
+    texture_font_char_e_circonflexe_min,
+    texture_font_char_e_umlaut_min,
+    texture_font_char_e_aigue_min,
+    texture_font_char_e_grave_maj,
+    texture_font_char_e_circonflexe_maj,
+    texture_font_char_e_umlaut_maj,
+    texture_font_char_e_aigue_maj,
+    // ???
+                  0x0,               0x0,               0x0,               0x0,
+                  0x0,               0x0,               0x0,               0x0,
+    // ù û ü ú Ù Û Ü Ú
+    texture_font_char_u_grave_min,
+    texture_font_char_u_circonflexe_min,
+    texture_font_char_u_umlaut_min,
+    0x0,
+    texture_font_char_u_grave_maj,
+    texture_font_char_u_circonflexe_maj,
+    texture_font_char_u_umlaut_maj,
+    texture_font_char_u_aigue_maj,
+    //???
+    0x0,               0x0,               0x0,               0x0,
+    0x0,               0x0,               0x0,               0x0, 
+    // ò ô ö ó Ò Ô Ô Ó
+    0x0,
+    texture_font_char_o_circonflexe_min,
+    texture_font_char_o_umlaut_min,
+    0x0,
+    0x0,
+    texture_font_char_o_circonflexe_maj,               
+    texture_font_char_o_umlaut_maj,
+    0x0,
+    //??
+                  0x0,               0x0,               0x0,               0x0,
+                  0x0,               0x0,               0x0, texture_font_char_us_dash,
+    // ì î ï ? Ì Î Ï ?
+    0x0, 
+    texture_font_char_i_circonflexe_min,
+    texture_font_char_i_umlaut_min,
+    0x0,
+    0x0,
+    0x0,
+    0x0,
+    0x0,
+    // ??
                   0x0,               0x0,               0x0,               0x0,
                   0x0,               0x0,               0x0,               0x0,
                   0x0,               0x0,               0x0,               0x0,
                   0x0,               0x0,               0x0,               0x0,
-                  0x0,               0x0,               0x0, texture_font_char_us_comma,
                   0x0,               0x0,               0x0,               0x0,
                   0x0,               0x0,               0x0,               0x0,
                   0x0,               0x0,               0x0,               0x0,
@@ -3625,32 +3837,37 @@ const Texture *const main_font_lut[] = {
                   0x0,               0x0,               0x0,               0x0,
                   0x0,               0x0,               0x0,               0x0,
                   0x0,               0x0,               0x0,               0x0,
-                  0x0,               0x0,               0x0,               0x0,
-                  0x0,               0x0,               0x0, texture_font_char_us_slash,
-                  0x0,               0x0,               0x0,               0x0,
-                  0x0,               0x0,               0x0,               0x0,
-                  0x0,               0x0,               0x0,               0x0,
-                  0x0,               0x0,               0x0,               0x0,
-                  0x0,               0x0,               0x0,               0x0,
-                  0x0,               0x0,               0x0,               0x0,
-                  0x0,               0x0,               0x0,               0x0,
-                  0x0,               0x0,               0x0,               0x0,
-                  0x0,               0x0,               0x0,               0x0,
-                  0x0,               0x0,               0x0,               0x0,
-                  0x0,               0x0,               0x0,               0x0,
-                  0x0,               0x0,               0x0,               0x0,
-                  0x0,               0x0,               0x0,               0x0,
-                  0x0,               0x0,               0x0,               0x0,
-                  0x0,               0x0,               0x0,               0x0,
-                  0x0,               0x0,               0x0,               0x0,
-                  0x0, texture_font_char_us_open_parentheses, texture_font_char_us_close_open_parentheses, texture_font_char_us_close_parentheses,
-    texture_font_char_us_left_right_arrow, texture_font_char_us_ampersand, texture_font_char_us_ellipsis,               0x0,
-                  0x0,               0x0,               0x0,               0x0,
-                  0x0,               0x0,               0x0,               0x0,
-                  0x0,               0x0, texture_font_char_us_exclamation, texture_font_char_us_percent,
-    texture_font_char_us_question, texture_font_char_us_double_quote_open, texture_font_char_us_double_quote_close, texture_font_char_us_tilde,
-                  0x0, texture_font_char_us_coin, texture_font_char_us_star_filled, texture_font_char_us_multiply,
-    texture_font_char_us_interpunct, texture_font_char_us_star_hollow,               0x0,               0x0,
+                  0x0, // [%] display a '0' idk  
+    texture_font_char_us_open_parentheses,       // (
+    texture_font_char_us_close_open_parentheses, // )(
+    texture_font_char_us_close_parentheses,      // )
+    texture_font_char_us_left_right_arrow,       // ↔
+    texture_font_char_us_ampersand, // &
+    texture_font_char_us_ellipsis,  // :
+    texture_font_char_slash,     // / use µ/          
+    texture_font_char_backslash, // \ use ¤/              
+    texture_font_char_at, // @              
+    texture_font_char_hashtag, // #
+    texture_font_char_degree,   // ° NOTE: I changed ゜to ° (degree sign), charmap.txt now interpret ° insteed of ゜and move it to 0xEB (initially at 0xF1)     
+    texture_font_char_eszett,   // ß
+    texture_font_char_c_cedile_maj, // Ç
+    texture_font_char_c_cedile_min, // ç
+    texture_font_char_double_low_quote, // „  NOTE: originally „ char ID is 0xF0, but it doesn't work with this ID, so I move it to 0xEF in charmap.txt, now it works           
+                  0x0,                  // ID 0xF0 DON'T USE (japanese characters thing)
+                  0x0,                  // ID 0xF1 DON'T USE (japanese characters thing)
+    texture_font_char_us_exclamation,   // !
+    texture_font_char_us_percent,       // %
+    texture_font_char_us_question,      // ?
+    texture_font_char_us_double_quote_open,  // " use 『
+    texture_font_char_us_double_quote_close, // " use 』
+    texture_font_char_us_tilde,       // ~
+    texture_font_char_triple_period,  // …
+    texture_font_char_us_coin,        // $
+    texture_font_char_us_star_filled, // ★
+    texture_font_char_us_multiply,    // ×
+    texture_font_char_us_interpunct,  // ・
+    texture_font_char_us_star_hollow, // ☆
+                  0x0,               0x0,
 #elif defined(VERSION_JP) || defined(VERSION_SH)
     texture_font_char_jp_0, texture_font_char_jp_1, texture_font_char_jp_2, texture_font_char_jp_3,
     texture_font_char_jp_4, texture_font_char_jp_5, texture_font_char_jp_6, texture_font_char_jp_7,
