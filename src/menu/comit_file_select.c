@@ -640,7 +640,7 @@ void print_file_chapter(s8 file, s16 x, s16 y) {
         print_generic_string(x, y, textChapter);
         // Print coin score
         int_to_str(get_chapter_from_save_data(file), chapterNum);
-        print_generic_string(x + 40, y, chapterNum);
+        print_generic_string(x + 42, y, chapterNum);
     }
 }
 

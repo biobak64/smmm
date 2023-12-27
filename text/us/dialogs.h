@@ -52,13 +52,13 @@ je pourrais sûrement clore le\n\
 vortex par lequel ils\n\
 s'infiltrent mais, bien sûr,\n\
 c'aurait été trop simple...\n\
-La porte du Sous-sol semble\n\
+La porte du sous-sol semble\n\
 être bloquée par un genre de\n\
 barrière spectrale.\n\
 Tout ce que je sais, c'est que\n\
 mes radars détectent une\n\
 forte activité paranormale\n\
-au troisième étage.\n\
+au deuxième étage.\n\
 Tu pourrais aller vérifier pour\n\
 moi? Il te faudra d'abord\n\
 trouver la clé de la porte\n\
@@ -122,10 +122,10 @@ plus puissant que les autres. \n\
 \n\
 \n\
 Pour exorciser ces pièces,\n\
-il te faudra tout d'abord\n\
-éliminer tous les sbires,\n\
-le boo sera alors affaibli\n\
-et tu pourras l'attaquer. \n\
+il te faudra d'abord éliminer\n\
+tous les sbires du boo, qui\n\
+sera alors affaibli. C'est\n\
+là que tu pourras l'attaquer. \n\
 Bonne chance ! ☆CLIC☆"))
 
 DEFINE_DIALOG(DIALOG_003, 1, 6, 95, 200, _("\
@@ -143,8 +143,8 @@ gagner moins de pièces que tu \n\
 n'en ramasses, alors prudence !"))
 
 DEFINE_DIALOG(DIALOG_004, 1, 6, 95, 200, _("\
-Aha Mario, tu as réussi !\n\
-Cet escalier va au deuxième\n\
+Aha, Mario ! Tu as réussi !\n\
+Cet escalier monte au deuxième\n\
 étage, qui mène tout droit\n\
 au troisième, où tu pourras\n\
 enquêter sur cette mystérieuse\n\
@@ -152,12 +152,12 @@ activité paranormale.\n\
 Au fait, tous ces fantômes\n\
 que tu as vaincu me seront\n\
 très utiles dans mes\n\
-recherches, alors attrapes-\n\
+recherches, alors attrape-\n\
 en un maximum et ramène-les\n\
 moi, s'il te plaît.\n\
 Si tu m'en trouves assez,\n\
 j'aurai même des récompenses\n\
-à te donner. ☆CLIC☆"))
+à te donner."))
 
 DEFINE_DIALOG(DIALOG_005, 1, 4, 30, 200, _("\
 Le Manoiradar me permettra\n\
@@ -199,12 +199,12 @@ devait venir semble s'être\n\
 perdu en chemin !)\n\
 (Et il nous a fait un devis à\n\
 8 pièces étoile, mais C'EST\n\
-CLAIREMENT PAS DANS NOTRE\n\
-BUDGET !!!)\n\
+CLAIREMENT PAS DANS\n\
+NOTRE BUDGET !!!)\n\
 (L'ouvrier a été aperçu pour\n\
 la dernière fois près de la\n\
 boule à neige. Tu peux t'y\n\
-rendre avec l'élastique géant !)\n\
+rendre en élastique géant !)\n\
 ..."))
 
 DEFINE_DIALOG(DIALOG_009, 1, 3, 30, 200, _("\
@@ -235,10 +235,10 @@ Merci bien !)\n\
 ..."))
 
 DEFINE_DIALOG(DIALOG_013, 1, 6, 30, 200, _("\
-Tu viens d'obtenir une\n\
-Branche d'Étoile ! Trouves-en\n\
-5 dans ce chapitre pour\n\
-obtenir une récompense.\n\
+Tu viens d'obtenir un\n\
+éclat d'étoile !\n\
+Trouve les 5 de ce chapitre\n\
+pour obtenir une récompense.\n\
 Sauvegarder ?\n\
 //Oui////Non"))
 
@@ -247,7 +247,6 @@ Tu viens d'obtenir une clé !\n\
 Regarde ton Manoiradar pour\n\
 trouver la serrure qu'elle\n\
 permet de déverrouiller.\n\
-\n\
 Sauvegarder ?\n\
 \n\
 //Oui////Non"))
@@ -280,7 +279,7 @@ jamais au boulot à l'heure !)\n\
 
 DEFINE_DIALOG(DIALOG_018, 1, 3, 30, 200, _("\
 (Toutes mes excuses, notre\n\
-stock de branches d'étoile\n\
+stock d'éclats d'étoile\n\
 d'émeraude est épuisé !)\n\
 (Mais vous pourrez sûrement\n\
 trouver les branches de l'étoile\n\
@@ -289,7 +288,7 @@ d'or, si vous cherchez bien.)\n\
 
 DEFINE_DIALOG(DIALOG_019, 1, 3, 30, 200, _("\
 (Toutes mes excuses, notre\n\
-stock de branches d'étoile\n\
+stock d'éclats d'étoile\n\
 d'émeraude est épuisé !)\n\
 (Mais vous pourrez sûrement\n\
 trouver les branches de l'étoile\n\
@@ -307,7 +306,7 @@ Ton nouvel ami"))
 
 DEFINE_DIALOG(DIALOG_021, 1, 3, 95, 200, _("\
 (Toutes mes excuses, notre\n\
-stock de branches d'étoile\n\
+stock d'éclats d'étoile\n\
 d'émeraude est épuisé !)\n\
 (Mais vous pourrez sûrement\n\
 trouver les branches de l'étoile\n\
@@ -332,7 +331,7 @@ paintings."))
 
 DEFINE_DIALOG(DIALOG_025, 1, 3, 95, 200, _("\
 (Toutes mes excuses, notre\n\
-stock de branches d'étoile\n\
+stock d'éclats d'étoile\n\
 d'émeraude est épuisé !)\n\
 (Mais vous pourrez sûrement\n\
 trouver les branches de l'étoile\n\
@@ -341,7 +340,7 @@ d'améthyste quelque part.)\n\
 
 DEFINE_DIALOG(DIALOG_026, 1, 3, 95, 200, _("\
 (Toutes mes excuses, notre\n\
-stock de branches d'étoile\n\
+stock d'éclats d'étoile\n\
 d'émeraude est épuisé !)\n\
 ..."))
 
@@ -470,8 +469,8 @@ La seule manière d'atteindre\n\
 le grenier, c'est par ici. \n\
 \n\
 T'inquiètes pas, je peux te\n\
-donner un coup de main. Ou\n\
-plutôt un coup de plume.\n\
+donner un coup de main.\n\
+Ou plutôt un coup de plume.\n\
 Allez, en voiture !"))
 
 DEFINE_DIALOG(DIALOG_043, 1, 5, 30, 200, _("\
@@ -512,7 +511,7 @@ aura plus de Bowser.\n\
 Plus de Kamek, plus de \n\
 Koopalings, plus de Broodals,\n\
 de Graguémona, de Gracowitz,\n\
-de Xhampis, aucun de ces\n\
+de Xhampis, plus aucun des\n\
 misérables insectes qui\n\
 infectent ce royaume. \n\
 Plus de princesse enlevée,\n\
@@ -620,7 +619,7 @@ vaut toujours la chandelle."))
 DEFINE_DIALOG(DIALOG_054, 1, 4, 30, 200, _("\
 Rapport 07\n\
 13 Juillet 2033.\n\
-En seulement quelques jours,\n\
+Dans quelques jours à peine,\n\
 ma plus révolutionnaire\n\
 invention, ma plus grande\n\
 création passée et future\n\
@@ -841,12 +840,12 @@ Sauvegarder ?\n\
 //Oui////Non"))
 
 DEFINE_DIALOG(DIALOG_065, 1, 4, 30, 200, _("\
-(Mon passe-temps préféré, c'est\n\
-d'aller faire du lèche-vitrine\n\
-au magasin de l'autre côté de\n\
-la ville.)\n\
-(Ils ont de superbes joyaux en\n\
-forme de triangle !)\n\
+(Mon passe-temps préféré, \n\
+c'est d'aller faire du \n\
+lèche-vitrine au magasin de\n\
+l'autre côté de la ville.)\n\
+(Ils ont de superbes joyaux\n\
+en forme de triangle !)\n\
 (Je ne peux que les regarder.\n\
 J'ai vraiment pas les moyens.)\n\
 ..."))
@@ -870,15 +869,15 @@ out of here! Never! Ha!"))
 DEFINE_DIALOG(DIALOG_068, 1, 4, 30, 200, _("\
 Mario ! J'ai développé un\n\
 nouvel outil pour le manoiradar.\n\
-C'est un détecteur de\n\
-branches d'étoile !\n\
+C'est un détecteur d'éclats\n\
+d'étoile !\n\
 Il t'indiquera quand tu es\n\
-dans la même pièce que l'une\n\
-d'entre elles.\n\
+dans la même pièce que l'un\n\
+d'entre eux.\n\
 \n\
 Rouge, tu en es loin, jaune,\n\
 tu t'en rapproches, et vert,\n\
-ça veut dire qu'elle est\n\
+ça veut dire qu'il est\n\
 juste sous ton nez !\n\
 Ça devrait être un sacré\n\
 coup de pouce, mais si tu\n\
@@ -916,11 +915,12 @@ qui hantaient le manoir !\n\
 Pour te remercier de tes\n\
 services, je t'accorde la\n\
 clé de mon coffre-fort.\n\
-Il est situé au premier étage,\n\
+Il est situé au rez-de-chaussée,\n\
 à gauche de l'escalier qui\n\
-mène au deuxième étage.\n\
+mène au premier étage.\n\
 Tout ce qui s'y trouve est\n\
-à toi, Mario. ☆CLIC☆"))
+à toi, Mario.\n\
+☆CLIC☆"))
 
 DEFINE_DIALOG(DIALOG_072, 1, 3, 30, 200, _("\
 ERREUR : Les portes doivent\n\
@@ -1016,7 +1016,7 @@ Il va falloir ouvrir grand\n\
 les yeux et les oreilles..."))
 
 DEFINE_DIALOG(DIALOG_082, 1, 2, 30, 200, _("\
-Et voilà, ça fait 8.\n\
+Bien joué, ça fait 8.\n\
 \n\
 Comme promis, voilà 1000\n\
 pièces pour te remercier.\n\
@@ -1033,9 +1033,8 @@ Pour ultime récompense,\n\
 voici 2000 pièces.\n\
 Adieu, Mario..."))
 
-DEFINE_DIALOG(DIALOG_084, 1, 4, 30, 200, _("\
-Wouuah! Lâche-moi, pitié!\n\
-\n\
+DEFINE_DIALOG(DIALOG_084, 1, 3, 30, 200, _("\
+Wouuah! Lâche-moi, pitié !\n\
 Prends ça et laisse-moi partir,\n\
 c'est tout ce que j'ai !"))
 
@@ -1155,7 +1154,7 @@ Adieu, Mario..."))
 
 
 DEFINE_DIALOG(DIALOG_099, 1, 4, 30, 200, _("\
-Et voilà, ça fait 8.\n\
+Bien joué, ça fait 8.\n\
 \n\
 Comme promis, voilà 1000\n\
 pièces pour te remercier.\n\
@@ -1180,7 +1179,7 @@ de la clé brisée !\n\
 \n\
 Trouve les 3 et reconstitue\n\
 la clé pour déverrouiller la\n\
-porte du troisième étage !\n\
+porte du deuxième étage !\n\
 Sauvegarder ?\n\
 \n\
 //Oui////Non"))
@@ -1215,18 +1214,19 @@ If you're handy, you can\n\
 grab on to trees or poles\n\
 to land."))
 
-DEFINE_DIALOG(DIALOG_106, 1, 6, 95, 200, _("\
------ CAMERA CONTROL -----\n\
-'Hold [R] while using [C]> and\n\
-[C]< to move the camera in\n\
-small increments. You can\n\
-change the sensitivty in the\n\
-pause menu!'\n\
-'Also, press | on the D-PAD\n\
-to align the camera to the\n\
-nearest 45 degree angle, and\n\
-press ^ on the D-PAD to angle\n\
-the camera towards the floor!'"))
+DEFINE_DIALOG(DIALOG_106, 1, 7, 95, 200, _("\
+-- CONTROLER LA CAMERA --\n\
+'Maintenez [R] en bougeant le\n\
+stick [C] vers la droite ou la\n\
+gauche pour déplacer lentement\n\
+la caméra. Vous pouvez même\n\
+ajuster la vitesse dans le\n\
+menu des options !'\n\
+'Appuyez sur la touche | du\n\
+D-PAD pour aligner la caméra\n\
+à un des 8 angles principaux,\n\
+et sur la touche ^ pour placer\n\
+la caméra au-dessus de Mario.'"))
 
 DEFINE_DIALOG(DIALOG_107, 1, 3, 95, 200, _("\
 Ghosts...\n\

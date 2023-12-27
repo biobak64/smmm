@@ -243,7 +243,7 @@
 #define TEXT_ROOM5 _("Couloir")
 #define TEXT_ROOM6 _("Salle à manger")
 #define TEXT_ROOM7 _("Cuisine")
-#define TEXT_ROOM8 _("Buanderie")
+#define TEXT_ROOM8 _("Cellier")
 #define TEXT_ROOM9 _("Salon")
 #define TEXT_ROOM10 _("Bureau")
 #define TEXT_ROOM11 _("Bibliothèque")
@@ -255,7 +255,7 @@
 #define TEXT_ROOM17 _("Balcon")
 #define TEXT_ROOM18 _("Salle de bain")
 #define TEXT_ROOM19 _("Den")
-#define TEXT_ROOM20 _("Salle des Miroirs")
+#define TEXT_ROOM20 _("Salle des miroirs")
 #define TEXT_ROOM21 _("Chambre")
 #define TEXT_ROOM22 _("Chambre")
 #define TEXT_ROOM23 _("Placard")
@@ -267,16 +267,16 @@
 #define TEXT_ROOM29 _("Couloir")
 #define TEXT_ROOM30 _("Couloir")
 #define TEXT_ROOM31 _("Salle de jeux")
-#define TEXT_ROOM32 _("Salle de billard")
+#define TEXT_ROOM32 _("Piscine")
 #define TEXT_ROOM33 _("Jardin")
 #define TEXT_ROOM34 _("Niche")
 #define TEXT_ROOM35 _("Sous-Sol")
-#define TEXT_ROOM36 _("Conservatoire")
-#define TEXT_ROOM37 _("Ville")
-#define TEXT_ROOM38 _("Maison")
-#define TEXT_ROOM39 _("Ville")
+#define TEXT_ROOM36 _("Vivarium")
+#define TEXT_ROOM37 _("Centre ville")
+#define TEXT_ROOM38 _("Bâtiment")
+#define TEXT_ROOM39 _("Centre ville")
 #define TEXT_ROOM40 _("Galerie")
-#define TEXT_ROOM41 _("Maison")
+#define TEXT_ROOM41 _("Bâtiment")
 #define TEXT_ROOM42 _("Terrarium")
 #define TEXT_ROOM43 _("Terrarium")
 #define TEXT_ROOM44 _("Grotte")
@@ -289,9 +289,9 @@
 #define TEXT_ROOM51 _("Couloir")
 #define TEXT_ROOM52 _("Salle de musique")
 #define TEXT_ROOM53 _("Salle de jeux")
-#define TEXT_ROOM54 _("Panic Room")
+#define TEXT_ROOM54 _("Chambre forte")
 #define TEXT_ROOM55 _("Couloir")
-#define TEXT_ROOM56 _("Salon du matin")
+#define TEXT_ROOM56 _("Petit salon")
 #define TEXT_ROOM57 _("Théâtre")
 #define TEXT_ROOM58 _("Extérieur")
 #define TEXT_ROOM59 _("Extérieur")
@@ -300,14 +300,14 @@
 #define TEXT_ROOM62 _("Sauna")
 #define TEXT_ROOM63 _("Grenier")
 #define TEXT_ROOM64 _("Grenier")
-#define TEXT_ROOM65 _("Le couloir")
+#define TEXT_ROOM65 _("Couloir")
 #define TEXT_ROOM66 _("Buanderie")
 #define TEXT_ROOM67 _("Salle de sport")
-#define TEXT_ROOM68 _("Cave à vins")
-#define TEXT_ROOM69 _("Root Cellar")
+#define TEXT_ROOM68 _("Cave à vin")
+#define TEXT_ROOM69 _("Cave à légumes")
 #define TEXT_ROOM70 _("Frigo à viande")
 #define TEXT_ROOM71 _("Salle des moteurs")
-#define TEXT_ROOM72 _("T-r---e Chamber")
+#define TEXT_ROOM72 _("Chambre t-r---e")
 #define TEXT_ROOM73 _("Ascenseur")
 #define TEXT_ROOM74 _("Laboratoire")
 #define TEXT_ROOM75 _("Extérieur")
@@ -329,7 +329,7 @@
 #define TEXT_ROOM90 _("Couloir")
 #define TEXT_ROOM91 _("Salon")
 #define TEXT_ROOM92 _("Cuisine")
-#define TEXT_ROOM93 _("Lounge")
+#define TEXT_ROOM93 _("Salle de séjour")
 #define TEXT_ROOM94 _("Salle de Divertissement")
 #define TEXT_ROOM95 _("Sous-sol")
 #define TEXT_ROOM96 _("Chambre")
@@ -339,12 +339,12 @@
 
 
 #define TEXT_COMPLETE _("Terminé !")
-#define TEXT_CHAPTER _("Chapitre ")
+#define TEXT_CHAPTER _("Chapitre  ")
 #define TEXT_MADEBY _("Créé par MrComit")
 #define TEXT_2023 _("2023")
 #define TEXT_NEWFILE _("Nouvelle partie")
 #define TEXT_AREYOUSURE _("Confirmer ?                      Oui      Non")
-#define TEXT_HUD_L_MAP _("[L]  Manoiradar")
+#define TEXT_HUD_L_MAP _("[L]   Manoiradar")
 #define TEXT_HUD_R_OPTIONS _("[R]  Options")
 #define TEXT_HUD_R_BACK _("[R]  Retour")
 #define TEXT_A_BUTTON _("[A]")
@@ -353,12 +353,12 @@
 
 
 
-#define TEXT_L1 _("Étage 1")
-#define TEXT_L2 _("Étage 2")
+#define TEXT_L1 _("Rez-de-chaussée")
+#define TEXT_L2 _("Premier étage")
 #define TEXT_L3 _("Extérieur")
-#define TEXT_L4 _("Ville")
-#define TEXT_L5 _("Maquette")
-#define TEXT_L6 _("Étage 3")
+#define TEXT_L4 _("La Ville")
+#define TEXT_L5 _("La Maquette")
+#define TEXT_L6 _("Deuxième étage")
 #define TEXT_L7 _("Sous-sol")
 #define TEXT_L8 _("Esprit monstrueux")
 #define TEXT_L9 _("Toit")
@@ -371,12 +371,12 @@
 #define TEXT_NEXT_STAR _("Étoile suivante :")
 
 #define TEXT_STAR1 _("Acrobaties dans la ville") // 0 - pole jumping and on buildings
-#define TEXT_STAR2 _("À la chasse dans le jardin ") // 1 - mips
-#define TEXT_STAR3 _("Visite du voisinage") // 2 - goin around the city
+#define TEXT_STAR2 _("Course-poursuite dans le jardin ") // 1 - mips
+#define TEXT_STAR3 _("Un grand tour du voisinage") // 2 - goin around the city
 #define TEXT_STAR4 _("Derrière le mur de briques") // 3 - behind the lego wall
-#define TEXT_STAR5 _("Un peu de shopping") // 4 - city strip
-#define TEXT_STAR6 _("50 pièces pertes") // 5 - green coin star
-#define TEXT_STAR7 _("À l'est du Terrarium") // 6 - basic platforming
+#define TEXT_STAR5 _("Virée shopping") // 4 - city strip
+#define TEXT_STAR6 _("50 pièces vertes") // 5 - green coin star
+#define TEXT_STAR7 _("De barre en barre") // 6 - basic platforming
 #define TEXT_STAR8 _("Le secret de la cascade") // 7 - behind waterfall
 #define TEXT_STAR9 _("Dunes désobéissantes") // 8 - mounds
 #define TEXT_STAR10 _("Le rocher de la rivière") // 9 - underwater

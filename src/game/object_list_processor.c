@@ -890,8 +890,8 @@ void bhv_mario_update(void) {
         }
         gStarPieceReward--;
         if ((gStarPieceReward / 15) & 1) {
-            print_text(10, 30, "ALL STAR PIECES COLLECTED", 1);
-            print_text(50, 10, "+1000 COINS", 1);
+            print_text(10, 30, "TOUS LES ECLATS OBTENUS", 1);
+            print_text(50, 10, "+1000 PIECES", 1);
         }
     }
     // if (gMarioState->controller->buttonDown & Z_TRIG) {
