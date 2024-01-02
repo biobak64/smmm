@@ -5225,6 +5225,9 @@ char sCreditsGeneral[] = { TEXT_CREDITS_GENERAL };
 char sCreditsGeneral2[] = { TEXT_CREDITS_GENERAL2 };
 char sCreditsComit[] = { TEXT_CREDITS_COMIT };
 
+char sCreditsTranslation[] = { TEXT_CREDITS_TRANSLATION };
+char sCreditsTranslation1[] = { TEXT_CREDITS_TRANSLATION1 };
+
 char sCreditsTextures[] = { TEXT_CREDITS_TEXTURES };
 char sCreditsTextures1[] = { TEXT_CREDITS_TEXTURES1 };
 char sCreditsTextures2[] = { TEXT_CREDITS_TEXTURES2 };
@@ -5239,6 +5242,9 @@ char sCreditsPatches2[] = { TEXT_CREDITS_PATCHES2 };
 // char sCreditsArthur14[] = { TEXT_CREDITS_ARTHUR };
 // char sCreditsFazana15[] = { TEXT_CREDITS_FAZANA };
 // char sCreditsKaze16[] = { TEXT_CREDITS_KAZE };
+
+char sCreditsFrenchHelp[] = { TEXT_CREDITS_FRENCH_HELP };
+char sCreditsFrenchHelp1[] = { TEXT_CREDITS_FRENCH_HELP1 };
 
 char sCreditsBeta[] = { TEXT_CREDITS_BETA };
 char sCreditsBeta1[] = { TEXT_CREDITS_BETA1 };
@@ -5265,7 +5271,7 @@ struct CreditTextLine {
     s16 y;
 };
 
-#define CREDIT_ENTRY_COUNT 22
+#define CREDIT_ENTRY_COUNT 26
 
 
 // FOR IT TO MATCH, ENDTITLE SHOULD BE -700
@@ -5277,17 +5283,23 @@ struct CreditTextLine sComitCredits[CREDIT_ENTRY_COUNT] = {
     {sCreditsGeneral2, -40},
     {sCreditsComit, -70},
 
-    {sCreditsTextures, -120},
-    {sCreditsTextures1, -150},
-    {sCreditsTextures2, -170},
+    {sCreditsTranslation, -110},
+    {sCreditsTranslation1, -130},
+
+    {sCreditsTextures, -160},
+    {sCreditsTextures1, -180},
+    {sCreditsTextures2, -200},
 
     {sCreditsPatches, -230},
-    {sCreditsPatches1, -260},
-    {sCreditsPatches2, -275},
+    {sCreditsPatches1, -250},
+    {sCreditsPatches2, -270},
 
-    {sCreditsBeta, -340},
-    {sCreditsBeta1, -360},
-    {sCreditsBeta2, -375},
+    {sCreditsFrenchHelp, -300},
+    {sCreditsFrenchHelp1, -320},
+
+    {sCreditsBeta, -350},
+    {sCreditsBeta1, -370},
+    {sCreditsBeta2, -380},
     {sCreditsBeta3, -390},
 
     {sCreditsThanks, -430},
@@ -5545,7 +5557,7 @@ void render_credits_rank_evaluation(void) {
         }
 
         print_text_fmt_int(120, sCreditsRankY - 30, "%d", gCreditsCoinNum, 6);
-        print_text(60 + 60, sCreditsRankY, "RANK ", 4);
+        print_text(60 + 60, sCreditsRankY, "RANG ", 4);
         if (gComitCreditsTimer >= 15) {
             rank = get_rank_from_coin_count(gCreditsCoinNum);
             print_text(130 + 60, sCreditsRankY, sCreditsRanks[rank - 1], sRankToPalette[rank - 1]);
@@ -5576,7 +5588,7 @@ void render_credits_rank_evaluation(void) {
                     save_file_set_final_rank(rank);
                     play_sound_for_rank(rank);
                 } else if (gComitCreditsTimer > 25) {
-                    print_text(60 + 60, 30, "PRESS A", 0);
+                    print_text(60 + 60, 30, "APPUIE SUR A", 0);
                     if (gMarioState->input & INPUT_A_PRESSED) {
                         sCreditsRankAct2 = 1;
                         gLowGrav = FALSE;

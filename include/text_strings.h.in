@@ -471,9 +471,12 @@
 #define TEXT_CREDITS_GENERAL2 _("Modélisation, et Bande-son")
 #define TEXT_CREDITS_COMIT _("MrComit")
 
+#define TEXT_CREDITS_TRANSLATION _("Traduction et localisation Française")
+#define TEXT_CREDITS_TRANSLATION1 _("biobak")
+
 #define TEXT_CREDITS_TEXTURES _("Textures")
 #define TEXT_CREDITS_TEXTURES1 _("MrComit      Pyro Jay      Furyousfight")
-#define TEXT_CREDITS_TEXTURES2 _("NeuralBlender.com      Craiyon.com")
+#define TEXT_CREDITS_TEXTURES2 _("NeuralBlender.com           Craiyon.com")
 // comit
 // #define TEXT_CREDITS_PYRO _("Pyro Jay")
 // #define TEXT_CREDITS_SOPHIE _("Furyousfight")
@@ -482,13 +485,16 @@
 
 #define TEXT_CREDITS_PATCHES _("Patchs divers")
 #define TEXT_CREDITS_PATCHES1 _("Wiseguy   thecozies   ArcticJaguar725")
-#define TEXT_CREDITS_PATCHES2 _("Arthurtilly   Fazana   Kaze   Reonu")
+#define TEXT_CREDITS_PATCHES2 _("Arthurtilly    Fazana   Kaze    Reonu")
 // #define TEXT_CREDITS_WISEGUY _("Wiseguy")
 // #define TEXT_CREDITS_COZIES _("thecozies")
 // #define TEXT_CREDITS_REONU _("Reonu")
 // #define TEXT_CREDITS_ARTHUR _("Arthurtilly")
 // #define TEXT_CREDITS_FAZANA _("Fazana")
 // #define TEXT_CREDITS_KAZE _("Kaze")
+
+#define TEXT_CREDITS_FRENCH_HELP _("Patchs, logiciels et aide à la traduction")
+#define TEXT_CREDITS_FRENCH_HELP1 _("Drahnokks            Indigo Dindigo")
 
 #define TEXT_CREDITS_BETA _("Béta tests")
 #define TEXT_CREDITS_BETA1 _("GTM   Cheezepin   KingToad64   Rovert")
@@ -502,8 +508,8 @@
 #define TEXT_CREDITS_HSM64 _("Le repo HackerSM64")
 #define TEXT_CREDITS_ULTRA _("Le repo UltraSM64")
 #define TEXT_CREDITS_CHEEZEPIN _("Cheezepin (Retours)")
-#define TEXT_CREDITS_COINS _("Artemis64 et Cavin856 (Coin Collectors)")
-#define TEXT_CREDITS_YOU _("Toi, pour avoir joué")
+#define TEXT_CREDITS_COINS _("Artemis64 et Cavin856 (Ramasseurs de pièces)")
+#define TEXT_CREDITS_YOU _("Toi, pour avoir joué !")
 
 #define TEXT_CREDITS_OG _("Jeu original par Nintendo")
 

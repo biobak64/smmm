@@ -67,6 +67,7 @@ build/*
 !/assets/**/*custom*.bin
 !/assets/**/*custom*/**/*.bin
 !/textures/crash_custom/*.png
+!/textures/segment2/*.png
 # libultra
 
 !/lib/**/*.o
