@@ -424,7 +424,7 @@ void bhv_cs_sub_button_loop(void) {
     if (o->oF4 == 0) {
         o->oPosX = approach_f32_symmetric(o->oPosX, o->oHomeX, 20.0f);
     } else {
-        o->oPosX = approach_f32_symmetric(o->oPosX, o->oHomeX + 350.0f, 25.0f);
+        o->oPosX = approach_f32_symmetric(o->oPosX, o->oHomeX + 290.0f, 25.0f);
     }
 }
 
@@ -640,7 +640,7 @@ void print_file_chapter(s8 file, s16 x, s16 y) {
         print_generic_string(x, y, textChapter);
         // Print coin score
         int_to_str(get_chapter_from_save_data(file), chapterNum);
-        print_generic_string(x + 42, y, chapterNum);
+        print_generic_string(x + 46, y, chapterNum);
     }
 }
 
@@ -781,14 +781,14 @@ void print_file_sub_info(s8 file, s16 x, s16 y) {
         }
     }
     if (obj != NULL) {
-        if (obj->oF4 == 1 && obj->oPosX >= obj->oHomeX + 200.0f) {
+        if (obj->oF4 == 1 && obj->oPosX >= obj->oHomeX + 290.0f) {
             sSubInfoAlpha[file] = approach_s16_symmetric(sSubInfoAlpha[file], 255, 20);
-        } else if (obj->oF4 == 0 && obj->oPosX <= obj->oHomeX + 300.0f){
+        } else if (obj->oF4 == 0 && obj->oPosX <= obj->oHomeX + 200.0f){
             sSubInfoAlpha[file] = approach_s16_symmetric(sSubInfoAlpha[file], 0, 75);
         }
         if (sSubInfoAlpha[file] > 10) {
-            print_file_chapter(file, x, y + 8);
-            print_play_time(file, x, y - 8);
+            print_file_chapter(file, x, y + 9);
+            print_play_time(file, x, y - 9);
         }
     }
 }
@@ -801,17 +801,17 @@ void print_save_info(s32 file) {
     // gDPSetEnvColor(gDisplayListHead++, 255, 255, 255, sCTextBaseAlpha);
     switch (file) {
         case 0:
-            yBase = 175 - 7;
+            yBase = 177 - 10;
             print_text(xBase - 2, yBase, "A", 0);
             // print_generic_string(xBase, yBase, sCMarioA);
             break;
         case 1:
-            yBase = 127 - 7;
+            yBase = 129 - 10;
             print_text(xBase - 2, yBase, "B", 3);
             // print_generic_string(xBase, yBase, sCMarioB);
             break;
         case 2:
-            yBase = 79 - 7;
+            yBase = 77 - 10;
             print_text(xBase - 2, yBase, "C", 2);
             // print_generic_string(xBase, yBase, sCMarioC);
             break;
@@ -845,16 +845,16 @@ void print_top_text(s32 mode) {
             print_text(65, 225 - 15, "CHOIX DU FICHIER", 7);
             break;
         case CF_ERASE:
-            print_text(28, 225 - 15, "QUEL FICHIER EFFACER ?", 7);
+            print_text(28, 225 - 15, "QUEL FICHIER EFFACER", 7);
             break;
         case CF_COPY1:
-            print_text(24, 225 - 15, "QUEL FICHIER COPIER ?", 7);
+            print_text(24, 225 - 15, "QUEL FICHIER COPIER", 7);
             break;
         case CF_COPY2:
-            print_text(16, 225 - 15, "QUEL FICHIER REMPLACER ?", 7);
+            print_text(16, 225 - 15, "QUEL FICHIER REMPLACER", 7);
             break;
         case CF_OPTIONS:
-            print_text(104, 225 - 15, "OPTIONS", 7);
+            print_text(90, 225 - 15, "OPTIONS", 7);
             break;
         case CF_CHALLENGES:
             print_text(98, 225 - 15, "DEFIS", 7);
@@ -863,7 +863,7 @@ void print_top_text(s32 mode) {
 }
 
 
-u8 textFileRCAM[20] = { TEXT_RCAM_P2 };
+u8 textFileRCAM[11] = { TEXT_RCAM_P2 };
 
 
 #define OPTIONS_X 130
@@ -877,7 +877,7 @@ void print_options(void) {
     u8 textTrackerOff[] = { TEXT_TRACKER_OFF };
     u8 textFileRCAMP1[30] = { TEXT_RCAM_P1 };
     s16 x;
-    s16 y2 = 0;
+    s16 y2 = 2;
     s32 flags = save_file_get_options();
     s8 musicCheck = (flags & SAVE_OPTION_MUSIC) != FALSE;
     s8 trackerCheck = (flags & SAVE_OPTION_TRACKER) != FALSE;
@@ -885,10 +885,10 @@ void print_options(void) {
 
     if (!musicCheck) {
         x = get_str_x_pos_from_center(OPTIONS_X, textMusicOn, 1.0f);
-        print_generic_string(x, OPTIONS_Y - y2, textMusicOn);
+        print_generic_string(x + 2, OPTIONS_Y - y2, textMusicOn);
     } else {
         x = get_str_x_pos_from_center(OPTIONS_X, textMusicOff, 1.0f);
-        print_generic_string(x, OPTIONS_Y - y2, textMusicOff);
+        print_generic_string(x + 2, OPTIONS_Y - y2, textMusicOff);
     }
     y2 += 54;
 
@@ -905,9 +905,9 @@ void print_options(void) {
     textFileRCAM[19] = 0xFF;
 
     x = get_str_x_pos_from_center(OPTIONS_X, textFileRCAMP1, 1.0f);
-    print_generic_string(x, OPTIONS_Y - y2 + 8, textFileRCAMP1);
+    print_generic_string(x + 4, OPTIONS_Y - y2 + 7, textFileRCAMP1);
     x = get_str_x_pos_from_center(OPTIONS_X, textFileRCAM, 1.0f);
-    print_generic_string(x, OPTIONS_Y - y2 - 8, textFileRCAM);
+    print_generic_string(x + 4, OPTIONS_Y - y2 - 7, textFileRCAM);
 
 }
 
@@ -921,9 +921,9 @@ void print_challenge_times(s32 challenge, s32 y) {
 	if (highScore == 0 || highScore >= 3600) {
 		highScore = 3600;
         palette = 6;
-    	print_text(CHALLENGE_TIME_START_X, y, "OBJECTIF", palette);
+    	print_text(CHALLENGE_TIME_START_X - 43, y, "OBJECTIF", palette);
 	} else {
-    	print_text(CHALLENGE_TIME_START_X, y, "RECORD", palette);
+    	print_text(CHALLENGE_TIME_START_X - 20, y, "RECORD", palette);
 	}
 
     highMins = highScore / (30 * 60);
@@ -1021,7 +1021,7 @@ void print_CF_strings(void) {
         } else {
             // create_dl_scale_matrix(MENU_MTX_NOPUSH, 2.0f, 2.0f, 1.0f);
             // print_generic_string(80, 175 - 6, textNewFile);
-            print_text(42, 175 - 6, "NOUVEAU", 0);
+            print_text(42, 173 - 6, "NOUVEAU", 0);
         }
 
         if (cur_obj_nearest_object_with_behavior(bhvCSErasePrompt) == NULL && !cur_obj_has_behavior(bhvCSErasePrompt)) {
@@ -1030,7 +1030,7 @@ void print_CF_strings(void) {
             } else {
                 // create_dl_scale_matrix(MENU_MTX_NOPUSH, 2.0f, 2.0f, 1.0f);
                 // print_generic_string(80, 175 - 6, textNewFile);
-                print_text(42, 127 - 6, "NOUVEAU", 3);
+                print_text(42, 125 - 6, "NOUVEAU", 3);
             }
         }
 
@@ -1039,33 +1039,33 @@ void print_CF_strings(void) {
         } else {
             // create_dl_scale_matrix(MENU_MTX_NOPUSH, 2.0f, 2.0f, 1.0f);
             // print_generic_string(80, 175 - 6, textNewFile);
-            print_text(42, 79 - 6, "NOUVEAU", 2);
+            print_text(42, 77 - 6, "NOUVEAU", 2);
         }
         
 
 
         if (sCFMode != CF_COPY1 && sCFMode != CF_COPY2) {
-            print_text(235, 175 - 6 - 1, "COPIER", 6);
+            print_text(235, 174 - 6 - 1, "COPIER", 6);
         } else {
-            print_text(235, 175 - 6 - 1, "RETOUR", 7);
+            print_text(235, 174 - 6 - 1, "RETOUR", 7);
         }
 
         if (sCFMode != CF_ERASE) {
-            print_text(223, 127 - 6 - 1, "EFFACER", 1);
+            print_text(223, 126 - 6 - 1, "EFFACER", 1);
         } else {
             if (cur_obj_nearest_object_with_behavior(bhvCSErasePrompt) == NULL && !cur_obj_has_behavior(bhvCSErasePrompt)) {
-                print_text(235, 127 - 6 - 1, "RETOUR", 7);
+                print_text(235, 126 - 6 - 1, "RETOUR", 7);
             }
         }
 
         //options
-        print_text(294, 79 - 6 - 1, "{", 5);
+        print_text(294, 78 - 6 - 1, "{", 5);
         if (cur_obj_nearest_object_with_behavior(bhvCSErasePrompt) != NULL || cur_obj_has_behavior(bhvCSErasePrompt)) {
             print_erase_prompt();
         }
 
         if (save_file_get_menu_challenges()) {
-            print_text(25, 13, "DEFIS", 4);
+            print_text(53, 9, "DEFIS", 4);
         }
 
 
@@ -1078,7 +1078,7 @@ void print_CF_strings(void) {
         print_generic_string(294 + 6, 79 - 6 - 1, textArrow);
         gDPSetEnvColor(gDisplayListHead++, 255, 255, 255, sCTextBaseAlpha);
     } else {
-        print_text(25, 13, "RETOUR", 7);
+        print_text(50, 9, "RETOUR", 7);
         print_challenge_text();    
     }
 

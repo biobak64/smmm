@@ -2689,7 +2689,7 @@ void render_pause_options(void) {
     // u8 textOff[] = { TEXT_OFF };
     s32 x;
     s32 y2 = 15;
-    s32 x2 = 32;
+    s32 x2 = 60;
     s32 flags = save_file_get_options();
     s8 musicCheck = (flags & SAVE_OPTION_MUSIC) != FALSE;
     s8 trackerCheck = (flags & SAVE_OPTION_TRACKER) != FALSE;
@@ -2746,7 +2746,7 @@ void render_pause_options(void) {
                     save_file_set_options(SAVE_OPTION_TRACKER);
                 }
             } else {
-                x2 = 80;
+                x2 = 60;
                 camC2 = camCheck;
                 handle_menu_scrolling2(MENU_SCROLL_HORIZONTAL, &camCheck, 1, 5);
                 if (camC2 != camCheck) {
@@ -2755,7 +2755,7 @@ void render_pause_options(void) {
             }
             break;
         case 3:
-            x2 = 80;
+            x2 = 60;
             camC2 = camCheck;
             handle_menu_scrolling2(MENU_SCROLL_HORIZONTAL, &camCheck, 1, 5);
             if (camC2 != camCheck) {

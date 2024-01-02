@@ -199,8 +199,8 @@
 // Main Courses
 #define TEXT_COURSE _("COURSE")
 #define TEXT_MYSCORE _("MYSCORE")
-#define TEXT_CONTINUE _("Continue")
-#define TEXT_EXIT_CHALLENGE _("Exit Challenge")
+#define TEXT_CONTINUE _("Continuer")
+#define TEXT_EXIT_CHALLENGE _("Quitter le défi")
 #define TEXT_EXIT_COURSE _("EXIT COURSE")
 #ifndef VERSION_EU // "R" text is different in EU
 #define TEXT_CAMERA_ANGLE_R _("SET CAMERA ANGLE WITH R")
@@ -311,7 +311,7 @@
 #define TEXT_ROOM73 _("Ascenseur")
 #define TEXT_ROOM74 _("Laboratoire")
 #define TEXT_ROOM75 _("Extérieur")
-#define TEXT_ROOM76 _("Galerie d'Art")
+#define TEXT_ROOM76 _("Galerie d'art")
 #define TEXT_ROOM77 _("Extérieur")
 #define TEXT_ROOM78 _("Palace de l'esprit")
 #define TEXT_ROOM79 _("Extérieur")
@@ -335,7 +335,7 @@
 #define TEXT_ROOM96 _("Chambre")
 
 #define TEXT_CORRUPT _("-!-t!r- c     -R")
-#define TEXT_MIND _("Esprit monstrueux")
+#define TEXT_MIND _("L'esprit monstrueux")
 
 
 #define TEXT_COMPLETE _("Terminé !")
@@ -410,13 +410,13 @@
 
 
 #define TEXT_OPTIONS _("Options")
-#define TEXT_MUSIC_ON _("Musique activée")
-#define TEXT_MUSIC_OFF _("Musique désactivée")
-#define TEXT_TRACKER_ON _("Radar activé")
-#define TEXT_TRACKER_OFF _("Radar désactivé")
+#define TEXT_MUSIC_ON _("Musique : activée")
+#define TEXT_MUSIC_OFF _("Musique : désactivée")
+#define TEXT_TRACKER_ON _("Radar : activé")
+#define TEXT_TRACKER_OFF _("Radar : désactivé")
 #define TEXT_RCAM _("Vitesse caméra [R] : ")
-#define TEXT_RCAM_P1 _("Caméra [R]")
-#define TEXT_RCAM_P2 _("Vitesse caméra : ")
+#define TEXT_RCAM_P1 _("Caméra précise ([R]) : ")
+#define TEXT_RCAM_P2 _("Vitesse ")
 #define TEXT_ARROW _(">")
 // #define TEXT_ON _("On")
 // #define TEXT_OFF _("Off")

@@ -234,11 +234,12 @@ repérer une bonne affaire !\n\
 Merci bien !)\n\
 ..."))
 
-DEFINE_DIALOG(DIALOG_013, 1, 6, 30, 200, _("\
+DEFINE_DIALOG(DIALOG_013, 1, 7, 30, 200, _("\
 Tu viens d'obtenir un\n\
 éclat d'étoile !\n\
 Trouve les 5 de ce chapitre\n\
 pour obtenir une récompense.\n\
+\n\
 Sauvegarder ?\n\
 //Oui////Non"))
 
@@ -569,12 +570,12 @@ cette technologie. En quelques\n\
 secondes, j'ai pu créer une\n\
 oeuvre qui aurait pris des\n\
 jours à une personne ordinaire.\n\
-Entre de mauvaises mains, cet\n\
-outil pourrait causer de\n\
-sérieux dégâts. Mais entre\n\
-mes mains? Bowser n'a pas\n\
-la moindre chance.\n\
-\n\
+Entre de mauvaises mains, \n\
+cet outil pourrait causer de\n\
+sérieux dégâts.\n\
+Mais entre les miennes ?\n\
+Bowser n'a pas la moindre\n\
+chance.\n\
 À présent, c'est l'heure de\n\
 s'amuser. Je vais tester les\n\
 limites de cette invention."))
@@ -729,22 +730,22 @@ cage pas loin d'ici..."))
 
 DEFINE_DIALOG(DIALOG_059, 1, 5, 30, 200, _("\
 Nous y voilà, Mario.\n\
-Ce vortex devrait nous ramener\n\
-dans notre monde à nous !\n\
-\n\
+Ça, c'est le vortex qui\n\
+va nous ramener dans notre\n\
+monde à nous !\n\
 \n\
 Ça pourrait aussi être une\n\
-tentative de vortex ratée,\n\
-qui déchirerait nos corps en\n\
-lambeaux sanglants. Au point\n\
-où on en est, peu m'importe !\n\
+de mes tentatives ratées, qui\n\
+déchirerait nos corps en\n\
+mille morceaux. Et au point\n\
+où on en est, je m'en fiche !\n\
 Peu importe ce qui se passe,\n\
 Mario, merci pour tout ce\n\
 que tu as fait pour moi. \n\
 \n\
 \n\
-Tu m'as inspiré moi et des\n\
-millions d'autres partout au\n\
+Tu m'as inspiré, moi et des\n\
+millions d'autres, partout au\n\
 Royaume Champignon, et je me\n\
 sens coupable de t'avoir traîné\n\
 dans toutes ces histoires.\n\
@@ -753,10 +754,10 @@ je tiens à ce que tu gardes\n\
 toute ma fortune. Ou du moins,\n\
 tout ce qui en reste. \n\
 \n\
-De toutes façons, je ne l'ai\n\
-jamais méritée, toutes mes\n\
-recherches relèvent de la\n\
-folie...\n\
+Après tout, je ne la mérite\n\
+pas. Toutes ces recherches\n\
+et toutes ces expériences\n\
+relèvent de la folie...\n\
 \n\
 Ok, le discours, c'est fait.\n\
 Y'a plus qu'à sauter !\n\
@@ -1090,17 +1091,17 @@ les pièces que tu as trouvé. \n\
 J'espère que ça te convient."))
 
 DEFINE_DIALOG(DIALOG_090, 1, 6, 30, 200, _("\
-Mario! SÉRIEUSEMENT ??\n\
+Mario ! SERIEUSEMENT ??\n\
 Pas UNE SEULE pièce ??\n\
 T'as exploré tout le manoir !\n\
-On dirait que tu as fait\n\
-EXPRÈS d'éviter l'argent.\n\
+Faudrait vraiment que tu aies\n\
+fait EXPRÈS de les éviter !!\n\
 \n\
 Je voulais utiliser ces pièces\n\
 pour te faire construire un\n\
 manoir en remerciement, mais\n\
-c'est fichu avec ce budget !\n\
-J'espère que tu es fier\n\
+avec CE budget, c'est fichu !\n\
+J'espère que t'es fier\n\
 de toi, Mario."))
 
 DEFINE_DIALOG(DIALOG_091, 2, 2, 30, 200, _("\
@@ -1113,7 +1114,7 @@ DEFINE_DIALOG(DIALOG_092, 1, 1, 30, 200, _("\
 Mario a écrit dans son journal."))
 
 DEFINE_DIALOG(DIALOG_093, 1, 2, 30, 200, _("\
-J'espère que tu es fier\n\
+J'espère que t'es fier\n\
 de toi, Mario."))
 
 DEFINE_DIALOG(DIALOG_094, 1, 3, 30, 200, _("\
@@ -1911,21 +1912,24 @@ Enjoy!!!"
 #endif
 
 DEFINE_DIALOG(DIALOG_161, 1, 3, 30, 200, _("\
-Mario!!!\n\
-It that really you???\n\
-I need your help!\n\
-Bowser has stolen all 3 of\n\
-my baby penguins! Please help\n\
-me find them!"))
+Mario!?!?!\n\
+C'est toi? Vraiment toi?\n\
+J'ai besoin de ton aide !\n\
+Bowser a capturé mes trois\n\
+bébé pingouins !\n\
+Aide-moi à les retrouver !"))
 
-DEFINE_DIALOG(DIALOG_162, 1, 3, 30, 200, _("\
-Thank you so much Mario!!\n\
-I knew you'd be able to take\n\
-down Bowser once and for all!\n\
-With the penguin curse lifted,\n\
-now he can never hurt anyone\n\
-ever again!\n\
-His reign of terror is over!"))
+DEFINE_DIALOG(DIALOG_162, 1, 4, 30, 200, _("\
+Merci beaucoup, Mario !\n\
+Je savais que tu réussirais\n\
+à triompher de Bowser une\n\
+bonne fois pour toutes !\n\
+Maintenant que la malédiction\n\
+des pingouins est levée, il\n\
+ne pourra plus faire de mal\n\
+à qui que ce soit !\n\
+Son règne de terreur\n\
+touche enfin à sa fin !"))
 
 DEFINE_DIALOG(DIALOG_163, 1, 5, 30, 200, _("\
 Noooo! You've really\n\

@@ -1193,7 +1193,7 @@ void render_hud_timer(void) {
     u16 timerFracSecs = ((timerValFrames - (timerMins * 1800) - (timerSecs * 30)) & 0xFFFF) / 3;
 	u16 highMins, highSecs, highFracSecs;
 
-    print_text(GFX_DIMENSIONS_RECT_FROM_RIGHT_EDGE(150), 215, "TIME", 0);
+    print_text(GFX_DIMENSIONS_RECT_FROM_RIGHT_EDGE(159), 215, "TEMPS", 0);
 
     print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_RIGHT_EDGE(91), 215, "%0d", timerMins, 0);
     print_text_fmt_int(GFX_DIMENSIONS_RECT_FROM_RIGHT_EDGE(71), 215, "%02d", timerSecs, 0);
@@ -1203,9 +1203,9 @@ void render_hud_timer(void) {
 
 	if (highScore == 0 || highScore >= CHALLENGE_GOAL_TIMES) {
 		highScore = CHALLENGE_GOAL_TIMES;
-    	print_text(GFX_DIMENSIONS_RECT_FROM_RIGHT_EDGE(150), 195, "GOAL", 4);
+    	print_text(GFX_DIMENSIONS_RECT_FROM_RIGHT_EDGE(195), 195, "OBJECTIF", 4);
 	} else {
-    	print_text(GFX_DIMENSIONS_RECT_FROM_RIGHT_EDGE(150), 195, "BEST", 4);
+    	print_text(GFX_DIMENSIONS_RECT_FROM_RIGHT_EDGE(170), 195, "RECORD", 4);
 	}
 
     highMins = highScore / (30 * 60);
