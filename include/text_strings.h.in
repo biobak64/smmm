@@ -365,7 +365,7 @@
 #define TEXT_L10 _("Manoir de Mario")
 
 
-#define TEXT_THE_CONTROLLER _("La manette")
+#define TEXT_THE_CONTROLLER _("La Corruption")
 
 
 #define TEXT_NEXT_STAR _("Étoile suivante :")
@@ -467,8 +467,8 @@
 // #define TEXT_CREDITS_DUMMY2 _("Art Design: John Nintendo")
 
 
-#define TEXT_CREDITS_GENERAL _("Game Design, Programmation, Écriture,")
-#define TEXT_CREDITS_GENERAL2 _("Modélisation, et Bande-son")
+#define TEXT_CREDITS_GENERAL _("Game design, Programmation, Écriture,")
+#define TEXT_CREDITS_GENERAL2 _("Modélisation, Bande-son")
 #define TEXT_CREDITS_COMIT _("MrComit")
 
 #define TEXT_CREDITS_TRANSLATION _("Traduction et localisation Française")
@@ -476,7 +476,7 @@
 
 #define TEXT_CREDITS_TEXTURES _("Textures")
 #define TEXT_CREDITS_TEXTURES1 _("MrComit      Pyro Jay      Furyousfight")
-#define TEXT_CREDITS_TEXTURES2 _("NeuralBlender.com           Craiyon.com")
+#define TEXT_CREDITS_TEXTURES2 _("NeuralBlender.com      Craiyon.com")
 // comit
 // #define TEXT_CREDITS_PYRO _("Pyro Jay")
 // #define TEXT_CREDITS_SOPHIE _("Furyousfight")
@@ -485,7 +485,7 @@
 
 #define TEXT_CREDITS_PATCHES _("Patchs divers")
 #define TEXT_CREDITS_PATCHES1 _("Wiseguy   thecozies   ArcticJaguar725")
-#define TEXT_CREDITS_PATCHES2 _("Arthurtilly    Fazana   Kaze    Reonu")
+#define TEXT_CREDITS_PATCHES2 _("Arthurtilly   Fazana   Kaze    Reonu")
 // #define TEXT_CREDITS_WISEGUY _("Wiseguy")
 // #define TEXT_CREDITS_COZIES _("thecozies")
 // #define TEXT_CREDITS_REONU _("Reonu")
@@ -494,9 +494,9 @@
 // #define TEXT_CREDITS_KAZE _("Kaze")
 
 #define TEXT_CREDITS_FRENCH_HELP _("Patchs, logiciels et aide à la traduction")
-#define TEXT_CREDITS_FRENCH_HELP1 _("Drahnokks            Indigo Dindigo")
+#define TEXT_CREDITS_FRENCH_HELP1 _("Drahnokks      Indigo Dindigo")
 
-#define TEXT_CREDITS_BETA _("Béta tests")
+#define TEXT_CREDITS_BETA _("Tests et retours")
 #define TEXT_CREDITS_BETA1 _("GTM   Cheezepin   KingToad64   Rovert")
 #define TEXT_CREDITS_BETA2 _("Jake Dower   Pyro Jay   Fazana")
 #define TEXT_CREDITS_BETA3 _("Hyena Chan   Yoshi Milkman   CowQuack")

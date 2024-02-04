@@ -1083,8 +1083,8 @@ que tu en sera satisfait."))
 DEFINE_DIALOG(DIALOG_089, 1, 5, 95, 200, _("\
 Mario ! Bienvenue dans ta\n\
 nouvelle maison ! Je suis\n\
-désolé, il n'est pas aussi\n\
-majestueux que j'aurais\n\
+désolé, elle n'est pas aussi\n\
+majestueuse que j'aurais\n\
 voulu, mais j'ai tenu parole.\n\
 J'ai fait de mon mieux avec\n\
 les pièces que tu as trouvé. \n\

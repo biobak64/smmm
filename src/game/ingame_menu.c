@@ -95,7 +95,7 @@ u8 gDialogCharWidths[256] = { // TODO: Is there a way to auto generate this?
 /*A-Z*/ 6,  6,  6,  6,  6,  6,  6,  6,  5,  6,  6,  5,  8,  8,  6,  6,  6,  6,  6,  5,  6,  6,  8,  7,  6,  6, //35
 /*a-z*/ 6,  5,  5,  6,  5,  5,  6,  5,  4,  5,  5,  3,  7,  5,  5,  5,  6,  5,  5,  5,  5,  5,  7,  7,  5,  5, //61
 /*' .*/ 4,  4,  /*   */ 8,  6,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0, //79
-/*C-L*/ 8,  8,  8,  8,  7,  7,  6,  7,  7,  /*   */ 0,  0,  0,  0,  0,  0,  0, //95
+/*C-L*/ 8,  8,  8,  8,  7,  7,  6,  7,  7,  7,  /*   */ 4,  0,  0,  0,  0,  0, //95
 /*a-A*/ 6,  6,  6,  6,  6,  6,  6,  6,  0,  0,  0,  0,  0,  0,  0,  4, //111
 /*e-E*/ 5,  5,  5,  5,  6,  6,  6,  6,  0,  0,  0,  0,  0,  0,  0,  0, //127
 /*u-U*/ 5,  5,  5,  5,  6,  6,  6,  6,  0,  0,  0,  0,  0,  0,  0,  0, //143
@@ -1822,7 +1822,7 @@ void render_dialog_entries(void) {
 
     render_dialog_box_type(dialog, dialog->linesPerBox);
 
-    gDPSetScissor(gDisplayListHead++, G_SC_NON_INTERLACE, 0, ensure_nonnegative(DIAG_VAL2 - dialog->width),
+    gDPSetScissor(gDisplayListHead++, G_SC_NON_INTERLACE, 0, ensure_nonnegative(DIAG_VAL2 - 5 - dialog->width),
         SCREEN_WIDTH, ensure_nonnegative(240 + ((dialog->linesPerBox * 80) / DIAG_VAL4) - dialog->width));
 
     /*gDPSetScissor(gDisplayListHead++, G_SC_NON_INTERLACE,
@@ -5280,34 +5280,34 @@ struct CreditTextLine {
 
 struct CreditTextLine sComitCredits[CREDIT_ENTRY_COUNT] = {
     {sCreditsGeneral, -20},
-    {sCreditsGeneral2, -40},
-    {sCreditsComit, -70},
+    {sCreditsGeneral2, -35},
+    {sCreditsComit, -55},
 
-    {sCreditsTranslation, -110},
-    {sCreditsTranslation1, -130},
+    {sCreditsTranslation, -90},
+    {sCreditsTranslation1, -110},
 
-    {sCreditsTextures, -160},
-    {sCreditsTextures1, -180},
-    {sCreditsTextures2, -200},
+    {sCreditsTextures, -140},
+    {sCreditsTextures1, -160},
+    {sCreditsTextures2, -175},
 
-    {sCreditsPatches, -230},
-    {sCreditsPatches1, -250},
-    {sCreditsPatches2, -270},
+    {sCreditsPatches, -210},
+    {sCreditsPatches1, -230},
+    {sCreditsPatches2, -245},
 
-    {sCreditsFrenchHelp, -300},
-    {sCreditsFrenchHelp1, -320},
+    {sCreditsFrenchHelp, -280},
+    {sCreditsFrenchHelp1, -300},
 
-    {sCreditsBeta, -350},
-    {sCreditsBeta1, -370},
-    {sCreditsBeta2, -380},
-    {sCreditsBeta3, -390},
+    {sCreditsBeta, -335},
+    {sCreditsBeta1, -355},
+    {sCreditsBeta2, -370},
+    {sCreditsBeta3, -385},
 
-    {sCreditsThanks, -430},
-    {sCreditsHSM64, -455},
-    {sCreditsUltra, -470},
-    {sCreditsCheezepin, -485},
-    {sCreditsCoins, -502},
-    {sCreditsYou, -516},
+    {sCreditsThanks, -420},
+    {sCreditsHSM64, -440},
+    {sCreditsUltra, -455},
+    {sCreditsCheezepin, -470},
+    {sCreditsCoins, -485},
+    {sCreditsYou, -500},
 
     {sCreditsOG, -570},
 
@@ -5560,7 +5560,7 @@ void render_credits_rank_evaluation(void) {
         print_text(60 + 60, sCreditsRankY, "RANG ", 4);
         if (gComitCreditsTimer >= 15) {
             rank = get_rank_from_coin_count(gCreditsCoinNum);
-            print_text(130 + 60, sCreditsRankY, sCreditsRanks[rank - 1], sRankToPalette[rank - 1]);
+            print_text(130 + 57, sCreditsRankY, sCreditsRanks[rank - 1], sRankToPalette[rank - 1]);
         }
 
         if (gCreditsCoinNum == gMarioState->numCoins) {
@@ -5588,7 +5588,7 @@ void render_credits_rank_evaluation(void) {
                     save_file_set_final_rank(rank);
                     play_sound_for_rank(rank);
                 } else if (gComitCreditsTimer > 25) {
-                    print_text(60 + 60, 30, "APPUIE SUR A", 0);
+                    print_text(60 + 27, 30, "APPUIE SUR A", 0);
                     if (gMarioState->input & INPUT_A_PRESSED) {
                         sCreditsRankAct2 = 1;
                         gLowGrav = FALSE;
