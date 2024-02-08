@@ -1258,8 +1258,8 @@ void fixed_cam_cutscene_opening(struct Camera *c) {
     struct MarioState *m = gMarioState;
     gComitCutsceneTimer++;
     if (can_skip_cutscene(0) && gCutsceneSkip == 0 && gComitCutsceneAction < 3) {
-        print_text(225, 32, "HOLD A", 0);
-        print_text(220, 12, "TO SKIP", 0);
+        print_text(173, 32, "MAINTIENS A", 0);
+        print_text(173, 12, "POUR PASSER", 0);
         if (m->input & INPUT_A_DOWN) {
             gCutsceneSkipTimer++;
             if (gCutsceneSkipTimer > 30) {
@@ -1349,8 +1349,8 @@ void fixed_cam_cutscene_mainhall(struct Camera *c) {
     struct MarioState *m = gMarioState;
     gComitCutsceneTimer++;
     if (can_skip_cutscene(1) && gCutsceneSkip == 0 && gComitCutsceneAction == 0 && gComitCutsceneTimer > 30) {
-        print_text(225, 32, "HOLD A", 0);
-        print_text(220, 12, "TO SKIP", 0);
+        print_text(173, 32, "MAINTIENS A", 0);
+        print_text(173, 12, "POUR PASSER", 0);
         if (m->input & INPUT_A_DOWN) {
             gCutsceneSkipTimer++;
             if (gCutsceneSkipTimer > 30) {

@@ -1531,7 +1531,7 @@ void render_dialog_triangle_next(s8 linesPerBox) {
         return;
     }
 
-    create_dl_translation_matrix(MENU_MTX_PUSH, X_VAL5 + 30.0f, (linesPerBox * Y_VAL5_1) + Y_VAL5_2, 0);
+    create_dl_translation_matrix(MENU_MTX_PUSH, (X_VAL5 + 24.0f) / 2 , (linesPerBox * Y_VAL5_1) + Y_VAL5_2 - 10, 0);
     create_dl_scale_matrix(MENU_MTX_NOPUSH, X_Y_VAL6, X_Y_VAL6, 1.0f);
     create_dl_rotation_matrix(MENU_MTX_NOPUSH, -DEFAULT_DIALOG_BOX_ANGLE, 0, 0, 1.0f);
 

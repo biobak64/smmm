@@ -27,7 +27,6 @@
 #include "seq_ids.h"
 #include "game_init.h"
 #include "audio/external.h"
-#include "src/game/print.h"
 
 
 /**
@@ -781,7 +780,7 @@ extern s32 gComitCredits;
 
 void mario_l_to_levitate(void) {
     if (gMarioState->controller->buttonPressed & L_TRIG) {
-        gComitCredits = 1;
+        //gComitCredits = 1;
          set_mario_action(gMarioState, ACT_DEBUG_FREE_MOVE, 0);
         //  cur_obj_set_model(MODEL_NONE);
         // gMarioObject->header.gfx.sharedChild = gLoadedGraphNodes[0]; //makes mario invisible
@@ -805,9 +804,10 @@ void bhv_mario_update(void) {
     struct Object *obj;
     u32 particleFlags = 0;
     s32 i;
-//    #ifdef SMMM_DEBUG
-        mario_l_to_levitate();
-//    #endif
+    mario_l_to_levitate();
+    #ifdef SMMM_DEBUG
+        
+    #endif
 
     //print_text_fmt_int(20, 80, "%x", sPoolFreeSpace, 0);
 
@@ -891,11 +891,12 @@ void bhv_mario_update(void) {
         }
         gStarPieceReward--;
         if ((gStarPieceReward / 15) & 1) {
-            print_text(10, 30, "TOUS LES ECLATS OBTENUS", 1);
-            print_text(50, 10, "+1000 PIECES", 1);
+            print_text(10, 30, "TOUS LES ECLATS OBTENUS !", 1);
+            print_text(65, 10, "+ 1000 PIECES !", 1);
+            print_text(10, 39, "         &", 1);
+            print_text(65, 19, "         %", 1);
         }
     }
-    print_text_fmt_int(20, 20, "%x", gCurrLevelNum, 0);
     // if (gMarioState->controller->buttonDown & Z_TRIG) {
         // if (gMarioState != NULL) {
         //     print_text_fmt_int(50, 8*20, "%x", gMarioState->action, 0);

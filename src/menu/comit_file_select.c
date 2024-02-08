@@ -845,19 +845,20 @@ void print_top_text(s32 mode) {
             print_text(65, 225 - 15, "CHOIX DU FICHIER", 7);
             break;
         case CF_ERASE:
-            print_text(28, 225 - 15, "QUEL FICHIER EFFACER", 7);
+            print_text(28, 225 - 15, "QUEL FICHIER EFFACER ?", 7);
             break;
         case CF_COPY1:
-            print_text(24, 225 - 15, "QUEL FICHIER COPIER", 7);
+            print_text(33, 225 - 15, "QUEL FICHIER COPIER ?", 7);
             break;
         case CF_COPY2:
-            print_text(16, 225 - 15, "QUEL FICHIER REMPLACER", 7);
+            print_text(16, 225 - 15, "QUEL FICHIER REMPLACER ?", 7);
             break;
         case CF_OPTIONS:
             print_text(90, 225 - 15, "OPTIONS", 7);
             break;
         case CF_CHALLENGES:
             print_text(98, 225 - 15, "DEFIS", 7);
+            print_text(98, 225 - 6, " &", 7);
             break;
     }
 }
@@ -1065,7 +1066,8 @@ void print_CF_strings(void) {
         }
 
         if (save_file_get_menu_challenges()) {
-            print_text(53, 9, "DEFIS", 4);
+            print_text(58, 9, "DEFIS", 4);
+            print_text(58, 18, " &", 4);
         }
 
 
