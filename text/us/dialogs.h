@@ -338,7 +338,7 @@ stock d'éclats d'étoile\n\
 d'émeraude est épuisé !)\n\
 (Mais vous pourrez sûrement\n\
 trouver les branches de l'étoile\n\
-d'améthyste, quelque part.....)\n\
+d'améthyste, quelque part...)\n\
 ..."))
 
 DEFINE_DIALOG(DIALOG_026, 1, 3, 95, 200, _("\
@@ -347,19 +347,23 @@ stock d'éclats d'étoile\n\
 d'émeraude est épuisé !)\n\
 ..."))
 
-DEFINE_DIALOG(DIALOG_027, 1, 4, 95, 200, _("\
-(La légende des cinq étoiles\n\
-traverse les générations !)\n\
-(On raconte que personne n'a\n\
-jamais tenu les cinq en main.)\n\
-(Quiconque les rassemble aurait\n\
-un pouvoir immense, alors elles\n\
-furent brisées en morceaux, et\n\
-répandues aux coins du monde.)\n\
+
+DEFINE_DIALOG(DIALOG_027, 1, 5, 95, 200, _("\
+(La légende de ces étoiles\n\
+traverse les générations !\n\
+On raconte que personne n'a\n\
+jamais possédé les cinq à la\n\
+fois.)\n\
+(Elles rendraient quiconque\n\
+les rassemblerait bien trop\n\
+puissant. Elles furent ainsi\n\
+brisées en morceaux, puis\n\
+répandues autour du monde.)\n\
 (Nombreux sont ceux qui ont\n\
 tenté de recréer leur énergie,\n\
 en vain. Ces étoiles sont bel\n\
 et bien des artéfacts uniques.)\n\
+\n\
 ..."))
 
 DEFINE_DIALOG(DIALOG_028, 1, 4, 95, 200, _("\
@@ -402,14 +406,14 @@ tu pourras aller visiter\n\
 l'autre partie de la ville.)\n\
 \n\
 (La main d'oeuvre, c'est pas\n\
-gratuit. Ce sera 8 pièces\n\
+gratuit. Ça fera 8 pièces\n\
 étoile. Ça marche ?)\n\
 //Oui////Non"))
 
 DEFINE_DIALOG(DIALOG_034, 1, 3, 30, 200, _("\
-(Mario ! Tu es venu me sortir\n\
-de là ? Quelle joie !)\n\
-\n\
+(Mario ! Tu es venu\n\
+me sortir de là ?\n\
+Quel soulagement !)\n\
 (J'étais censé construire un\n\
 pont dans la ville, mais je\n\
 me suis retrouvé coincé ici.)\n\
@@ -625,13 +629,14 @@ DEFINE_DIALOG(DIALOG_054, 1, 4, 30, 200, _("\
 Rapport 07\n\
 13 Juillet 2033.\n\
 Dans quelques jours à peine,\n\
-ma plus révolutionnaire\n\
-invention, ma plus grande\n\
-création passée et future\n\
-sera terminée, et j'ai du\n\
-mal à retenir mon excitation.\n\
-C'est sûrement ce qu'a\n\
-ressenti Luiginard de Vinci\n\
+
+j'aurai terminé ma création\n\
+la plus révolutionnaire,\n\
+ma plus grande et plus belle\n\
+invention... et j'ai du mal\n\
+à retenir mon excitation.\n\
+C'est sûrement ce qu'a dû\n\
+ressentir Luiginard de Vinci\n\
 en vernissant la Goomba Lisa."))
 
 DEFINE_DIALOG(DIALOG_055, 1, 5, 30, 200, _("\
@@ -655,9 +660,9 @@ de portée, et ce sera à ce\n\
 moment que je pourrai mettre\n\
 fin à Bowser et à ses plans\n\
 une bonne fois pour toutes.\n\
-Il n'y aura pas de 1 UP,\n\
-il sera MORT, et ni lui ni\n\
-ses sbires ne pourront\n\
+Il n'y aura pas de vie bonus\n\
+ou de 1UP, il sera MORT, et ni\n\
+lui ni ses sbires ne pourront\n\
 plus jamais semer le chaos\n\
 au Royaume Champignon !"))
 
@@ -723,8 +728,9 @@ seul à errer ici.\n\
 \n\
 Peut-être qu'il y a quelque\n\
 chose ici avec moi, et\n\
-peut-être que ça ne veut\n\
-pas que je parte."))
+peut-être que ce ''quelque\n\
+chose'' ne veut pas que je\n\
+parte."))
 
 DEFINE_DIALOG(DIALOG_058, 1, 4, 30, 200, _("\
 Argh ! Encore bloqué.\n\
@@ -739,8 +745,8 @@ va nous ramener dans notre\n\
 monde à nous !\n\
 \n\
 Ça pourrait aussi être une\n\
-de mes tentatives ratées, qui\n\
-déchirerait nos corps en\n\
+de mes tentatives ratées,\n\
+qui déchirerait nos corps en\n\
 mille morceaux. Et au point\n\
 où on en est, je m'en fiche !\n\
 Peu importe ce qui se passe,\n\
@@ -763,6 +769,7 @@ pas. Toutes ces recherches\n\
 et toutes ces expériences\n\
 relèvent de la folie...\n\
 \n\
+...\n\
 Ok, le discours, c'est fait.\n\
 Y'a plus qu'à sauter !\n\
 \n\
@@ -847,8 +854,9 @@ Sauvegarder la progression ?\n\
 DEFINE_DIALOG(DIALOG_065, 1, 4, 30, 200, _("\
 (Mon passe-temps préféré,\n\
 c'est d'aller faire du\n\
-lèche-vitrine au magasin de\n\
-l'autre côté de la ville.)\n\
+
+lèche-vitrine au magasin\n\
+de l'autre côté de la ville.)\n\
 (Ils ont de superbes joyaux\n\
 en forme de triangle !)\n\
 (Je ne peux que les regarder.\n\
@@ -898,8 +906,9 @@ sur ces vilains boos.\n\
 Pour te récompenser, voilà\n\
 un petit cadeau : des pièces !\n\
 500, pour être précis.\n\
-Et encore bravo ! Je compte\n\
-sur toi. ☆CLIC☆"))
+Et encore bravo !\n\
+Je compte sur toi.\n\
+☆CLIC☆"))
 
 DEFINE_DIALOG(DIALOG_070, 1, 4, 30, 200, _("\
 Mario ! Ça m'a pris du temps,\n\
@@ -927,7 +936,7 @@ Tout ce qui s'y trouve est\n\
 à toi, Mario.\n\
 ☆CLIC☆"))
 
-DEFINE_DIALOG(DIALOG_072, 1, 3, 30, 200, _("\
+DEFINE_DIALOG(DIALOG_072, 1, 4, 30, 200, _("\
 ERREUR : Les portes doivent\n\
 être entièrement ouvertes\n\
 ou fermées pour activer\n\
@@ -1082,7 +1091,7 @@ trouvé un peu plus de pièces,\n\
 J'aurais pu le faire construire\n\
 plus grand... Ah, qu'est-ce\n\
 que je raconte. Je suis sûr\n\
-que tu en sera satisfait."))
+que tu en seras satisfait."))
 
 DEFINE_DIALOG(DIALOG_089, 1, 5, 95, 200, _("\
 Mario ! Bienvenue dans ta\n\
@@ -1095,7 +1104,7 @@ les pièces que tu as trouvé.\n\
 J'espère que ça te convient."))
 
 DEFINE_DIALOG(DIALOG_090, 1, 6, 30, 200, _("\
-Mario ! SERIEUSEMENT ??\n\
+Mario ! Sérieusement !!??\n\
 Pas UNE SEULE pièce ??\n\
 T'as exploré tout le manoir !\n\
 Faudrait vraiment que tu aies\n\
@@ -1104,7 +1113,7 @@ fait EXPRÈS de les éviter !!\n\
 Je voulais utiliser ces pièces\n\
 pour te faire construire un\n\
 manoir en remerciement, mais\n\
-avec CE budget, c'est fichu !\n\
+avec ce budget, c'est FICHU !\n\
 J'espère que t'es fier\n\
 de toi, Mario."))
 
@@ -1121,9 +1130,9 @@ DEFINE_DIALOG(DIALOG_093, 1, 2, 30, 200, _("\
 J'espère que t'es fier\n\
 de toi, Mario."))
 
-DEFINE_DIALOG(DIALOG_094, 1, 3, 30, 200, _("\
-'Comment Être un Bon Ami\n\
-Et Aider ses Proches'\n\
+DEFINE_DIALOG(DIALOG_094, 1, 2, 30, 200, _("\
+''Comment Être un Bon Ami\n\
+Et Aider ses Proches''\n\
 (La reliure est bien usée.)"))
 
 DEFINE_DIALOG(DIALOG_095, 1, 2, 30, 200, _("\
