@@ -811,7 +811,7 @@ void print_save_info(s32 file) {
             // print_generic_string(xBase, yBase, sCMarioB);
             break;
         case 2:
-            yBase = 77 - 10;
+            yBase = 82 - 10;
             print_text(xBase - 2, yBase, "C", 2);
             // print_generic_string(xBase, yBase, sCMarioC);
             break;
@@ -845,25 +845,26 @@ void print_top_text(s32 mode) {
             print_text(65, 225 - 15, "CHOIX DU FICHIER", 7);
             break;
         case CF_ERASE:
-            print_text(28, 225 - 15, "QUEL FICHIER EFFACER", 7);
+            print_text(28, 225 - 15, "QUEL FICHIER EFFACER ?", 7);
             break;
         case CF_COPY1:
-            print_text(24, 225 - 15, "QUEL FICHIER COPIER", 7);
+            print_text(33, 225 - 15, "QUEL FICHIER COPIER ?", 7);
             break;
         case CF_COPY2:
-            print_text(16, 225 - 15, "QUEL FICHIER REMPLACER", 7);
+            print_text(16, 225 - 15, "QUEL FICHIER REMPLACER ?", 7);
             break;
         case CF_OPTIONS:
             print_text(90, 225 - 15, "OPTIONS", 7);
             break;
         case CF_CHALLENGES:
             print_text(98, 225 - 15, "DEFIS", 7);
+            print_text(98, 225 - 6, " &", 7);
             break;
     }
 }
 
 
-u8 textFileRCAM[11] = { TEXT_RCAM_P2 };
+u8 textFileRCAM[10] = { TEXT_RCAM_P2 };
 
 
 #define OPTIONS_X 130
@@ -901,13 +902,13 @@ void print_options(void) {
     }
     y2 += 54;
 
-    textFileRCAM[18] = camCheck;
-    textFileRCAM[19] = 0xFF;
+    textFileRCAM[8] = camCheck;
+    textFileRCAM[9] = 0xFF;
 
     x = get_str_x_pos_from_center(OPTIONS_X, textFileRCAMP1, 1.0f);
     print_generic_string(x + 4, OPTIONS_Y - y2 + 7, textFileRCAMP1);
     x = get_str_x_pos_from_center(OPTIONS_X, textFileRCAM, 1.0f);
-    print_generic_string(x + 4, OPTIONS_Y - y2 - 7, textFileRCAM);
+    print_generic_string(x + 2, OPTIONS_Y - y2 - 7, textFileRCAM);
 
 }
 
@@ -1065,7 +1066,8 @@ void print_CF_strings(void) {
         }
 
         if (save_file_get_menu_challenges()) {
-            print_text(53, 9, "DEFIS", 4);
+            print_text(58, 9, "DEFIS", 4);
+            print_text(58, 18, " &", 4);
         }
 
 

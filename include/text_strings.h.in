@@ -254,7 +254,7 @@
 #define TEXT_ROOM16 _("Bar")
 #define TEXT_ROOM17 _("Balcon")
 #define TEXT_ROOM18 _("Salle de bain")
-#define TEXT_ROOM19 _("Den")
+#define TEXT_ROOM19 _("Grand salon")
 #define TEXT_ROOM20 _("Salle des miroirs")
 #define TEXT_ROOM21 _("Chambre")
 #define TEXT_ROOM22 _("Chambre")
@@ -272,9 +272,9 @@
 #define TEXT_ROOM34 _("Niche")
 #define TEXT_ROOM35 _("Sous-Sol")
 #define TEXT_ROOM36 _("Vivarium")
-#define TEXT_ROOM37 _("Centre ville")
+#define TEXT_ROOM37 _("Centre-ville")
 #define TEXT_ROOM38 _("Bâtiment")
-#define TEXT_ROOM39 _("Centre ville")
+#define TEXT_ROOM39 _("Centre-ville")
 #define TEXT_ROOM40 _("Galerie")
 #define TEXT_ROOM41 _("Bâtiment")
 #define TEXT_ROOM42 _("Terrarium")
@@ -365,7 +365,7 @@
 #define TEXT_L10 _("Manoir de Mario")
 
 
-#define TEXT_THE_CONTROLLER _("La manette")
+#define TEXT_THE_CONTROLLER _("La Corruption")
 
 
 #define TEXT_NEXT_STAR _("Étoile suivante :")
@@ -467,8 +467,8 @@
 // #define TEXT_CREDITS_DUMMY2 _("Art Design: John Nintendo")
 
 
-#define TEXT_CREDITS_GENERAL _("Game Design, Programmation, Écriture,")
-#define TEXT_CREDITS_GENERAL2 _("Modélisation, et Bande-son")
+#define TEXT_CREDITS_GENERAL _("Game design, Programmation, Écriture,")
+#define TEXT_CREDITS_GENERAL2 _("Modélisation, Bande-son")
 #define TEXT_CREDITS_COMIT _("MrComit")
 
 #define TEXT_CREDITS_TRANSLATION _("Traduction et localisation Française")
@@ -476,7 +476,7 @@
 
 #define TEXT_CREDITS_TEXTURES _("Textures")
 #define TEXT_CREDITS_TEXTURES1 _("MrComit      Pyro Jay      Furyousfight")
-#define TEXT_CREDITS_TEXTURES2 _("NeuralBlender.com           Craiyon.com")
+#define TEXT_CREDITS_TEXTURES2 _("NeuralBlender.com      Craiyon.com")
 // comit
 // #define TEXT_CREDITS_PYRO _("Pyro Jay")
 // #define TEXT_CREDITS_SOPHIE _("Furyousfight")
@@ -485,7 +485,7 @@
 
 #define TEXT_CREDITS_PATCHES _("Patchs divers")
 #define TEXT_CREDITS_PATCHES1 _("Wiseguy   thecozies   ArcticJaguar725")
-#define TEXT_CREDITS_PATCHES2 _("Arthurtilly    Fazana   Kaze    Reonu")
+#define TEXT_CREDITS_PATCHES2 _("Arthurtilly   Fazana   Kaze    Reonu")
 // #define TEXT_CREDITS_WISEGUY _("Wiseguy")
 // #define TEXT_CREDITS_COZIES _("thecozies")
 // #define TEXT_CREDITS_REONU _("Reonu")
@@ -494,9 +494,9 @@
 // #define TEXT_CREDITS_KAZE _("Kaze")
 
 #define TEXT_CREDITS_FRENCH_HELP _("Patchs, logiciels et aide à la traduction")
-#define TEXT_CREDITS_FRENCH_HELP1 _("Drahnokks            Indigo Dindigo")
+#define TEXT_CREDITS_FRENCH_HELP1 _("Drahnokks      Indigo Dindigo")
 
-#define TEXT_CREDITS_BETA _("Béta tests")
+#define TEXT_CREDITS_BETA _("Tests et retours")
 #define TEXT_CREDITS_BETA1 _("GTM   Cheezepin   KingToad64   Rovert")
 #define TEXT_CREDITS_BETA2 _("Jake Dower   Pyro Jay   Fazana")
 #define TEXT_CREDITS_BETA3 _("Hyena Chan   Yoshi Milkman   CowQuack")
@@ -505,9 +505,9 @@
 // #define TEXT_CREDITS_TESTERS_PLACEHOLDER _("TBD")
 
 #define TEXT_CREDITS_THANKS _("Remerciements spéciaux")
-#define TEXT_CREDITS_HSM64 _("Le repo HackerSM64")
-#define TEXT_CREDITS_ULTRA _("Le repo UltraSM64")
-#define TEXT_CREDITS_CHEEZEPIN _("Cheezepin (Retours)")
+#define TEXT_CREDITS_HSM64 _("Les repos HackerSM64 et UltraSM64")
+#define TEXT_CREDITS_ULTRA _("Drahnokks et Indigo pour leur aide immense")
+#define TEXT_CREDITS_CHEEZEPIN _("Cheezepin pour ses retours")
 #define TEXT_CREDITS_COINS _("Artemis64 et Cavin856 (Ramasseurs de pièces)")
 #define TEXT_CREDITS_YOU _("Toi, pour avoir joué !")
 

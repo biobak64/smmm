@@ -18,13 +18,13 @@
 
 DEFINE_DIALOG(DIALOG_000, 1, 7, 30, 200, _("\
 Ah ! Ne serait-ce pas le très\n\
-célèbre Mario ? Je suis le \n\
-Professeur T, propriétaire et \n\
+célèbre Mario ? Je suis le\n\
+Professeur T, propriétaire et\n\
 autrefois unique résident de ce\n\
 manoir. Tu dois bien te douter\n\
 que je ne suis pas responsable\n\
 de tout ce bazar...\n\
-Mon manoir a été assiégé par \n\
+Mon manoir a été assiégé par\n\
 des fantômes, des esprits\n\
 d'un autre monde.\n\
 Je travaillais au sous-sol\n\
@@ -45,13 +45,13 @@ ils déchirent les fils qui\n\
 tissent notre univers et\n\
 le salissent avec leur\n\
 immonde bouillie spectrale.\n\
-Je pense que tu avais déjà\n\
+J'imagine que tu as déjà\n\
 remarqué ce dernier point.\n\
 Si j'avais accès à mon labo,\n\
-je pourrais sûrement clore le\n\
-vortex par lequel ils\n\
-s'infiltrent mais, bien sûr,\n\
-c'aurait été trop simple...\n\
+je pourrais sûrement clore\n\
+le vortex par lequel ils\n\
+s'infiltrent, mais bien sûr,\n\
+ça aurait été trop simple...\n\
 La porte du sous-sol semble\n\
 être bloquée par un genre de\n\
 barrière spectrale.\n\
@@ -60,37 +60,37 @@ mes radars détectent une\n\
 forte activité paranormale\n\
 au deuxième étage.\n\
 Tu pourrais aller vérifier pour\n\
-moi? Il te faudra d'abord\n\
+moi ? Il te faudra d'abord\n\
 trouver la clé de la porte\n\
 derrière nous, que je crois\n\
 avoir laissée dans la\n\
 Bibliothèque.\n\
 \n\
-Au fait, prends ça. C'est un\n\
-Manoiradar. C'est un vieux\n\
-grille-pain que j'ai trafiqué\n\
-pour servir de talkie-walkie,\n\
-mais c'est aussi une carte\n\
-du manoir. Appuie sur [L]  dans\n\
-le menu de pause pour l'ouvrir.\n\
+Au fait, prends ce Manoiradar.\n\
+C'est un vieux grille-pain que\n\
+j'ai trafiqué pour me servir\n\
+de talkie-walkie, mais j'y ai\n\
+aussi mis une carte du manoir.\n\
+Appuie sur [L] depuis le menu\n\
+de pause pour l'ouvrir.\n\
 Je compte sur toi, Mario, mon\n\
 destin repose sur tes épaules.\n\
 Et en fonction de la vitesse à\n\
 laquelle se propagent ces trucs,\n\
 peut-être aussi celui du monde.\n\
-Alors j'espère que tu as les \n\
+Alors j'espère que tu as les\n\
 épaules solides."))
 
 DEFINE_DIALOG(DIALOG_001, 1, 5, 95, 200, _("\
-Allô, Mario ! C'est moi, \n\
-Professeur T. Si le GPS de ton\n\
-Manoiradar me dit vrai, tu\n\
-viens d'arriver dans le Garage.\n\
-\n\
-À ta gauche, tu trouveras \n\
-la fameuse barrière dont je te \n\
-parlais. Si j'étais toi, je ne\n\
-m'en approcherais pas.\n\
+Allô, Mario ! C'est moi,\n\
+le Professeur T. Si le GPS\n\
+de ton Manoiradar me dit\n\
+vrai, tu viens d'arriver\n\
+dans le garage.\n\
+À ta gauche, tu trouveras\n\
+la fameuse barrière dont\n\
+je te parlais. Si j'étais toi,\n\
+je ne m'en approcherais pas.\n\
 \n\
 Enfin bref, je t'appelle\n\
 pour te conseiller de\n\
@@ -113,33 +113,35 @@ Rebonjour, Mario !\n\
 Il semblerait que tu aies\n\
 atteint la salle à manger.\n\
 \n\
-C'est l'occasion parfaite \n\
+C'est l'occasion parfaite\n\
 pour te prévenir que certaines\n\
-salles, y compris celle-ci,\n\
-ont été tout particulièrement\n\
-『infectées』par un fantôme\n\
-plus puissant que les autres. \n\
-\n\
+salles, celle-ci par exemple,\n\
+sont le repaire de fantômes\n\
+plus puissants que les autres,\n\
+et des créatures qui leur\n\
+obéissent.\n\
 \n\
 Pour exorciser ces pièces,\n\
 il te faudra d'abord éliminer\n\
 tous les sbires du boo, qui\n\
-sera alors affaibli. C'est\n\
-là que tu pourras l'attaquer. \n\
+sera alors affaibli.\n\
+C'est seulement à ce moment-là\n\
+que tu seras en mesure de lui\n\
+taper dessus.\n\
 Bonne chance ! ☆CLIC☆"))
 
 DEFINE_DIALOG(DIALOG_003, 1, 6, 95, 200, _("\
-Bien joué, Mario. L'argent\n\
-que tu as trouvé dans cette\n\
-pièce a été accru par un\n\
-multiplicateur, que tu pourras\n\
-voir dans le coin supérieur\n\
-droit de ton écran.\n\
+Bien joué, Mario.\n\
+L'argent que tu as trouvé\n\
+dans cette pièce a été accru\n\
+par un multiplicateur,\n\
+qui s'affiche dans le coin\n\
+supérieur droit de ton écran.\n\
 Plus tu subis de dégâts dans\n\
 une salle, plus le multiplicateur\n\
 diminue. Il peut même passer\n\
 en-dessous de x1 et te faire\n\
-gagner moins de pièces que tu \n\
+gagner moins de pièces que tu\n\
 n'en ramasses, alors prudence !"))
 
 DEFINE_DIALOG(DIALOG_004, 1, 6, 95, 200, _("\
@@ -152,12 +154,12 @@ activité paranormale.\n\
 Au fait, tous ces fantômes\n\
 que tu as vaincu me seront\n\
 très utiles dans mes\n\
-recherches, alors attrape-\n\
-en un maximum et ramène-les\n\
+recherches, alors attrape-en\n\
+un maximum et ramène-les\n\
 moi, s'il te plaît.\n\
-Si tu m'en trouves assez,\n\
-j'aurai même des récompenses\n\
-à te donner."))
+Si ça peut te motiver,\n\
+je te récompenserai quand\n\
+tu m'en auras ramené assez."))
 
 DEFINE_DIALOG(DIALOG_005, 1, 4, 30, 200, _("\
 Le Manoiradar me permettra\n\
@@ -173,18 +175,18 @@ DEFINE_DIALOG(DIALOG_006, 1, 3, 30, 200, _("\
 Un endroit magique rempli\n\
 de surprises !)\n\
 (Envie de faire du shopping ?\n\
-D'aller visiter le superbe \n\
+D'aller visiter le superbe\n\
 jardin de ville ?)\n\
-(Vous pouvez même vous\n\
-faire propulser dans les airs\n\
-sur un élastique géant en\n\
-demandant au Toad du côté\n\
-est de la ville !)\n\
-\n\
+(Vous pouvez même vous faire\n\
+propulser dans les airs\n\
+sur un élastique géant,\n\
+il suffit de demander au\n\
+Toad du côté est de la\n\
+ville !)\n\
 ..."))
 
 DEFINE_DIALOG(DIALOG_007, 1, 2, 30, 200, _("\
-(Je crois pas qu'ils vendent \n\
+(Je crois pas qu'ils vendent\n\
 de la vraie nourriture, ici.)\n\
 ..."))
 
@@ -214,7 +216,7 @@ côté de la ville !)\n\
 ..."))
 
 DEFINE_DIALOG(DIALOG_010, 1, 4, 30, 200, _("\
-(Bonjour monsieur ! Je vous \n\
+(Bonjour monsieur ! Je vous\n\
 devine amateur d'élastiques !\n\
 Grimpez dans celui-ci et vous\n\
 serez propulsé dans les airs !)\n\
@@ -234,21 +236,21 @@ repérer une bonne affaire !\n\
 Merci bien !)\n\
 ..."))
 
-DEFINE_DIALOG(DIALOG_013, 1, 7, 30, 200, _("\
-Tu viens d'obtenir un\n\
-éclat d'étoile !\n\
+DEFINE_DIALOG(DIALOG_013, 1, 4, 30, 200, _("\
+Tu viens d'obtenir\n\
+un éclat d'étoile !\n\
 Trouve les 5 de ce chapitre\n\
 pour obtenir une récompense.\n\
+Sauvegarder la progression ?\n\
 \n\
-Sauvegarder ?\n\
 //Oui////Non"))
 
 DEFINE_DIALOG(DIALOG_014, 1, 4, 30, 200, _("\
 Tu viens d'obtenir une clé !\n\
-Regarde ton Manoiradar pour\n\
-trouver la serrure qu'elle\n\
+Jette un oeil à ton Manoiradar\n\
+pour trouver la serrure qu'elle\n\
 permet de déverrouiller.\n\
-Sauvegarder ?\n\
+Sauvegarder la progression ?\n\
 \n\
 //Oui////Non"))
 
@@ -256,15 +258,15 @@ DEFINE_DIALOG(DIALOG_015, 1, 3, 30, 200, _("\
 Tu viens d'obtenir une\n\
 Pièce Étoile ! Sers-toi en\n\
 pour commercer avec les Toad.\n\
-Sauvegarder ?\n\
+Sauvegarder la progression ?\n\
 \n\
 //Oui////Non"))
 
 DEFINE_DIALOG(DIALOG_016, 1, 2, 30, 200, _("\
-(Une véritable branche\n\
-de l'Étoile d'Émeraude ?)\n\
-(Vous ne rêvez pas, elle\n\
-pourrait être à VOUS !)\n\
+(Un véritable éclat de\n\
+l'Étoile d'Émeraude ?)\n\
+(Non, vous ne rêvez pas,\n\
+et il pourrait être à VOUS !)\n\
 (Il n'en reste que [%],\n\
 alors faites vite !)\n\
 (Seulement 2 pièces étoile.\n\
@@ -274,7 +276,7 @@ Qu'en dites-vous ?)\n\
 
 DEFINE_DIALOG(DIALOG_017, 1, 3, 30, 200, _("\
 (Ah, ces bouchons, c'est\n\
-n'importe quoi ! Je serai\n\
+n'importe quoi ! Je ne serai\n\
 jamais au boulot à l'heure !)\n\
 ..."))
 
@@ -284,7 +286,7 @@ stock d'éclats d'étoile\n\
 d'émeraude est épuisé !)\n\
 (Mais vous pourrez sûrement\n\
 trouver les branches de l'étoile\n\
-d'or, si vous cherchez bien.)\n\
+d'or, quelque part.....)\n\
 ..."))
 
 DEFINE_DIALOG(DIALOG_019, 1, 3, 30, 200, _("\
@@ -293,11 +295,11 @@ stock d'éclats d'étoile\n\
 d'émeraude est épuisé !)\n\
 (Mais vous pourrez sûrement\n\
 trouver les branches de l'étoile\n\
-de rubis, quelque part.)\n\
+de rubis, quelque part...)\n\
 ..."))
 
 DEFINE_DIALOG(DIALOG_020, 1, 7, 95, 150, _("\
-Cher Mario:\n\
+Cher Mario :\n\
 Viens au 61, Rue Troopa.\n\
 Si tu tiens à ce monde,\n\
 tu n'attendras pas.\n\
@@ -311,7 +313,7 @@ stock d'éclats d'étoile\n\
 d'émeraude est épuisé !)\n\
 (Mais vous pourrez sûrement\n\
 trouver les branches de l'étoile\n\
-de topaze, quelque part.)\n\
+de topaze, quelque part...)\n\
 ..."))
 
 DEFINE_DIALOG(DIALOG_022, 1, 2, 95, 200, _("\
@@ -336,7 +338,7 @@ stock d'éclats d'étoile\n\
 d'émeraude est épuisé !)\n\
 (Mais vous pourrez sûrement\n\
 trouver les branches de l'étoile\n\
-d'améthyste quelque part.)\n\
+d'améthyste, quelque part.....)\n\
 ..."))
 
 DEFINE_DIALOG(DIALOG_026, 1, 3, 95, 200, _("\
@@ -349,11 +351,11 @@ DEFINE_DIALOG(DIALOG_027, 1, 4, 95, 200, _("\
 (La légende des cinq étoiles\n\
 traverse les générations !)\n\
 (On raconte que personne n'a\n\
-jamais eu les cinq à la fois.)\n\
-(Leur propriétaire serait bien\n\
-trop puissant, alors elles ont\n\
-été brisées en morceaux, et\n\
-répandues un peu partout.)\n\
+jamais tenu les cinq en main.)\n\
+(Quiconque les rassemble aurait\n\
+un pouvoir immense, alors elles\n\
+furent brisées en morceaux, et\n\
+répandues aux coins du monde.)\n\
 (Nombreux sont ceux qui ont\n\
 tenté de recréer leur énergie,\n\
 en vain. Ces étoiles sont bel\n\
@@ -363,8 +365,8 @@ et bien des artéfacts uniques.)\n\
 DEFINE_DIALOG(DIALOG_028, 1, 4, 95, 200, _("\
 (Tu te plains des transports\n\
 en commun ? Moi, pour aller\n\
-au boulot, je dois sauter sur\n\
-des blocs qui volent !)\n\
+au boulot, je dois sauter\n\
+sur des blocs qui volent !)\n\
 ..."))
 
 DEFINE_DIALOG(DIALOG_029, 1, 5, 95, 200, _("\
@@ -423,7 +425,7 @@ paranormale que j'ai détectée.\n\
 Vas y faire un tour. ☆CLIC☆"))
 
 DEFINE_DIALOG(DIALOG_036, 1, 1, 30, 200, _("\
-Psst ! Toi là-bas. \n\
+Psst ! Toi là-bas.\n\
 Besoin d'un coup de main ?"))
 
 DEFINE_DIALOG(DIALOG_037, 1, 5, 30, 200, _("\
@@ -441,7 +443,7 @@ Je la note sur ta carte.\n\
 ☆CLIC☆"))
 
 DEFINE_DIALOG(DIALOG_039, 1, 3, 30, 200, _("\
-Alors, c'est pas de chance ? \n\
+Alors, c'est pas de chance ?\n\
 Peut-être que tu trouveras\n\
 ce que tu cherches par ici ?"))
 
@@ -452,7 +454,7 @@ faisant le ménage chez lui.\n\
 Qui voudrait vivre dans un\n\
 endroit comme celui-ci ?\n\
 \n\
-Les fantômes ont traîté\n\
+Les fantômes ont traité\n\
 cette pièce d'une manière\n\
 monstrueuse."))
 
@@ -461,13 +463,13 @@ Argh, c'était pas là non\n\
 plus. Tout ce qu'il reste\n\
 à vérifier, c'est le grenier.\n\
 Si ces émanations viennent\n\
-de quelque part dans ce \n\
+de quelque part dans ce\n\
 manoir, ce sera là-haut !\n\
 ☆CLIC☆"))
 
 DEFINE_DIALOG(DIALOG_042, 1, 3, 30, 200, _("\
 La seule manière d'atteindre\n\
-le grenier, c'est par ici. \n\
+le grenier, c'est par ici.\n\
 \n\
 T'inquiètes pas, je peux te\n\
 donner un coup de main.\n\
@@ -481,20 +483,22 @@ que tu y trouveras la source\n\
 de l'activité paranormale.\n\
 La troisième, c'est la bonne."))
 
-DEFINE_DIALOG(DIALOG_044, 1, 2, 95, 200, _("\
-'Débats Imaginaires Que J'ai\n\
-Gagné Sous la Douche: Volume 2'"))
+DEFINE_DIALOG(DIALOG_044, 1, 3, 95, 200, _("\
+''Débats Imaginaires Que\n\
+J'ai Gagné Sous la Douche :\n\
+Volume 2''"))
 
-DEFINE_DIALOG(DIALOG_045, 1, 5, 95, 200, _("\
+DEFINE_DIALOG(DIALOG_045, 1, 6, 95, 200, _("\
 ----- TRAQUE-TABLEAU -----\n\
-'Si vous tombez sur une\n\
-peinture dans un cadre rouge,\n\
+Si au cours de vos aventures\n\
+vous croisez une peinture\n\
+qui est encadrée de rouge,\n\
 regardez-la de plus près.\n\
-Quelque chose y cloche...'"))
+Quelque chose y cloche..."))
 
 DEFINE_DIALOG(DIALOG_046, 1, 2, 30, 200, _("\
-'5 Méthodes Efficaces Pour\n\
-Arrêter de Procrastiner'\n\
+''5 Méthodes Efficaces Pour\n\
+Arrêter de Procrastiner''\n\
 (Il y a un marque-page à\n\
 la page 3.)"))
 
@@ -509,12 +513,12 @@ Aujourd'hui, je commence mon\n\
 projet le plus ambitieux.\n\
 D'ici quelques mois, il n'y\n\
 aura plus de Bowser.\n\
-Plus de Kamek, plus de \n\
+Plus de Kamek, plus de\n\
 Koopalings, plus de Broodals,\n\
 de Graguémona, de Gracowitz,\n\
 de Xhampis, plus aucun des\n\
 misérables insectes qui\n\
-infectent ce royaume. \n\
+infectent ce royaume.\n\
 Plus de princesse enlevée,\n\
 plus de voyages périlleux\n\
 où Mario risque sa vie.\n\
@@ -528,7 +532,7 @@ C'est toujours la même chose.\n\
 La princesse est kidnappée,\n\
 Mario parcourt 8 mondes et\n\
 triomphe du vilain Bowser.\n\
-Enfin, un peu de calme ! \n\
+Enfin, un peu de calme !\n\
 Tout va bien dans le\n\
 meilleur des mondes...\n\
 Jusqu'à la saison suivante\n\
@@ -547,14 +551,14 @@ chose. Tout doit changer."))
 DEFINE_DIALOG(DIALOG_050, 1, 4, 30, 200, _("\
 Rapport 03\n\
 15 Juin 2033.\n\
-Je viens de faire une grande\n\
-découverte ! Qui aurait cru\n\
-qu'il fallait simplement\n\
-ajouter quelques protons\n\
-et quelques neutrons ! \n\
-\n\
-Maintenant que j'ai ces\n\
-éléments, je peux passer\n\
+Je viens de faire une\n\
+découverte capitale !\n\
+Qui aurait cru qu'il\n\
+suffisait d'ajouter quelques\n\
+protons et quelques neutrons\n\
+pour que ça fonctionne !\n\
+Maintenant que tout marche,\n\
+je peux enfin passer\n\
 à la phase de test."))
 
 DEFINE_DIALOG(DIALOG_051, 1, 6, 30, 200, _("\
@@ -562,7 +566,7 @@ Rapport 04\n\
 18 Juin 2033.\n\
 Mon test a été un succès !\n\
 J'ai simplement pensé à une\n\
-image, et ma machine lui \n\
+image, et ma machine lui\n\
 a donné forme réelle !\n\
 Je me sens presque coupable\n\
 en voyant ce dont est capable\n\
@@ -570,7 +574,7 @@ cette technologie. En quelques\n\
 secondes, j'ai pu créer une\n\
 oeuvre qui aurait pris des\n\
 jours à une personne ordinaire.\n\
-Entre de mauvaises mains, \n\
+Entre de mauvaises mains,\n\
 cet outil pourrait causer de\n\
 sérieux dégâts.\n\
 Mais entre les miennes ?\n\
@@ -582,7 +586,7 @@ limites de cette invention."))
 
 DEFINE_DIALOG(DIALOG_052, 1, 6, 30, 200, _("\
 Rapport 05\n\
-2 Juillet 2033. \n\
+2 Juillet 2033.\n\
 Aujourd'hui, je me suis fait\n\
 un nouvel ami. Techniquement,\n\
 c'est un clone de moi-même,\n\
@@ -590,7 +594,7 @@ mais ça compte comme un ami !\n\
 On s'amuse beaucoup tous les\n\
 deux. C'est lui qui a écrit\n\
 ça, pas moi. Enfin, si, c'est\n\
-moi, mais c'est pas MOI, quoi. \n\
+moi, mais c'est pas MOI, quoi.\n\
 \n\
 \n\
 Oh, et voilà, je recommence\n\
@@ -624,7 +628,7 @@ Dans quelques jours à peine,\n\
 ma plus révolutionnaire\n\
 invention, ma plus grande\n\
 création passée et future\n\
-sera terminée, et j'ai du \n\
+sera terminée, et j'ai du\n\
 mal à retenir mon excitation.\n\
 C'est sûrement ce qu'a\n\
 ressenti Luiginard de Vinci\n\
@@ -664,7 +668,7 @@ Date : ???.\n\
 Je ne sais pas où je suis.\n\
 La dernière chose dont je\n\
 me rappelle, c'est que je\n\
-fignolais mon invention. \n\
+fignolais mon invention.\n\
 Je suis terrifié à l'idée\n\
 d'être arrivé dans l'univers\n\
 des pensées que j'ai tant\n\
@@ -688,18 +692,18 @@ pousse à aller de l'avant."))
 
 DEFINE_DIALOG(DIALOG_057, 1, 5, 30, 200, _("\
 Rapport 10\n\
-Date : ???. \n\
+Date : ???.\n\
 \n\
 \n\
 \n\
-Après examination des \n\
+Après avoir examiné les\n\
 alentours, je pense être\n\
 piégé à l'intérieur de mon\n\
 propre esprit. Ou du moins,\n\
 une partie de celui-ci.\n\
 Une partie qui m'a été\n\
-arrachée par l'univers \n\
-des pensées. \n\
+arrachée par l'univers\n\
+des pensées.\n\
 \n\
 \n\
 Si cet endroit renferme la\n\
@@ -741,7 +745,7 @@ mille morceaux. Et au point\n\
 où on en est, je m'en fiche !\n\
 Peu importe ce qui se passe,\n\
 Mario, merci pour tout ce\n\
-que tu as fait pour moi. \n\
+que tu as fait pour moi.\n\
 \n\
 \n\
 Tu m'as inspiré, moi et des\n\
@@ -752,7 +756,7 @@ dans toutes ces histoires.\n\
 Alors, si on s'en sort vivants,\n\
 je tiens à ce que tu gardes\n\
 toute ma fortune. Ou du moins,\n\
-tout ce qui en reste. \n\
+tout ce qui en reste.\n\
 \n\
 Après tout, je ne la mérite\n\
 pas. Toutes ces recherches\n\
@@ -762,11 +766,11 @@ relèvent de la folie...\n\
 Ok, le discours, c'est fait.\n\
 Y'a plus qu'à sauter !\n\
 \n\
-Tu est prêt, Mario ?"))
+Tu es prêt, Mario ?"))
 
 DEFINE_DIALOG(DIALOG_060, 1, 4, 30, 200, _("\
 Tu as vaincu un boo !\n\
-Sauvegarder ?\n\
+Sauvegarder la progression ?\n\
 \n\
 //Oui////Non"))
 
@@ -786,10 +790,10 @@ trop la force ouvrière...\n\
 Ok, DONC. Tu te demandes\n\
 sûrement où on est. En gros,\n\
 j'ai inventé un moyen de\n\
-convertir les pensées en- \n\
+convertir les pensées en-\n\
 Attends, tu sais déjà ?\n\
 Comment tu as deviné ?\n\
-T'AS LU MON JOURNAL ???? \n\
+T'AS LU MON JOURNAL ????\n\
 QUI T'A DONNÉ LE DROIT DE...\n\
 \n\
 Bon, c'est peut-être pas notre\n\
@@ -836,13 +840,13 @@ de choses à terminer.\n\
 
 DEFINE_DIALOG(DIALOG_064, 1, 4, 30, 200, _("\
 Tu as détruit une cage !\n\
-Sauvegarder ?\n\
+Sauvegarder la progression ?\n\
 \n\
 //Oui////Non"))
 
 DEFINE_DIALOG(DIALOG_065, 1, 4, 30, 200, _("\
-(Mon passe-temps préféré, \n\
-c'est d'aller faire du \n\
+(Mon passe-temps préféré,\n\
+c'est d'aller faire du\n\
 lèche-vitrine au magasin de\n\
 l'autre côté de la ville.)\n\
 (Ils ont de superbes joyaux\n\
@@ -868,13 +872,13 @@ like you won't throw me\n\
 out of here! Never! Ha!"))
 
 DEFINE_DIALOG(DIALOG_068, 1, 4, 30, 200, _("\
-Mario ! J'ai développé un\n\
-nouvel outil pour le manoiradar.\n\
-C'est un détecteur d'éclats\n\
-d'étoile !\n\
+Mario !\n\
+J'ai amélioré ton Manoiradar\n\
+afin qu'il puisse détecter\n\
+les éclats d'étoile !\n\
 Il t'indiquera quand tu es\n\
-dans la même pièce que l'un\n\
-d'entre eux.\n\
+dans la même pièce que\n\
+l'un d'entre eux.\n\
 \n\
 Rouge, tu en es loin, jaune,\n\
 tu t'en rapproches, et vert,\n\
@@ -910,8 +914,8 @@ Haha, je rigole !\n\
 ☆CLIC☆"))
 
 DEFINE_DIALOG(DIALOG_071, 1, 3, 30, 200, _("\
-Mario! Tu as réussi !\n\
-Tu as capturé TOUS les Boo\n\
+Mario ! Tu as réussi !\n\
+Tu as capturé TOUS les Boos\n\
 qui hantaient le manoir !\n\
 Pour te remercier de tes\n\
 services, je t'accorde la\n\
@@ -968,24 +972,24 @@ way, look what I found!"))
 DEFINE_DIALOG(DIALOG_077, 1, 3, 150, 200, _("\
 Tu as trouvé une étoile !\n\
 Parle au Prospecteur T\n\
-pour recevoir ton prix!"))
+pour recevoir ton prix !"))
 
 DEFINE_DIALOG(DIALOG_078, 1, 4, 30, 200, _("\
 Bonjour Mario, je suis le\n\
 Prospecteur T. J'essaie de\n\
 rester discret, mais je\n\
 vois que tu m'as trouvé.\n\
-Bon, eh bien, si tu tiens \n\
+Bon, eh bien, si tu tiens\n\
 tant à enfreindre mon\n\
 espace personnel, autant\n\
 te rendre utile.\n\
 Mes pièces rouges ont été\n\
-éparpillées dans tout le \n\
+éparpillées dans tout le\n\
 manoir. 8 d'entre elles\n\
 se trouvent à cet étage.\n\
 Récupère-les, puis reviens\n\
 ici pour me prévenir. Je te\n\
-récompenserai grâcieusement\n\
+récompenserai gracieusement\n\
 pour tes services.\n\
 Ton Manoiradar devrait\n\
 t'indiquer les salles où se\n\
@@ -1003,8 +1007,8 @@ les et reviens me voir pour\n\
 me prévenir."))
 
 DEFINE_DIALOG(DIALOG_080, 1, 3, 30, 200, _("\
-Rebonjour, Mario. \n\
-Tu connais la chanson. \n\
+Rebonjour, Mario.\n\
+Tu connais la chanson.\n\
 \n\
 Mes dernières pièces rouges\n\
 se cachent à cet étage.\n\
@@ -1012,7 +1016,7 @@ Trouve-les puis reviens ici."))
 
 DEFINE_DIALOG(DIALOG_081, 1, 2, 30, 200, _("\
 Les pièces rouges sont\n\
-parfois bien cachées. \n\
+parfois bien cachées.\n\
 Il va falloir ouvrir grand\n\
 les yeux et les oreilles..."))
 
@@ -1035,7 +1039,7 @@ voici 2000 pièces.\n\
 Adieu, Mario..."))
 
 DEFINE_DIALOG(DIALOG_084, 1, 3, 30, 200, _("\
-Wouuah! Lâche-moi, pitié !\n\
+Wouuah ! Lâche-moi, pitié !\n\
 Prends ça et laisse-moi partir,\n\
 c'est tout ce que j'ai !"))
 
@@ -1062,7 +1066,7 @@ est à la hauteur de tes\n\
 espérances !\n\
 \n\
 Puis-je te suggérer de\n\
-lui donner un nom?\n\
+lui donner un nom ?\n\
 Pourquoi pas le Manoir\n\
 de Mario ?"))
 
@@ -1083,11 +1087,11 @@ que tu en sera satisfait."))
 DEFINE_DIALOG(DIALOG_089, 1, 5, 95, 200, _("\
 Mario ! Bienvenue dans ta\n\
 nouvelle maison ! Je suis\n\
-désolé, il n'est pas aussi\n\
-majestueux que j'aurais\n\
+désolé, elle n'est pas aussi\n\
+majestueuse que j'aurais\n\
 voulu, mais j'ai tenu parole.\n\
 J'ai fait de mon mieux avec\n\
-les pièces que tu as trouvé. \n\
+les pièces que tu as trouvé.\n\
 J'espère que ça te convient."))
 
 DEFINE_DIALOG(DIALOG_090, 1, 6, 30, 200, _("\
@@ -1166,7 +1170,7 @@ en sautant dans le frigo.\n\
 
 DEFINE_DIALOG(DIALOG_100, 1, 4, 30, 200, _("\
 Oh, tu les as déjà ramassées ?\n\
-Excellent!\n\
+Excellent !\n\
 Comme promis, voilà 1000\n\
 pièces pour te remercier.\n\
 Tu peux retourner dans ce\n\
@@ -1181,7 +1185,7 @@ de la clé brisée !\n\
 Trouve les 3 et reconstitue\n\
 la clé pour déverrouiller la\n\
 porte du deuxième étage !\n\
-Sauvegarder ?\n\
+Sauvegarder la progression ?\n\
 \n\
 //Oui////Non"))
 
@@ -1216,18 +1220,19 @@ grab on to trees or poles\n\
 to land."))
 
 DEFINE_DIALOG(DIALOG_106, 1, 7, 95, 200, _("\
--- CONTROLER LA CAMERA --\n\
-'Maintenez [R] en bougeant le\n\
+-- CONTRÔLER LA CAMÉRA --\n\
+''Maintenez [R] en bougeant le\n\
 stick [C] vers la droite ou la\n\
 gauche pour déplacer lentement\n\
 la caméra. Vous pouvez même\n\
 ajuster la vitesse dans le\n\
-menu des options !'\n\
-'Appuyez sur la touche | du\n\
+menu des options !''\n\
+''Appuyez sur la touche | du\n\
 D-PAD pour aligner la caméra\n\
 à un des 8 angles principaux,\n\
 et sur la touche ^ pour placer\n\
-la caméra au-dessus de Mario.'"))
+la caméra au-dessus de Mario.\n\
+Pratique, pas vrai ?''"))
 
 DEFINE_DIALOG(DIALOG_107, 1, 3, 95, 200, _("\
 Ghosts...\n\

@@ -1402,11 +1402,14 @@ s32 play_mode_normal(void) {
             gMenuROptions = 0;
         }
     }
+//#ifdef smmm_debug
     print_text_fmt_int(10, 10, "%d", textBoxId);
       if(gPlayer1Controller->buttonPressed & R_JPAD && textBoxId < DIALOG_COUNT){
          cutscene_object_with_dialog(CUTSCENE_DIALOG, gMarioObject, textBoxId);
     }
+//#endif
     return 0;
+
 }
 
 s32 play_mode_paused(void) {

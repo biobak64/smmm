@@ -1829,13 +1829,13 @@ ALIGNED8 static const Texture texture_hud_char_question[] = {
 #include "textures/segment2/CUSTOM_segment2.05000.rgba16.inc.c"// JP ?
 };
 
-// ALIGNED8 static const Texture texture_hud_char_ampersand[] = {
-// #include "textures/segment2/segment2.05200.rgba16.inc.c"// JP &
-// };
+ALIGNED8 static const Texture texture_hud_char_ampersand[] = {
+#include "textures/segment2/segment2.05200.rgba16.inc.c"// JP &
+};
 
-// ALIGNED8 static const Texture texture_hud_char_percent[] = {
-// #include "textures/segment2/segment2.05400.rgba16.inc.c"// JP %
-// };
+ALIGNED8 static const Texture texture_hud_char_percent[] = {
+#include "textures/segment2/segment2.05400.rgba16.inc.c"// JP %
+};
 
 
 ALIGNED8 static const Texture texture_hud_char_gear[] = {
@@ -3655,8 +3655,8 @@ const Texture *const main_hud_lut[] = {
     texture_hud_char_O, texture_hud_char_P, texture_hud_char_Q, texture_hud_char_R,
     texture_hud_char_S, texture_hud_char_T, texture_hud_char_U, texture_hud_char_V,
     texture_hud_char_W, texture_hud_char_X, texture_hud_char_Y, texture_hud_char_Z,
-    /*texture_hud_char_exclamation*/0x0, texture_hud_char_double_exclamation, /*texture_hud_char_question*/0x0, /*texture_hud_char_ampersand*/0x0,
-    /*texture_hud_char_percent*/0x0,  texture_hud_char_gear,  texture_hud_char_normal_boo, texture_hud_char_white_star,
+    texture_hud_char_exclamation, texture_hud_char_double_exclamation, texture_hud_char_question, texture_hud_char_ampersand,
+    texture_hud_char_percent,  texture_hud_char_gear,  texture_hud_char_normal_boo, texture_hud_char_white_star,
 	texture_hud_char_plus_sign,                   0x0,                      0x0,                  0x0,
                       0x0,                   0x0, texture_hud_char_multiply, texture_hud_char_coin,
     texture_hud_char_mario_head, texture_hud_char_star, texture_hud_char_decimal_point, texture_hud_char_beta_key,
