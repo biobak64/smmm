@@ -745,7 +745,7 @@ void setup_game_memory(void) {
 /**
  * Main game loop thread. Runs forever as long as the game continues.
  */
-//#ifdef smmm_debug
+#ifdef smmm_debug
     u8 textBoxId = 0;
     static void debug_text_box_input(void){
         if (gPlayer1Controller->buttonPressed & D_JPAD) {
@@ -758,7 +758,7 @@ void setup_game_memory(void) {
             
         }
     }
-//#endif
+#endif
 
 void thread5_game_loop(UNUSED void *arg) {
     struct LevelCommand *addr;
@@ -848,8 +848,8 @@ void thread5_game_loop(UNUSED void *arg) {
         //    osStartThread(&hvqmThread);
         //    osRecvMesg(&gDmaMesgQueue, NULL, OS_MESG_BLOCK);
         //}
-//#ifdef smmm_debug
+#ifdef smmm_debug
     debug_text_box_input();
-//#endif
+#endif
     }
 }
