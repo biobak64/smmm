@@ -523,6 +523,7 @@ u8 gravity_sign_gravity_ci4[] = {
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
 	
+	
 };
 
 Gfx gravity_sign_gravity_ci4_pal_rgba16_aligner[] = {gsSPEndDisplayList()};
@@ -1076,10 +1077,10 @@ Gfx gravity_sign_gravSign_mesh_layer_1_tri_0[] = {
 };
 
 Vtx gravity_sign_gravSign_mesh_layer_6_vtx_0[4] = {
-	{{ {-165, 0, 30}, 0, {25, 687}, {255, 255, 255, 255} }},
-	{{ {165, 86, 30}, 0, {3495, 23}, {255, 255, 255, 255} }},
-	{{ {-165, 86, 30}, 0, {25, 23}, {255, 255, 255, 255} }},
-	{{ {165, 0, 30}, 0, {3495, 687}, {255, 255, 255, 255} }},
+	{{ {-155, 0, 30}, 0, {25, 687}, {255, 255, 255, 255} }},
+	{{ {175, 86, 30}, 0, {3495, 23}, {255, 255, 255, 255} }},
+	{{ {-155, 86, 30}, 0, {25, 23}, {255, 255, 255, 255} }},
+	{{ {175, 0, 30}, 0, {3495, 687}, {255, 255, 255, 255} }},
 };
 
 Gfx gravity_sign_gravSign_mesh_layer_6_tri_0[] = {
@@ -1089,10 +1090,10 @@ Gfx gravity_sign_gravSign_mesh_layer_6_tri_0[] = {
 };
 
 Vtx gravity_sign_gravSign_mesh_layer_6_vtx_1[4] = {
-	{{ {-179, -86, 30}, 0, {313, 687}, {255, 255, 255, 255} }},
-	{{ {179, 0, 30}, 0, {3783, 23}, {255, 255, 255, 255} }},
-	{{ {-179, 0, 30}, 0, {313, 23}, {255, 255, 255, 255} }},
-	{{ {179, -86, 30}, 0, {3783, 687}, {255, 255, 255, 255} }},
+	{{ {-199, -86, 30}, 0, {313, 687}, {255, 255, 255, 255} }},
+	{{ {159, 0, 30}, 0, {3783, 23}, {255, 255, 255, 255} }},
+	{{ {-199, 0, 30}, 0, {313, 23}, {255, 255, 255, 255} }},
+	{{ {159, -86, 30}, 0, {3783, 687}, {255, 255, 255, 255} }},
 };
 
 Gfx gravity_sign_gravSign_mesh_layer_6_tri_1[] = {
@@ -1132,7 +1133,7 @@ Gfx mat_revert_gravity_sign_CorridorFloor_layer1[] = {
 
 Gfx mat_gravity_sign_Gravity[] = {
 	gsDPPipeSync(),
-	gsDPSetCombineLERP(TEXEL0, 0, ENVIRONMENT, 0, 0, 0, 0, TEXEL0, TEXEL0, 0, ENVIRONMENT, 0, 0, 0, 0, TEXEL0),
+	gsDPSetCombineLERP(TEXEL0, 0, PRIMITIVE, 0, 0, 0, 0, TEXEL0, TEXEL0, 0, PRIMITIVE, 0, 0, 0, 0, TEXEL0),
 	gsSPGeometryMode(G_LIGHTING, 0),
 	gsDPSetTextureFilter(G_TF_POINT),
 	gsSPTexture(65535, 65535, 0, 0, 1),
@@ -1146,7 +1147,7 @@ Gfx mat_gravity_sign_Gravity[] = {
 	gsDPLoadBlock(7, 0, 0, 511, 256),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_4b, 8, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 4, 0, G_TX_WRAP | G_TX_NOMIRROR, 7, 0),
 	gsDPSetTileSize(0, 0, 0, 508, 60),
-	gsDPSetEnvColor(51, 173, 255, 255),
+	gsDPSetPrimColor(0, 0, 255, 0, 0, 255),
 	gsSPEndDisplayList(),
 };
 

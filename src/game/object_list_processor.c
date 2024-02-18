@@ -804,6 +804,7 @@ void bhv_mario_update(void) {
     struct Object *obj;
     u32 particleFlags = 0;
     s32 i;
+    #define SMMM_DEBUG
     #ifdef SMMM_DEBUG
         mario_l_to_levitate();
     #endif
