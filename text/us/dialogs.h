@@ -286,7 +286,7 @@ stock d'éclats d'étoile\n\
 d'émeraude est épuisé !)\n\
 (Mais vous pourrez sûrement\n\
 trouver les branches de l'étoile\n\
-d'or, quelque part.....)\n\
+d'or, quelque part...)\n\
 ..."))
 
 DEFINE_DIALOG(DIALOG_019, 1, 3, 30, 200, _("\
@@ -346,7 +346,6 @@ DEFINE_DIALOG(DIALOG_026, 1, 3, 95, 200, _("\
 stock d'éclats d'étoile\n\
 d'émeraude est épuisé !)\n\
 ..."))
-
 
 DEFINE_DIALOG(DIALOG_027, 1, 5, 95, 200, _("\
 (La légende de ces étoiles\n\
@@ -411,7 +410,7 @@ gratuit. Ça fera 8 pièces\n\
 //Oui////Non"))
 
 DEFINE_DIALOG(DIALOG_034, 1, 3, 30, 200, _("\
-(Mario ! Tu es venu\n\
+(Mario ! Tu es venu me sortir\n\
 me sortir de là ?\n\
 Quel soulagement !)\n\
 (J'étais censé construire un\n\
@@ -629,7 +628,6 @@ DEFINE_DIALOG(DIALOG_054, 1, 4, 30, 200, _("\
 Rapport 07\n\
 13 Juillet 2033.\n\
 Dans quelques jours à peine,\n\
-
 j'aurai terminé ma création\n\
 la plus révolutionnaire,\n\
 ma plus grande et plus belle\n\
@@ -744,7 +742,7 @@ Nous y voilà, Mario.\n\
 va nous ramener dans notre\n\
 monde à nous !\n\
 \n\
-Ça pourrait aussi être une\n\
+Ça pourrait aussi être l'une\n\
 de mes tentatives ratées,\n\
 qui déchirerait nos corps en\n\
 mille morceaux. Et au point\n\
@@ -854,7 +852,6 @@ Sauvegarder la progression ?\n\
 DEFINE_DIALOG(DIALOG_065, 1, 4, 30, 200, _("\
 (Mon passe-temps préféré,\n\
 c'est d'aller faire du\n\
-
 lèche-vitrine au magasin\n\
 de l'autre côté de la ville.)\n\
 (Ils ont de superbes joyaux\n\
@@ -1130,7 +1127,7 @@ DEFINE_DIALOG(DIALOG_093, 1, 2, 30, 200, _("\
 J'espère que t'es fier\n\
 de toi, Mario."))
 
-DEFINE_DIALOG(DIALOG_094, 1, 2, 30, 200, _("\
+DEFINE_DIALOG(DIALOG_094, 1, 3, 30, 200, _("\
 ''Comment Être un Bon Ami\n\
 Et Aider ses Proches''\n\
 (La reliure est bien usée.)"))
