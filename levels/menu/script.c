@@ -60,7 +60,7 @@ const LevelScript level_main_menu_entry_1[] = {
     CLEAR_LEVEL(),
     // CLEAR_LEVEL(),
     SLEEP_BEFORE_EXIT(/*frames*/ 1),
-    SET_REG(LEVEL_LLL),
+    SET_REG(LEVEL_CASTLE_GROUNDS),
     EXIT_AND_EXECUTE(/*seg*/ 0x15, _scriptsSegmentRomStart, _scriptsSegmentRomEnd, level_main_scripts_entry),
 };
 
