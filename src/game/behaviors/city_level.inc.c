@@ -739,7 +739,7 @@ void bhv_gallery_handler_loop(void) {
                 o->os16F8 = 20 + (coss(o->os16FA) * 2);
             }
 
-            print_text_fmt_int(o->os16F8, o->os16F6, "TIME  %d", o->os16F4 / 30, 0);
+            print_text_fmt_int(o->os16F8, o->os16F6, "TEMPS  %d", o->os16F4 / 30, 0);
             //print_text_fmt_int(20, 200, "POINTS %d", o->os16F6, 0);
             //print_text_fmt_int(20, 215, "GOAL %d", MINIGAME_GOAL, 0);
             if (o->os16F4 <= 0) {
