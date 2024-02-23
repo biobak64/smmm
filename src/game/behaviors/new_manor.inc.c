@@ -469,7 +469,7 @@ void bhv_new_js_shyguy_manager_loop(void) {
         case 0:
             CL_dist_between_points(m->pos, &o->oFloatF4, &dist);
             if (dist < 1100.0f && save_file_get_chase_score() != 0) {
-                print_text_fmt_int(20, 190, "HIGH  %d", save_file_get_chase_score(), 4);
+                print_text_fmt_int(20, 190, "RECORD %d", save_file_get_chase_score(), 4);
             }
             if (m->pos[1] < -300.0f - 3007.0f) {
                 o->oAction = 2;
@@ -510,7 +510,7 @@ void bhv_new_js_shyguy_manager_loop(void) {
             o->os16110++;
 
             print_text_fmt_int(20, 210, "SCORE %d", o->os16110 / 30, 3);
-            print_text_fmt_int(20, 190, "HIGH  %d", save_file_get_chase_score(), 4);
+            print_text_fmt_int(20, 190, "RECORD %d", save_file_get_chase_score(), 4);
 
             if (o->os16112 == 0) {
                 if (gMarioState->pos[2] < 881.0f) {
@@ -897,7 +897,7 @@ void bhv_new_gallery_handler_loop(void) {
         case 0:
             obj = cur_obj_nearest_object_with_behavior(bhvCannon);
             if (obj != NULL && lateral_dist_between_objects(gMarioObject, obj) < 600.0f) {
-                print_text_fmt_int(20, 167, "HIGH  %d", save_file_get_gallery_score(), 4);
+                print_text_fmt_int(20, 169, "RECORD %d", save_file_get_gallery_score(), 4);
             }
             if (m->action == ACT_IN_CANNON && m->actionState == 2) {
                 o->oAction = 1;
@@ -930,10 +930,10 @@ void bhv_new_gallery_handler_loop(void) {
                 o->os16F8 = 20 + (coss(o->os16FA) * 2);
             }
 
-            print_text_fmt_int(o->os16F8, o->os16F6, "TIME  %d", o->os16F4 / 30, 0);
+            print_text_fmt_int(o->os16F8, o->os16F6, "TEMPS %d", o->os16F4 / 30, 0);
 
-            print_text_fmt_int(20, 187, "SCORE %d", gGalleryScore, 3);
-            print_text_fmt_int(20, 167, "HIGH  %d", save_file_get_gallery_score(), 4);
+            print_text_fmt_int(20, 189, "SCORE %d", gGalleryScore, 3);
+            print_text_fmt_int(20, 169, "RECORD %d", save_file_get_gallery_score(), 4);
 
 
             //print_text_fmt_int(20, 200, "POINTS %d", o->os16F6, 0);
@@ -1124,7 +1124,7 @@ void bhv_new_tv_static_loop(void) {
     s32 i;
     if (o->oDistanceToMario < 3000.0f || o->oBehParams2ndByte) {
         print_text_fmt_int(210, 192, "SCORE %d", o->oBehParams2ndByte, 3);
-        print_text_fmt_int(210, 172, "HIGH  %d", save_file_get_peepa_score(), 4);
+        print_text_fmt_int(198, 172, "RECORD %d", save_file_get_peepa_score(), 4);
     } 
 
     if (o->oAnimState == 0) {

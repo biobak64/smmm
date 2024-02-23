@@ -410,7 +410,7 @@ gratuit. Ça fera 8 pièces\n\
 //Oui////Non"))
 
 DEFINE_DIALOG(DIALOG_034, 1, 3, 30, 200, _("\
-(Mario ! Tu es venu me sortir\n\
+(Mario ! Tu es venu\n\
 me sortir de là ?\n\
 Quel soulagement !)\n\
 (J'étais censé construire un\n\
@@ -739,28 +739,28 @@ cage pas loin d'ici..."))
 DEFINE_DIALOG(DIALOG_059, 1, 5, 30, 200, _("\
 Nous y voilà, Mario.\n\
 Ça, c'est le vortex qui\n\
-va nous ramener dans notre\n\
-monde à nous !\n\
+va nous ramener dans\n\
+notre monde à nous !\n\
 \n\
-Ça pourrait aussi être l'une\n\
-de mes tentatives ratées,\n\
-qui déchirerait nos corps en\n\
-mille morceaux. Et au point\n\
-où on en est, je m'en fiche !\n\
-Peu importe ce qui se passe,\n\
-Mario, merci pour tout ce\n\
-que tu as fait pour moi.\n\
-\n\
-\n\
-Tu m'as inspiré, moi et des\n\
-millions d'autres, partout au\n\
+Ou alors c'est l'une de mes\n\
+tentatives ratées et elle va\n\
+déchirer nos corps en mille\n\
+morceaux. Au point où j'en\n\
+suis, moi, peu m'importe !\n\
+...\n\
+Qu'on vive ou qu'on meure,\n\
+Mario, je tiens à te remercier\n\
+pour tout ce que tu as fait\n\
+pour moi.\n\
+Tu es un modèle pour moi et\n\
+pour des millions d'autres au\n\
 Royaume Champignon, et je me\n\
 sens coupable de t'avoir traîné\n\
 dans toutes ces histoires.\n\
 Alors, si on s'en sort vivants,\n\
 je tiens à ce que tu gardes\n\
 toute ma fortune. Ou du moins,\n\
-tout ce qui en reste.\n\
+tout ce qu'il en reste.\n\
 \n\
 Après tout, je ne la mérite\n\
 pas. Toutes ces recherches\n\
@@ -768,7 +768,7 @@ et toutes ces expériences\n\
 relèvent de la folie...\n\
 \n\
 ...\n\
-Ok, le discours, c'est fait.\n\
+Bon, le discours, c'est fait.\n\
 Y'a plus qu'à sauter !\n\
 \n\
 Tu es prêt, Mario ?"))

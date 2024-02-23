@@ -1343,7 +1343,7 @@ void check_cheat_code(void) {
 extern s32 gPauseHudFirstFrame;
 extern s16 gMenuROptions;
 extern u8 textBoxId;
- #include "dialog_ids.h"
+//#include "dialog_ids.h"
 
 s32 play_mode_normal(void) {
     if (gCurrDemoInput != NULL) {
@@ -1402,12 +1402,12 @@ s32 play_mode_normal(void) {
             gMenuROptions = 0;
         }
     }
-//#ifdef smmm_debug
+#ifdef smmm_debug
     print_text_fmt_int(10, 10, "%d", textBoxId);
       if(gPlayer1Controller->buttonPressed & R_JPAD && textBoxId < DIALOG_COUNT){
          cutscene_object_with_dialog(CUTSCENE_DIALOG, gMarioObject, textBoxId);
     }
-//#endif
+#endif
     return 0;
 
 }
